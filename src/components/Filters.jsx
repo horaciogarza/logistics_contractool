@@ -4,9 +4,17 @@ import MenuItem from '@mui/material/MenuItem';
 import InputAdornment from '@mui/material/InputAdornment';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Switch from '@mui/material/Switch';
-import ToggleButton from '@mui/material/ToggleButton';
-import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
+import Chip from '@mui/material/Chip';
+import Typography from '@mui/material/Typography';
 import SearchIcon from '@mui/icons-material/Search';
+import CheckIcon from '@mui/icons-material/Check';
+import StraightenIcon from '@mui/icons-material/Straighten';
+import PaymentsOutlinedIcon from '@mui/icons-material/PaymentsOutlined';
+
+const UNIT_OPTIONS = [
+  { value: 'rpm', label: 'Per mile', icon: <StraightenIcon fontSize="small" /> },
+  { value: 'absolute', label: 'Per load', icon: <PaymentsOutlinedIcon fontSize="small" /> },
+];
 
 const COST_BASIS_OPTIONS = [
   { value: 'linehaul', label: 'Freight (negotiable)' },
@@ -94,16 +102,40 @@ export default function Filters({
         label="Opportunities only"
       />
 
-      <ToggleButtonGroup
-        size="small"
-        exclusive
-        fullWidth
-        value={unit}
-        onChange={(_, v) => v && onUnit(v)}
-      >
-        <ToggleButton value="rpm" sx={{ textTransform: 'none' }}>RPM ($/mi)</ToggleButton>
-        <ToggleButton value="absolute" sx={{ textTransform: 'none' }}>Absolute ($)</ToggleButton>
-      </ToggleButtonGroup>
+      <Box>
+        <Typography variant="caption" sx={{ color: 'text.secondary', display: 'block', mb: 0.75 }}>
+          Show metrics
+        </Typography>
+        <Box sx={{ display: 'flex', gap: 1 }}>
+          {UNIT_OPTIONS.map((o) => {
+            const active = unit === o.value;
+            return (
+              <Chip
+                key={o.value}
+                label={o.label}
+                clickable
+                onClick={() => onUnit(o.value)}
+                icon={active ? <CheckIcon fontSize="small" /> : o.icon}
+                variant={active ? 'filled' : 'outlined'}
+                sx={{
+                  flex: 1,
+                  borderRadius: 2,
+                  height: 36,
+                  fontWeight: 500,
+                  ...(active
+                    ? {
+                        bgcolor: 'secondary.container',
+                        color: 'secondary.onContainer',
+                        '& .MuiChip-icon': { color: 'secondary.onContainer' },
+                        '&:hover': { bgcolor: 'secondary.container' },
+                      }
+                    : { '& .MuiChip-icon': { color: 'text.secondary' } }),
+                }}
+              />
+            );
+          })}
+        </Box>
+      </Box>
       <TextField
         select
         size="small"
