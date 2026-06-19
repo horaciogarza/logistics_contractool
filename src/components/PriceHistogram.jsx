@@ -90,23 +90,23 @@ export default function PriceHistogram({ lane, valueOf, basisLabel = 'Freight', 
         </Typography>
       </Box>
 
-      {/* Headline metric: rate per mile for the selected basis */}
-      <Paper variant="outlined" sx={{ p: 2, borderColor: 'primary.main', borderWidth: 1.5 }}>
+      {/* Headline metric: rate per mile for the selected basis (M3 tonal highlight) */}
+      <Paper elevation={0} sx={{ p: 2.5, borderRadius: 3, bgcolor: 'primary.container', color: 'primary.onContainer' }}>
         <Box sx={{ display: 'flex', alignItems: 'flex-end', gap: 3, flexWrap: 'wrap' }}>
           <Box>
-            <Typography variant="overline" sx={{ color: 'text.secondary', lineHeight: 1.2, display: 'block' }}>
+            <Typography variant="overline" sx={{ opacity: 0.8, lineHeight: 1.2, display: 'block' }}>
               {unit === 'rpm' ? 'Rate per mile' : 'Cost per load'} · {basisLabel}
             </Typography>
             <Box sx={{ display: 'flex', alignItems: 'baseline', gap: 1 }}>
-              <Typography variant="h3" sx={{ fontWeight: 700, color: 'primary.main', lineHeight: 1 }}>
+              <Typography variant="h3" sx={{ fontWeight: 700, lineHeight: 1 }}>
                 {fmt(lane.avg)}
               </Typography>
-              <Typography variant="body2" sx={{ color: 'text.secondary' }}>avg</Typography>
+              <Typography variant="body2" sx={{ opacity: 0.8 }}>avg</Typography>
             </Box>
           </Box>
           <Box sx={{ display: 'flex', gap: 3, flexWrap: 'wrap' }}>
             <Box>
-              <Typography variant="caption" sx={{ color: 'text.secondary', display: 'block', lineHeight: 1 }}>
+              <Typography variant="caption" sx={{ opacity: 0.8, display: 'block', lineHeight: 1 }}>
                 Range
               </Typography>
               <Typography variant="subtitle1" sx={{ fontWeight: 600 }}>
@@ -114,15 +114,15 @@ export default function PriceHistogram({ lane, valueOf, basisLabel = 'Freight', 
               </Typography>
             </Box>
             <Box>
-              <Typography variant="caption" sx={{ color: 'text.secondary', display: 'block', lineHeight: 1 }}>
+              <Typography variant="caption" sx={{ opacity: 0.8, display: 'block', lineHeight: 1 }}>
                 Contract target
               </Typography>
-              <Typography variant="subtitle1" sx={{ fontWeight: 600, color: 'success.main' }}>
+              <Typography variant="subtitle1" sx={{ fontWeight: 700 }}>
                 {fmt(lane.contractLow)} – {fmt(lane.contractHigh)}
               </Typography>
             </Box>
             <Box>
-              <Typography variant="caption" sx={{ color: 'text.secondary', display: 'block', lineHeight: 1 }}>
+              <Typography variant="caption" sx={{ opacity: 0.8, display: 'block', lineHeight: 1 }}>
                 Distance
               </Typography>
               <Typography variant="subtitle1" sx={{ fontWeight: 600 }}>
@@ -265,7 +265,7 @@ export default function PriceHistogram({ lane, valueOf, basisLabel = 'Freight', 
       )}
 
       {lane.contractSaving > 0 && (
-        <Paper variant="outlined" sx={{ p: 2, bgcolor: 'grey.50' }}>
+        <Paper variant="outlined" sx={{ p: 2, bgcolor: 'm3.surfaceContainerHigh' }}>
           <Typography variant="subtitle2" sx={{ mb: 0.5, color: 'text.secondary' }}>
             How the savings estimate works
           </Typography>

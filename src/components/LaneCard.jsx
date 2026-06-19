@@ -13,12 +13,14 @@ export default function LaneCard({ lane, selected, onClick, fmt = rpm }) {
       sx={{
         cursor: 'pointer',
         flexShrink: 0,
+        borderWidth: 1,
+        borderStyle: 'solid',
         borderColor: selected ? 'primary.main' : 'divider',
-        borderWidth: selected ? 2 : 1,
-        bgcolor: selected ? 'action.selected' : 'background.paper',
-        boxShadow: selected ? 4 : 0,
-        transition: 'border-color 0.15s, box-shadow 0.15s',
-        '&:hover': { borderColor: 'primary.light', boxShadow: 1 },
+        bgcolor: selected ? 'secondary.container' : 'm3.surfaceContainerLow',
+        '&:hover': {
+          bgcolor: selected ? 'secondary.container' : 'm3.surfaceContainerHigh',
+          boxShadow: 1,
+        },
       }}
     >
       <CardContent sx={{ p: 1.5, '&:last-child': { pb: 1.5 } }}>
@@ -27,7 +29,11 @@ export default function LaneCard({ lane, selected, onClick, fmt = rpm }) {
             {lane.originCity}, {lane.originState} → {lane.destCity}, {lane.destState}
           </Typography>
           {lane.isOpportunity && (
-            <Chip label="Opportunity" color="warning" size="small" sx={{ height: 20, fontSize: 10, fontWeight: 600 }} />
+            <Chip
+              label="Opportunity"
+              size="small"
+              sx={{ height: 22, fontSize: 11, fontWeight: 600, bgcolor: 'warning.container', color: 'warning.onContainer' }}
+            />
           )}
         </Box>
 

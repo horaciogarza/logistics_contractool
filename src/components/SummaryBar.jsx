@@ -8,7 +8,7 @@ import { currency } from '../lib/stats.js';
 function Stat({ label, value, color }) {
   return (
     <Box sx={{ textAlign: 'right' }}>
-      <Typography variant="caption" sx={{ color: 'text.secondary', display: 'block', lineHeight: 1 }}>
+      <Typography variant="caption" sx={{ color: 'text.secondary', display: 'block', lineHeight: 1.1 }}>
         {label}
       </Typography>
       <Typography variant="h6" sx={{ fontWeight: 600, color: color ?? 'text.primary', lineHeight: 1.2 }}>
@@ -20,22 +20,34 @@ function Stat({ label, value, color }) {
 
 export default function SummaryBar({ shipmentCount, laneCount, opportunityCount, totalSaving }) {
   return (
-    <AppBar position="static" color="primary" elevation={2}>
-      <Toolbar sx={{ gap: 2, flexWrap: 'wrap' }}>
-        <LocalShippingIcon />
+    <AppBar position="static">
+      <Toolbar sx={{ gap: 2, flexWrap: 'wrap', py: 1 }}>
+        <Box
+          sx={{
+            width: 44,
+            height: 44,
+            borderRadius: 3,
+            display: 'grid',
+            placeItems: 'center',
+            bgcolor: 'primary.container',
+            color: 'primary.onContainer',
+          }}
+        >
+          <LocalShippingIcon />
+        </Box>
         <Box sx={{ mr: 'auto' }}>
-          <Typography variant="h6" sx={{ fontWeight: 700, lineHeight: 1.1 }}>
+          <Typography variant="h6" sx={{ fontWeight: 600, lineHeight: 1.15 }}>
             Contractool
           </Typography>
-          <Typography variant="caption" sx={{ opacity: 0.85 }}>
+          <Typography variant="caption" sx={{ color: 'text.secondary' }}>
             Freight rate comparison by lane
           </Typography>
         </Box>
-        <Box sx={{ display: 'flex', gap: { xs: 2.5, sm: 4 }, color: 'common.white', flexWrap: 'wrap' }}>
-          <Stat label="Shipments" value={shipmentCount.toLocaleString()} color="common.white" />
-          <Stat label="Lanes" value={laneCount.toLocaleString()} color="common.white" />
-          <Stat label="Opportunities" value={opportunityCount.toLocaleString()} color="#ffe082" />
-          <Stat label="Est. savings" value={currency(totalSaving)} color="#a5d6a7" />
+        <Box sx={{ display: 'flex', gap: { xs: 2.5, sm: 4 }, flexWrap: 'wrap' }}>
+          <Stat label="Shipments" value={shipmentCount.toLocaleString()} />
+          <Stat label="Lanes" value={laneCount.toLocaleString()} />
+          <Stat label="Opportunities" value={opportunityCount.toLocaleString()} color="warning.main" />
+          <Stat label="Est. savings" value={currency(totalSaving)} color="success.main" />
         </Box>
       </Toolbar>
     </AppBar>
