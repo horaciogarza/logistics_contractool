@@ -109,7 +109,8 @@ function rankCarriers(items, laneAvg, valueOf) {
 export function groupByLane(
   shipments,
   valueOf = makeValueOf('linehaul', 'rpm'),
-  amountOf = COST_BASES.linehaul.amountOf
+  amountOf = COST_BASES.linehaul.amountOf,
+  marketByLane = new Map()
 ) {
   const map = new Map();
   for (const s of shipments) {
@@ -132,6 +133,13 @@ export function groupByLane(
 
     // Distance is constant per lane (lane = origin + destination + equipment).
     const miles = items[0].miles || 0;
+
+    // Market benchmark comparison — always against this lane's freight $/mile,
+    // independent of the active basis/unit toggles.
+    const freightRpmAvg = miles > 0 ? mean(items.map((s) => s.lineHaul)) / miles : 0;
+    const market = marketByLane.get(lane);
+    const marketRpm = market ? market.marketRpm : null;
+    const marketDeltaPct = marketRpm ? (freightRpmAvg - marketRpm) / marketRpm : null;
 
     const carriers = [...new Set(items.map((s) => s.carrierName))];
     const directions = [...new Set(items.map((s) => s.direction))];
@@ -169,6 +177,9 @@ export function groupByLane(
       stdDev: sd,
       cv,
       miles,
+      freightRpmAvg,
+      marketRpm,
+      marketDeltaPct,
       carriers,
       carrierStats,
       recommendedIncumbents,

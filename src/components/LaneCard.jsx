@@ -61,6 +61,18 @@ export default function LaneCard({ lane, selected, onClick, fmt = rpm }) {
           </Box>
         </Typography>
 
+        {lane.marketRpm != null && (
+          <Typography variant="caption" sx={{ mt: 0.25, display: 'block', color: 'text.secondary' }} noWrap>
+            Market {rpm(lane.marketRpm)} ·{' '}
+            <Box
+              component="span"
+              sx={{ fontWeight: 600, color: lane.marketDeltaPct > 0.02 ? 'warning.main' : lane.marketDeltaPct < -0.02 ? 'success.main' : 'text.secondary' }}
+            >
+              {lane.marketDeltaPct >= 0 ? '+' : ''}{(lane.marketDeltaPct * 100).toFixed(0)}% vs mkt
+            </Box>
+          </Typography>
+        )}
+
         {lane.recommendedIncumbents.length > 0 && (
           <Typography variant="caption" sx={{ mt: 0.25, display: 'block', color: 'text.secondary' }} noWrap>
             Dedicate to:{' '}

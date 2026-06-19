@@ -1,0 +1,31 @@
+lane,originCity,originState,destCity,destState,equipmentTypeCode,miles,marketRpmFreight,marketLinehaul,source
+US-CO-Denver-TO-Miami-FL-US-RF,Denver,CO,Miami,FL,RF,1725,3.06,5278,SyntheticMarketIndex
+US-CO-Denver-TO-Miami-FL-US-VN,Denver,CO,Miami,FL,VN,1725,1.99,3432,SyntheticMarketIndex
+US-WA-Seattle-TO-Newark-NJ-US-FB,Seattle,WA,Newark,NJ,FB,2393,2.27,5432,SyntheticMarketIndex
+US-WA-Seattle-TO-Newark-NJ-US-RF,Seattle,WA,Newark,NJ,RF,2393,2.98,7131,SyntheticMarketIndex
+US-MO-Kansas City-TO-Dallas-TX-US-RF,Kansas City,MO,Dallas,TX,RF,457,2.72,1243,SyntheticMarketIndex
+US-CO-Denver-TO-Columbus-OH-US-HS,Denver,CO,Columbus,OH,HS,1163,2.02,2349,SyntheticMarketIndex
+US-CO-Denver-TO-Columbus-OH-US-FB,Denver,CO,Columbus,OH,FB,1163,2.89,3360,SyntheticMarketIndex
+US-TN-Nashville-TO-Chicago-IL-US-FB,Nashville,TN,Chicago,IL,FB,400,2.57,1028,SyntheticMarketIndex
+US-MO-Kansas City-TO-Los Angeles-CA-US-SD,Kansas City,MO,Los Angeles,CA,SD,1358,2.71,3679,SyntheticMarketIndex
+US-NJ-Newark-TO-Los Angeles-CA-US-FB,Newark,NJ,Los Angeles,CA,FB,2437,2.5,6092,SyntheticMarketIndex
+US-NJ-Newark-TO-Los Angeles-CA-US-HS,Newark,NJ,Los Angeles,CA,HS,2437,1.95,4752,SyntheticMarketIndex
+US-TN-Nashville-TO-Phoenix-AZ-US-FB,Nashville,TN,Phoenix,AZ,FB,1444,2.68,3869,SyntheticMarketIndex
+US-OH-Columbus-TO-Miami-FL-US-HS,Columbus,OH,Miami,FL,HS,993,2.07,2055,SyntheticMarketIndex
+US-CO-Denver-TO-Atlanta-GA-US-FB,Denver,CO,Atlanta,GA,FB,1210,3.04,3678,SyntheticMarketIndex
+US-TX-Dallas-TO-Kansas City-MO-US-HS,Dallas,TX,Kansas City,MO,HS,457,2.16,987,SyntheticMarketIndex
+US-CO-Denver-TO-Newark-NJ-US-SD,Denver,CO,Newark,NJ,SD,1617,2.91,4705,SyntheticMarketIndex
+US-TX-Dallas-TO-Chicago-IL-US-FB,Dallas,TX,Chicago,IL,FB,805,2.21,1778,SyntheticMarketIndex
+US-CO-Denver-TO-Nashville-TN-US-RF,Denver,CO,Nashville,TN,RF,1023,3.47,3549,SyntheticMarketIndex
+US-CO-Denver-TO-Nashville-TN-US-HS,Denver,CO,Nashville,TN,HS,1023,1.66,1698,SyntheticMarketIndex
+US-WA-Seattle-TO-Phoenix-AZ-US-VN,Seattle,WA,Phoenix,AZ,VN,1113,2.44,2715,SyntheticMarketIndex
+US-CO-Denver-TO-Chicago-IL-US-RF,Denver,CO,Chicago,IL,RF,916,2.84,2602,SyntheticMarketIndex
+US-FL-Miami-TO-Phoenix-AZ-US-RF,Miami,FL,Phoenix,AZ,RF,1976,2.98,5888,SyntheticMarketIndex
+US-NJ-Newark-TO-Dallas-TX-US-RF,Newark,NJ,Dallas,TX,RF,1363,3.56,4852,SyntheticMarketIndex
+US-NJ-Newark-TO-Dallas-TX-US-HS,Newark,NJ,Dallas,TX,HS,1363,1.81,2467,SyntheticMarketIndex
+US-AZ-Phoenix-TO-Dallas-TX-US-HS,Phoenix,AZ,Dallas,TX,HS,882,1.82,1606,SyntheticMarketIndex
+US-CA-Los Angeles-TO-Atlanta-GA-US-RF,Los Angeles,CA,Atlanta,GA,RF,1932,3.52,6801,SyntheticMarketIndex
+US-AZ-Phoenix-TO-Atlanta-GA-US-VN,Phoenix,AZ,Atlanta,GA,VN,1587,1.88,2983,SyntheticMarketIndex
+US-CA-Los Angeles-TO-Denver-CO-US-FB,Los Angeles,CA,Denver,CO,FB,832,2.06,1715,SyntheticMarketIndex
+US-CA-Los Angeles-TO-Denver-CO-US-VN,Los Angeles,CA,Denver,CO,VN,832,2.2,1831,SyntheticMarketIndex
+US-WA-Seattle-TO-Los Angeles-CA-US-SD,Seattle,WA,Los Angeles,CA,SD,958,2.28,2184,SyntheticMarketIndex

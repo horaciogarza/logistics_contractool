@@ -7,7 +7,7 @@ import Alert from '@mui/material/Alert';
 import AlertTitle from '@mui/material/AlertTitle';
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import { loadShipments } from './data/loadShipments.js';
+import { loadShipments, loadMarketRates } from './data/loadShipments.js';
 import { groupByLane, COST_BASES, makeValueOf, currency, rpm } from './lib/stats.js';
 import { getTheme } from './theme.js';
 import SummaryBar from './components/SummaryBar.jsx';
@@ -33,6 +33,7 @@ export default function App() {
     return localStorage.getItem('themeMode') || 'system';
   });
   const [selectedLane, setSelectedLane] = useState(null);
+  const [marketByLane, setMarketByLane] = useState(() => new Map());
 
   const theme = useMemo(() => getTheme(themeMode), [themeMode]);
   const changeThemeMode = (m) => {
@@ -50,9 +51,10 @@ export default function App() {
   }, [themeMode]);
 
   useEffect(() => {
-    loadShipments()
-      .then((data) => {
+    Promise.all([loadShipments(), loadMarketRates()])
+      .then(([data, market]) => {
         setShipments(data);
+        setMarketByLane(market);
         setStatus('ready');
       })
       .catch((e) => {
@@ -66,8 +68,8 @@ export default function App() {
   const basisLabel = COST_BASES[costBasis].label;
   const fmt = unit === 'rpm' ? rpm : currency;
   const lanes = useMemo(
-    () => groupByLane(shipments, valueOf, amountOf),
-    [shipments, valueOf, amountOf]
+    () => groupByLane(shipments, valueOf, amountOf, marketByLane),
+    [shipments, valueOf, amountOf, marketByLane]
   );
 
   const equipmentOptions = useMemo(

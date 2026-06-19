@@ -231,3 +231,34 @@ const csv = [
 mkdirSync(dirname(OUT), { recursive: true });
 writeFileSync(OUT, csv + '\n', 'utf8');
 console.log(`Wrote ${rows.length} shipments across ${lanes.length} lanes to ${OUT}`);
+
+// ---- Market benchmark dataset: one synthetic "going market rate" per lane ------
+// Market freight rate per mile, independent of our own paid rates, so a lane can
+// land above or below market. Derived from the lane's base $/mile with a random
+// market factor (~0.90–1.12).
+const MARKET_OUT = join(__dirname, '..', 'public', 'market_rates.csv');
+const marketRows = lanes.map((lane) => {
+  const { o, d, equip, miles } = lane;
+  const laneStr = [COUNTRY, o.state, o.city, 'TO', d.city, d.state, COUNTRY, equip.code].join('-');
+  const baseRpm = lane.baseLineHaul / miles;
+  const marketRpm = round2(baseRpm * (0.9 + rand() * 0.22));
+  return {
+    lane: laneStr,
+    originCity: o.city,
+    originState: o.state,
+    destCity: d.city,
+    destState: d.state,
+    equipmentTypeCode: equip.code,
+    miles: Math.round(miles),
+    marketRpmFreight: marketRpm, // $/mile, freight (linehaul) only
+    marketLinehaul: Math.round(marketRpm * miles), // implied $ per load
+    source: 'SyntheticMarketIndex',
+  };
+});
+const mHeaders = Object.keys(marketRows[0]);
+const marketCsv = [
+  mHeaders.join(','),
+  ...marketRows.map((r) => mHeaders.map((h) => escape(r[h])).join(',')),
+].join('\n');
+writeFileSync(MARKET_OUT, marketCsv + '\n', 'utf8');
+console.log(`Wrote ${marketRows.length} market rates (1 per lane) to ${MARKET_OUT}`);

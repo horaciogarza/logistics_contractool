@@ -25,3 +25,20 @@ export async function loadShipments() {
     return out;
   });
 }
+
+// Fetch the synthetic market benchmark (one freight $/mile rate per lane).
+// Returns a Map of lane string -> { marketRpm, marketLinehaul }.
+export async function loadMarketRates() {
+  const res = await fetch(`${import.meta.env.BASE_URL}market_rates.csv`);
+  if (!res.ok) return new Map(); // market data is optional
+  const text = await res.text();
+  const { data } = Papa.parse(text, { header: true, skipEmptyLines: true });
+  const map = new Map();
+  for (const row of data) {
+    map.set(row.lane, {
+      marketRpm: Number(row.marketRpmFreight) || 0,
+      marketLinehaul: Number(row.marketLinehaul) || 0,
+    });
+  }
+  return map;
+}

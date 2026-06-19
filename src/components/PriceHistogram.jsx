@@ -133,6 +133,42 @@ export default function PriceHistogram({ lane, valueOf, basisLabel = 'Freight', 
         </Box>
       </Paper>
 
+      {lane.marketRpm != null && (() => {
+        const pct = lane.marketDeltaPct * 100;
+        const above = pct > 2;
+        const below = pct < -2;
+        const color = above ? 'warning' : below ? 'success' : 'default';
+        const verdict = above
+          ? "You're paying above the market benchmark — a strong case to renegotiate or shift volume to your stronger carriers."
+          : below
+          ? "You're already below market on this lane — lock it in before rates rise."
+          : 'Your average is in line with the market benchmark.';
+        return (
+          <Paper variant="outlined" sx={{ p: 2 }}>
+            <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 2, flexWrap: 'wrap' }}>
+              <Box>
+                <Typography variant="overline" sx={{ color: 'text.secondary', display: 'block', lineHeight: 1.2 }}>
+                  Market benchmark · freight
+                </Typography>
+                <Box sx={{ display: 'flex', alignItems: 'baseline', gap: 1, flexWrap: 'wrap' }}>
+                  <Typography variant="h6" sx={{ fontWeight: 700 }}>{rpm(lane.marketRpm)}</Typography>
+                  <Typography variant="caption" sx={{ color: 'text.secondary' }}>
+                    market · your freight avg {rpm(lane.freightRpmAvg)}
+                  </Typography>
+                </Box>
+              </Box>
+              <Chip
+                label={`${Math.abs(pct).toFixed(0)}% ${above ? 'above' : below ? 'below' : 'at'} market`}
+                color={color}
+                variant={color === 'default' ? 'outlined' : 'filled'}
+                sx={color === 'warning' ? { bgcolor: 'warning.container', color: 'warning.onContainer' } : color === 'success' ? { bgcolor: 'success.container', color: 'success.onContainer' } : undefined}
+              />
+            </Box>
+            <Typography variant="body2" sx={{ color: 'text.secondary', mt: 1 }}>{verdict}</Typography>
+          </Paper>
+        );
+      })()}
+
       <Box sx={{ display: 'grid', gridTemplateColumns: { xs: 'repeat(2, 1fr)', sm: 'repeat(3, 1fr)', lg: 'repeat(6, 1fr)' }, gap: 1.5 }}>
         <StatChip
           label="Shipments"
