@@ -1,6 +1,6 @@
 import Papa from 'papaparse';
 
-const NUMERIC = ['lineHaul', 'accessorials', 'tax', 'fuel'];
+const NUMERIC = ['lineHaul', 'accessorials', 'tax', 'fuel', 'miles'];
 
 // Fetch and parse public/shipments.csv, coercing numbers and deriving totalCost.
 export async function loadShipments() {

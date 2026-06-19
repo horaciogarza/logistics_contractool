@@ -11,6 +11,10 @@ const OUT = join(__dirname, '..', 'public', 'shipments.csv');
 
 const TOTAL = 1000;
 
+// Non-negotiable pass-through rates (fixed, so they add no independent variation).
+const FUEL_RATE = 0.18; // fuel surcharge as a share of linehaul
+const TAX_RATE = 0.05; // tax as a share of (linehaul + fuel + accessorials)
+
 // ---- Seeded PRNG (mulberry32) -------------------------------------------------
 function mulberry32(seed) {
   return function () {
@@ -113,6 +117,26 @@ while (lanes.length < 30) {
     const baseRatePerMile = (1.8 + rand() * 0.8) * equip.rateMult;
     const baseLineHaul = Math.max(450, miles * baseRatePerMile);
     const volatile = rand() < 0.35;
+
+    // Per-lane carrier economics so the data has real "incumbent" signal:
+    // each carrier gets a selection weight (volume), a price factor, and a
+    // consistency multiplier. 1-2 carriers per lane are made clear strong
+    // incumbents (more volume, better price, steadier rates).
+    const clamp = (n, lo, hi) => Math.min(hi, Math.max(lo, n));
+    const profiles = CARRIERS.map((c) => ({
+      carrier: c,
+      weight: 0.3 + rand() * 1.0,
+      factor: clamp(gaussian(1.0, 0.07), 0.82, 1.22),
+      noise: 0.6 + rand() * 0.9,
+    }));
+    const strongCount = 1 + (rand() < 0.5 ? 1 : 0);
+    for (let k = 0; k < strongCount; k++) {
+      const p = profiles[Math.floor(rand() * profiles.length)];
+      p.weight *= 2.4; // run more of the volume
+      p.factor *= 0.9; // price below the field
+      p.noise *= 0.55; // and quote more consistently
+    }
+
     lanes.push({
       o,
       d,
@@ -121,8 +145,20 @@ while (lanes.length < 30) {
       baseLineHaul,
       // coefficient of variation target for linehaul noise
       cv: volatile ? 0.18 + rand() * 0.17 : 0.04 + rand() * 0.06,
+      profiles,
     });
   }
+}
+
+// Weighted carrier pick from a lane's profiles.
+function pickProfile(profiles) {
+  const total = profiles.reduce((s, p) => s + p.weight, 0);
+  let r = rand() * total;
+  for (const p of profiles) {
+    r -= p.weight;
+    if (r <= 0) return p;
+  }
+  return profiles[profiles.length - 1];
 }
 
 // ---- Generate shipments by distributing 1000 rows across lanes ----------------
@@ -137,12 +173,19 @@ for (let i = 0; i < TOTAL; i++) {
   const lane = pick(lanes);
   const { o, d, equip } = lane;
 
-  const carrier = pick(CARRIERS);
-  const lineHaul = Math.max(300, gaussian(lane.baseLineHaul, lane.baseLineHaul * lane.cv));
-  const fuel = lineHaul * (0.12 + rand() * 0.1); // 12-22% of linehaul
+  const profile = pickProfile(lane.profiles);
+  const carrier = profile.carrier;
+  const lineHaul = Math.max(
+    300,
+    gaussian(lane.baseLineHaul * profile.factor, lane.baseLineHaul * lane.cv * profile.noise)
+  );
+  // Fuel and tax are non-negotiable pass-throughs: fixed rates, no independent
+  // noise. Only linehaul (freight) and accessorials are negotiable, so all the
+  // price variation lives in those two components.
+  const fuel = lineHaul * FUEL_RATE; // fuel surcharge, fixed % of linehaul
   const accessorials = rand() < 0.6 ? round2(50 + rand() * 450) : 0;
   const subtotal = lineHaul + fuel + accessorials;
-  const tax = subtotal * (0.02 + rand() * 0.03); // 2-5%
+  const tax = subtotal * TAX_RATE; // fixed tax rate
 
   const laneStr = [
     COUNTRY, o.state, o.city, 'TO', d.city, d.state, COUNTRY, equip.code,
@@ -160,6 +203,7 @@ for (let i = 0; i < TOTAL; i++) {
     scac: carrier.scac,
     carrierName: carrier.name,
     lane: laneStr,
+    miles: Math.round(lane.miles),
     equipmentTypeDesc: equip.desc,
     equipmentTypeCode: equip.code,
     shipmentDate: randomDateWithinYear(),
