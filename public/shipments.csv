@@ -1,0 +1,1001 @@
+originZip,originCity,originState,originCountry,destZip,destCity,destState,destCountry,scac,carrierName,lane,equipmentTypeDesc,equipmentTypeCode,shipmentDate,lineHaul,accessorials,tax,fuel,shipper,consignee,direction
+64120,Kansas City,MO,US,60601,Chicago,IL,US,USXP,US Xpress,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2026-05-04,957.86,207.99,45.52,196.65,Wayne Distribution,Pied Piper Warehousing,intercompany
+43215,Columbus,OH,US,30303,Atlanta,GA,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2026-03-10,1339.72,88.48,64.58,209.77,Hooli Materials,Gekko Wholesale,outbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2026-03-06,2081.83,248.44,95.99,259.75,Soylent Goods,Massive Dynamic,inbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-08-10,939.57,199.36,37.84,155.88,Stark Components,Pied Piper Warehousing,third party
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,CRST,CRST Carriers,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-05-01,4750.56,474.46,127.99,571.86,Umbrella Foods,Tyrell Depot,inbound
+98108,Seattle,WA,US,80216,Denver,CO,US,KNXX,Knight Transportation,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2026-03-18,2531.57,92.58,152.16,481.7,Wayne Distribution,Massive Dynamic,third party
+98108,Seattle,WA,US,80216,Denver,CO,US,WERN,Werner Enterprises,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2026-02-16,2838.78,168.25,135.55,367.87,Stark Components,Gekko Wholesale,inbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2025-09-23,884.11,474.93,73.46,153.54,Stark Components,Massive Dynamic,intercompany
+43215,Columbus,OH,US,75201,Dallas,TX,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2026-02-23,1344.87,0,57.39,227.83,Stark Components,Tyrell Depot,intercompany
+64120,Kansas City,MO,US,60601,Chicago,IL,US,USXP,US Xpress,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2026-05-04,856.24,0,32.12,159.94,Initech Supply,Gekko Wholesale,outbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,WERN,Werner Enterprises,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-09-30,4043.36,0,119.67,836.06,Hooli Materials,Wonka Markets,outbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,USXP,US Xpress,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2026-01-02,1262.9,0,67.69,175.02,Umbrella Foods,Northwind Retail,outbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2025-07-03,1191.47,0,50.03,216.35,Globex Industries,Northwind Retail,inbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,USXP,US Xpress,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2025-09-24,630.94,171.62,36.23,81.06,Soylent Goods,Cyberdyne Stores,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2026-03-07,1269.37,175.43,45.25,182.76,Stark Components,Wonka Markets,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,USXP,US Xpress,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2025-09-13,2724.05,64.92,95.11,358.65,Globex Industries,Gekko Wholesale,third party
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,JBHT,J.B. Hunt Freight,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2025-08-31,3516.56,0,131.26,680.35,Soylent Goods,Tyrell Depot,inbound
+43215,Columbus,OH,US,64120,Kansas City,MO,US,USXP,US Xpress,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2025-08-10,1432.71,478.21,55.48,285.41,Stark Components,Cyberdyne Stores,inbound
+64120,Kansas City,MO,US,07102,Newark,NJ,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2025-12-25,2660.14,142.4,156.43,479.57,Wayne Distribution,Northwind Retail,intercompany
+75201,Dallas,TX,US,07102,Newark,NJ,US,JBHT,J.B. Hunt Freight,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2026-04-28,3569.08,0,117.05,682.39,Umbrella Foods,Vandelay Imports,third party
+33101,Miami,FL,US,98108,Seattle,WA,US,SWFT,Swift Logistics,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2025-12-07,9797.01,0,292.65,1309.22,Stark Components,Tyrell Depot,outbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-11-27,1582.51,283.15,90.46,244.7,Umbrella Foods,Pied Piper Warehousing,outbound
+80216,Denver,CO,US,33101,Miami,FL,US,USXP,US Xpress,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2025-07-11,4097.81,68.44,190.33,594.81,Hooli Materials,Massive Dynamic,third party
+98108,Seattle,WA,US,80216,Denver,CO,US,KNXX,Knight Transportation,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2026-01-14,1534.15,263.92,68.91,257.99,Acme Manufacturing,Cyberdyne Stores,inbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-12-03,1409.15,328.15,95.93,300.31,Acme Manufacturing,Tyrell Depot,outbound
+98108,Seattle,WA,US,43215,Columbus,OH,US,SCNN,Schneider National,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2025-12-09,3786.1,475.51,224.37,724.98,Acme Manufacturing,Gekko Wholesale,inbound
+33101,Miami,FL,US,98108,Seattle,WA,US,SCNN,Schneider National,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2026-06-12,3560.37,0,167.89,644.47,Hooli Materials,Gekko Wholesale,intercompany
+80216,Denver,CO,US,85034,Phoenix,AZ,US,USXP,US Xpress,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2026-02-20,1607.16,271.02,103.12,352.44,Soylent Goods,Pied Piper Warehousing,intercompany
+98108,Seattle,WA,US,43215,Columbus,OH,US,PAMT,PAM Transport,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2025-08-07,3531.12,376.08,94.35,478.87,Globex Industries,Tyrell Depot,outbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-09-18,1068.18,357.86,75.55,207.17,Stark Components,Gekko Wholesale,outbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,USXP,US Xpress,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2026-01-21,676.69,498.13,32.42,112.64,Acme Manufacturing,Cyberdyne Stores,intercompany
+98108,Seattle,WA,US,43215,Columbus,OH,US,WERN,Werner Enterprises,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2026-02-20,3222.45,489.44,109.09,576.44,Wayne Distribution,Tyrell Depot,third party
+43215,Columbus,OH,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2025-06-30,1370.91,459.32,40.06,172.79,Stark Components,Northwind Retail,third party
+43215,Columbus,OH,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-07-06,1087.24,384.17,64.89,168.05,Wayne Distribution,Tyrell Depot,intercompany
+75201,Dallas,TX,US,07102,Newark,NJ,US,SCNN,Schneider National,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2026-03-12,2515.19,110.83,126.8,450.32,Initech Supply,Gekko Wholesale,intercompany
+43215,Columbus,OH,US,60601,Chicago,IL,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2025-10-21,673.06,0,33.44,146.65,Hooli Materials,Tyrell Depot,intercompany
+60601,Chicago,IL,US,75201,Dallas,TX,US,SWFT,Swift Logistics,US-IL-Chicago-TO-Dallas-TX-US-SD,Step Deck,SD,2026-02-10,1927.09,0,46.55,328.72,Stark Components,Gekko Wholesale,outbound
+80216,Denver,CO,US,85034,Phoenix,AZ,US,SWFT,Swift Logistics,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2026-05-28,1463.04,147.6,53.29,250.54,Wayne Distribution,Pied Piper Warehousing,third party
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,SCNN,Schneider National,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-05-08,4336.24,0,190.02,910.53,Stark Components,Massive Dynamic,outbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2026-03-04,1244.56,127.88,32.25,227.21,Umbrella Foods,Pied Piper Warehousing,inbound
+60601,Chicago,IL,US,33101,Miami,FL,US,CRST,CRST Carriers,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2026-03-03,2496.43,0,70.14,414.28,Globex Industries,Pied Piper Warehousing,third party
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,JBHT,J.B. Hunt Freight,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-05-06,4060.77,139.73,152.44,818.62,Soylent Goods,Gekko Wholesale,outbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,CRST,CRST Carriers,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2026-05-13,1407.07,219.24,47.94,301.16,Stark Components,Vandelay Imports,inbound
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2026-02-19,2980.83,0,125.82,535.98,Stark Components,Gekko Wholesale,intercompany
+43215,Columbus,OH,US,64120,Kansas City,MO,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2025-10-31,1178.61,248.29,49.1,224.32,Initech Supply,Cyberdyne Stores,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2025-11-14,1149.55,0,50.04,197.34,Hooli Materials,Vandelay Imports,outbound
+80216,Denver,CO,US,33101,Miami,FL,US,SWFT,Swift Logistics,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2025-11-29,4352.61,0,179.85,669.85,Umbrella Foods,Gekko Wholesale,third party
+98108,Seattle,WA,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2025-11-02,3442.15,100.75,188.45,614.17,Acme Manufacturing,Gekko Wholesale,inbound
+37210,Nashville,TN,US,98108,Seattle,WA,US,WERN,Werner Enterprises,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2026-06-07,4140.19,429.23,144.34,859.53,Umbrella Foods,Wonka Markets,inbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2025-09-09,588.06,483.04,50.07,94.12,Acme Manufacturing,Vandelay Imports,third party
+64120,Kansas City,MO,US,07102,Newark,NJ,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2026-04-14,3030.12,0,122.33,438.13,Globex Industries,Northwind Retail,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2026-02-04,1586.85,0,71.42,192.13,Acme Manufacturing,Cyberdyne Stores,third party
+64120,Kansas City,MO,US,07102,Newark,NJ,US,KNXX,Knight Transportation,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2026-05-12,2780.25,85,94.43,479.75,Hooli Materials,Tyrell Depot,inbound
+80216,Denver,CO,US,33101,Miami,FL,US,USXP,US Xpress,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2026-03-25,4358.81,0,243.83,669.99,Globex Industries,Pied Piper Warehousing,outbound
+43215,Columbus,OH,US,64120,Kansas City,MO,US,CRST,CRST Carriers,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2026-02-22,1251.57,78.78,72.64,232.55,Stark Components,Wonka Markets,intercompany
+60601,Chicago,IL,US,75201,Dallas,TX,US,SCNN,Schneider National,US-IL-Chicago-TO-Dallas-TX-US-SD,Step Deck,SD,2026-01-07,1866.6,322.93,93.78,261.16,Umbrella Foods,Wonka Markets,outbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,CRST,CRST Carriers,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2026-04-25,718.45,0,39.45,132.88,Umbrella Foods,Massive Dynamic,inbound
+98108,Seattle,WA,US,43215,Columbus,OH,US,CRST,CRST Carriers,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2026-05-21,3604.41,0,144.76,785.37,Hooli Materials,Northwind Retail,outbound
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,JBHT,J.B. Hunt Freight,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2026-06-02,3299.76,0,116.79,509.44,Acme Manufacturing,Gekko Wholesale,third party
+98108,Seattle,WA,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2025-08-13,3420.2,63.34,164.53,502.7,Initech Supply,Northwind Retail,intercompany
+43215,Columbus,OH,US,64120,Kansas City,MO,US,CRST,CRST Carriers,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2025-10-05,1231.21,0,53.6,189.03,Soylent Goods,Massive Dynamic,third party
+43215,Columbus,OH,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-10-02,966.78,234.96,45.68,210.95,Wayne Distribution,Pied Piper Warehousing,inbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,USXP,US Xpress,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-12-20,1165.37,0,53.23,241.26,Umbrella Foods,Massive Dynamic,outbound
+80216,Denver,CO,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2025-11-04,4330.3,157.15,134.01,834.42,Hooli Materials,Wonka Markets,third party
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,USXP,US Xpress,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2026-03-19,3301.09,76.37,162.33,516.63,Hooli Materials,Wonka Markets,outbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2025-12-22,1314.11,0,61.14,262.37,Hooli Materials,Wonka Markets,intercompany
+98108,Seattle,WA,US,80216,Denver,CO,US,KNXX,Knight Transportation,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2025-11-08,2156.61,103.4,121.92,438.89,Stark Components,Massive Dynamic,outbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2025-12-28,781.71,0,35.22,169.35,Globex Industries,Northwind Retail,intercompany
+75201,Dallas,TX,US,30303,Atlanta,GA,US,JBHT,J.B. Hunt Freight,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-05-10,1433.26,143.37,47.74,207.39,Hooli Materials,Cyberdyne Stores,outbound
+37210,Nashville,TN,US,98108,Seattle,WA,US,SWFT,Swift Logistics,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2025-12-13,3040.72,270.12,132.15,545.17,Wayne Distribution,Vandelay Imports,third party
+98108,Seattle,WA,US,80216,Denver,CO,US,WERN,Werner Enterprises,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2025-12-28,2255.16,0,58.97,309.9,Soylent Goods,Pied Piper Warehousing,inbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-12-27,1620.4,0,68.21,232.63,Soylent Goods,Gekko Wholesale,inbound
+80216,Denver,CO,US,33101,Miami,FL,US,USXP,US Xpress,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2025-12-03,2534.87,156.8,133.31,324.68,Globex Industries,Pied Piper Warehousing,third party
+43215,Columbus,OH,US,75201,Dallas,TX,US,CRST,CRST Carriers,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2026-04-25,721.29,0,35.75,148.46,Initech Supply,Vandelay Imports,inbound
+33101,Miami,FL,US,98108,Seattle,WA,US,WERN,Werner Enterprises,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2025-09-14,8027.69,0,481.92,1741,Soylent Goods,Northwind Retail,outbound
+33101,Miami,FL,US,98108,Seattle,WA,US,CRST,CRST Carriers,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2026-04-07,6985.43,0,415.8,1360.97,Soylent Goods,Tyrell Depot,intercompany
+43215,Columbus,OH,US,60601,Chicago,IL,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2026-02-19,754.53,0,22.62,105.64,Globex Industries,Massive Dynamic,outbound
+80216,Denver,CO,US,33101,Miami,FL,US,SWFT,Swift Logistics,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2026-03-16,5936.99,198.6,348.51,1288.07,Globex Industries,Pied Piper Warehousing,inbound
+75201,Dallas,TX,US,07102,Newark,NJ,US,PAMT,PAM Transport,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2025-09-15,4257.21,0,213.06,867.48,Initech Supply,Wonka Markets,inbound
+80216,Denver,CO,US,85034,Phoenix,AZ,US,SWFT,Swift Logistics,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2026-03-06,1614.03,0,90.14,248.08,Globex Industries,Vandelay Imports,third party
+64120,Kansas City,MO,US,43215,Columbus,OH,US,SCNN,Schneider National,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2025-08-04,1512.51,0,53.7,187.56,Wayne Distribution,Massive Dynamic,inbound
+43215,Columbus,OH,US,64120,Kansas City,MO,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2025-12-16,1359.89,0,52.65,290.81,Initech Supply,Tyrell Depot,inbound
+75201,Dallas,TX,US,80216,Denver,CO,US,CRST,CRST Carriers,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2025-12-21,1725.04,78.36,102.05,375.05,Wayne Distribution,Northwind Retail,inbound
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,PAMT,PAM Transport,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-12-25,4607.62,231.56,165.85,653.89,Umbrella Foods,Northwind Retail,outbound
+37210,Nashville,TN,US,98108,Seattle,WA,US,SWFT,Swift Logistics,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2026-02-02,4386.43,464.23,253.74,625.29,Umbrella Foods,Cyberdyne Stores,inbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2026-02-12,1604.02,0,56.9,275.12,Stark Components,Pied Piper Warehousing,outbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,JBHT,J.B. Hunt Freight,US-IL-Chicago-TO-Dallas-TX-US-SD,Step Deck,SD,2025-10-12,1907.84,157.53,73.93,323.52,Globex Industries,Massive Dynamic,inbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,USXP,US Xpress,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2026-04-15,403.43,106.9,14.38,51.97,Globex Industries,Tyrell Depot,outbound
+64120,Kansas City,MO,US,07102,Newark,NJ,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2026-05-22,2830.41,157.23,142.34,515.68,Hooli Materials,Massive Dynamic,intercompany
+43215,Columbus,OH,US,30303,Atlanta,GA,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-01-03,1086.32,0,45.41,229.41,Initech Supply,Tyrell Depot,intercompany
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,SCNN,Schneider National,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2025-09-11,4099.87,287.32,246.41,792.77,Acme Manufacturing,Northwind Retail,outbound
+75201,Dallas,TX,US,30303,Atlanta,GA,US,USXP,US Xpress,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-01-26,1462.1,0,49.55,183.66,Initech Supply,Wonka Markets,intercompany
+43215,Columbus,OH,US,75201,Dallas,TX,US,USXP,US Xpress,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2026-01-06,2018.78,146.65,105.09,262.91,Stark Components,Gekko Wholesale,third party
+37210,Nashville,TN,US,98108,Seattle,WA,US,JBHT,J.B. Hunt Freight,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2025-07-04,5042.34,0,123.88,615.47,Acme Manufacturing,Pied Piper Warehousing,outbound
+98108,Seattle,WA,US,43215,Columbus,OH,US,KNXX,Knight Transportation,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2026-06-13,3866.67,219.17,106.83,649.48,Stark Components,Northwind Retail,inbound
+43215,Columbus,OH,US,64120,Kansas City,MO,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2026-03-20,1347.7,144.54,56.29,258.31,Acme Manufacturing,Vandelay Imports,outbound
+80216,Denver,CO,US,85034,Phoenix,AZ,US,SCNN,Schneider National,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2025-11-18,1585.61,499.71,82.27,343.6,Umbrella Foods,Northwind Retail,intercompany
+43215,Columbus,OH,US,75201,Dallas,TX,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-09-03,1668.24,174.89,87.88,301.56,Globex Industries,Cyberdyne Stores,intercompany
+43215,Columbus,OH,US,60601,Chicago,IL,US,PAMT,PAM Transport,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2025-12-21,908.05,229.26,39.5,141.77,Hooli Materials,Massive Dynamic,outbound
+80216,Denver,CO,US,33101,Miami,FL,US,SWFT,Swift Logistics,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2026-03-14,4331.36,393.77,231.84,742.27,Umbrella Foods,Cyberdyne Stores,third party
+64120,Kansas City,MO,US,43215,Columbus,OH,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2026-01-09,1115.58,0,56.85,190.97,Globex Industries,Wonka Markets,inbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2025-07-24,1454.19,375.16,75.2,214.03,Globex Industries,Tyrell Depot,inbound
+64120,Kansas City,MO,US,60601,Chicago,IL,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-10-03,870.28,162.8,33.48,144.97,Acme Manufacturing,Gekko Wholesale,inbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-11-13,2035.78,347.51,130.67,331.51,Wayne Distribution,Tyrell Depot,outbound
+80216,Denver,CO,US,33101,Miami,FL,US,JBHT,J.B. Hunt Freight,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2025-09-23,4403.15,0,185.84,871.37,Initech Supply,Tyrell Depot,third party
+60601,Chicago,IL,US,75201,Dallas,TX,US,PAMT,PAM Transport,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2025-09-08,1538.64,0,64.32,237.52,Acme Manufacturing,Massive Dynamic,intercompany
+37210,Nashville,TN,US,98108,Seattle,WA,US,SWFT,Swift Logistics,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2025-10-29,4030.68,497.22,116.53,568.09,Globex Industries,Vandelay Imports,inbound
+75201,Dallas,TX,US,80216,Denver,CO,US,PAMT,PAM Transport,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2026-02-27,1829.33,451.67,94.26,352.52,Globex Industries,Gekko Wholesale,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,USXP,US Xpress,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2025-10-31,2155.32,497.39,119.6,277.02,Wayne Distribution,Vandelay Imports,outbound
+60601,Chicago,IL,US,33101,Miami,FL,US,USXP,US Xpress,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2026-01-31,2050.55,205.96,63.38,388.86,Stark Components,Cyberdyne Stores,third party
+80216,Denver,CO,US,33101,Miami,FL,US,JBHT,J.B. Hunt Freight,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2026-03-26,4472.25,0,192.54,577.91,Stark Components,Tyrell Depot,intercompany
+60601,Chicago,IL,US,75201,Dallas,TX,US,KNXX,Knight Transportation,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2025-06-19,1478.89,0,63.86,323.52,Hooli Materials,Massive Dynamic,inbound
+43215,Columbus,OH,US,64120,Kansas City,MO,US,PAMT,PAM Transport,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2026-05-19,1417.57,201.77,47.99,264.35,Hooli Materials,Northwind Retail,intercompany
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,JBHT,J.B. Hunt Freight,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-04-19,5069.45,0,149.88,862.62,Hooli Materials,Cyberdyne Stores,inbound
+98108,Seattle,WA,US,80216,Denver,CO,US,PAMT,PAM Transport,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2025-06-28,1645.94,426.23,113.41,245.68,Wayne Distribution,Tyrell Depot,third party
+43215,Columbus,OH,US,75201,Dallas,TX,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-11-30,1314.97,97.28,37.3,241.65,Globex Industries,Pied Piper Warehousing,intercompany
+60601,Chicago,IL,US,33101,Miami,FL,US,CRST,CRST Carriers,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2025-09-17,2248.23,403.43,85.15,478.26,Initech Supply,Tyrell Depot,third party
+64120,Kansas City,MO,US,60601,Chicago,IL,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2026-05-30,813.65,84.56,40.72,148.1,Globex Industries,Northwind Retail,intercompany
+98108,Seattle,WA,US,80216,Denver,CO,US,SWFT,Swift Logistics,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2026-04-17,2212.8,403.92,66.8,413.45,Umbrella Foods,Vandelay Imports,intercompany
+64120,Kansas City,MO,US,60601,Chicago,IL,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-09-14,817.37,176.72,49.95,132.35,Wayne Distribution,Cyberdyne Stores,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,PAMT,PAM Transport,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2025-06-29,2037.64,441.97,107.62,399.25,Globex Industries,Cyberdyne Stores,intercompany
+75201,Dallas,TX,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-08-03,1591.7,290.33,47.74,202.13,Globex Industries,Massive Dynamic,inbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,CRST,CRST Carriers,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2026-03-08,1378.89,0,61.94,173.26,Globex Industries,Tyrell Depot,intercompany
+60601,Chicago,IL,US,33101,Miami,FL,US,USXP,US Xpress,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2025-07-11,1933.21,0,66.04,302.6,Umbrella Foods,Wonka Markets,third party
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-08-11,2003.87,0,91.36,348.91,Hooli Materials,Gekko Wholesale,inbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,PAMT,PAM Transport,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2026-05-12,576.74,280.19,28.8,95.37,Initech Supply,Pied Piper Warehousing,intercompany
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-11-16,4417.82,0,250.21,828,Globex Industries,Pied Piper Warehousing,outbound
+37210,Nashville,TN,US,98108,Seattle,WA,US,USXP,US Xpress,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2025-12-27,5350.74,308,302.85,778.47,Wayne Distribution,Massive Dynamic,third party
+43215,Columbus,OH,US,75201,Dallas,TX,US,SCNN,Schneider National,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-07-06,1412.7,226.43,80.68,291.5,Soylent Goods,Cyberdyne Stores,outbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2026-04-12,1855.09,0,62.74,396.07,Acme Manufacturing,Gekko Wholesale,third party
+43215,Columbus,OH,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-04-25,1152.32,141.49,70.49,145.18,Initech Supply,Northwind Retail,inbound
+64120,Kansas City,MO,US,60601,Chicago,IL,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2026-02-17,1049.04,0,59.01,165.91,Globex Industries,Massive Dynamic,inbound
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-04-14,4395.37,126.4,218.04,642.74,Wayne Distribution,Cyberdyne Stores,third party
+43215,Columbus,OH,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2025-09-11,1336.18,192.61,43.38,188.01,Acme Manufacturing,Gekko Wholesale,outbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-04-22,1105.33,473.4,87.46,228.93,Globex Industries,Wonka Markets,outbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-07-09,1900.53,251.82,60.37,355.08,Globex Industries,Wonka Markets,inbound
+64120,Kansas City,MO,US,60601,Chicago,IL,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-08-04,850.8,0,23.36,106.32,Initech Supply,Cyberdyne Stores,third party
+64120,Kansas City,MO,US,60601,Chicago,IL,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-07-25,828.36,0,25.25,110.59,Globex Industries,Pied Piper Warehousing,outbound
+75201,Dallas,TX,US,07102,Newark,NJ,US,CRST,CRST Carriers,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2025-08-23,3839.08,459.68,151.7,588.97,Globex Industries,Vandelay Imports,intercompany
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,PAMT,PAM Transport,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2025-11-21,2579.45,0,120.94,524.58,Hooli Materials,Northwind Retail,third party
+43215,Columbus,OH,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2025-09-27,1408.03,490.63,66.2,296.26,Globex Industries,Northwind Retail,intercompany
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-08-24,1675.12,0,72.97,235.06,Soylent Goods,Gekko Wholesale,outbound
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,SCNN,Schneider National,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-06-26,4660.34,319.09,211.83,771.82,Wayne Distribution,Pied Piper Warehousing,inbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2026-02-09,1589.43,0,38.05,233.25,Hooli Materials,Gekko Wholesale,third party
+60601,Chicago,IL,US,75201,Dallas,TX,US,WERN,Werner Enterprises,US-IL-Chicago-TO-Dallas-TX-US-SD,Step Deck,SD,2026-06-03,1711.86,231.09,91.28,207.51,Acme Manufacturing,Cyberdyne Stores,inbound
+43215,Columbus,OH,US,64120,Kansas City,MO,US,CRST,CRST Carriers,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2025-12-11,1311.16,0,49.72,158.06,Hooli Materials,Gekko Wholesale,intercompany
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-10-12,4737.64,0,200.71,756.1,Initech Supply,Wonka Markets,intercompany
+64120,Kansas City,MO,US,60601,Chicago,IL,US,SCNN,Schneider National,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2026-05-03,891,61.98,25.8,107.4,Stark Components,Gekko Wholesale,outbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,USXP,US Xpress,US-IL-Chicago-TO-Dallas-TX-US-SD,Step Deck,SD,2025-06-25,1786.53,0,70.44,266.37,Wayne Distribution,Wonka Markets,outbound
+60601,Chicago,IL,US,33101,Miami,FL,US,USXP,US Xpress,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2026-03-17,1911.05,422.76,55.76,418.73,Acme Manufacturing,Gekko Wholesale,outbound
+60601,Chicago,IL,US,33101,Miami,FL,US,USXP,US Xpress,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2026-03-29,1888.99,0,86.39,393.78,Stark Components,Cyberdyne Stores,third party
+60601,Chicago,IL,US,75201,Dallas,TX,US,SCNN,Schneider National,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2025-09-09,1451.58,0,34.6,272.88,Soylent Goods,Vandelay Imports,intercompany
+98108,Seattle,WA,US,80216,Denver,CO,US,SCNN,Schneider National,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2025-10-17,2982.37,0,72.76,470.32,Globex Industries,Tyrell Depot,inbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2026-02-04,1233.02,443.78,77.79,227.59,Umbrella Foods,Wonka Markets,inbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2026-04-22,2162.21,457.9,128.09,441.49,Acme Manufacturing,Pied Piper Warehousing,third party
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,CRST,CRST Carriers,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-06-10,4745.16,246.07,148.7,784.05,Acme Manufacturing,Cyberdyne Stores,third party
+43215,Columbus,OH,US,75201,Dallas,TX,US,PAMT,PAM Transport,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-07-02,1395.65,293.19,51.14,196.56,Soylent Goods,Tyrell Depot,outbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-09-09,1879.76,65.48,51.03,247.86,Globex Industries,Cyberdyne Stores,inbound
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2025-09-10,3573.83,239.79,202.77,437.65,Soylent Goods,Gekko Wholesale,inbound
+80216,Denver,CO,US,33101,Miami,FL,US,SCNN,Schneider National,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2026-04-06,4426.06,319.05,191.32,557.33,Hooli Materials,Pied Piper Warehousing,third party
+80216,Denver,CO,US,33101,Miami,FL,US,PAMT,PAM Transport,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2026-01-08,4284.8,0,248.18,853.84,Globex Industries,Massive Dynamic,third party
+80216,Denver,CO,US,33101,Miami,FL,US,SWFT,Swift Logistics,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2025-10-08,4369.02,339.85,141.22,691.25,Globex Industries,Pied Piper Warehousing,intercompany
+98108,Seattle,WA,US,43215,Columbus,OH,US,CRST,CRST Carriers,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2026-01-16,3812.57,0,115.64,635.82,Globex Industries,Vandelay Imports,intercompany
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,WERN,Werner Enterprises,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-01-10,4992.69,469.45,294.61,940.81,Soylent Goods,Wonka Markets,third party
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-06-06,4182.49,0,222.41,904.72,Acme Manufacturing,Wonka Markets,inbound
+98108,Seattle,WA,US,80216,Denver,CO,US,USXP,US Xpress,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2026-03-04,2715.12,0,96.58,406.62,Hooli Materials,Massive Dynamic,third party
+43215,Columbus,OH,US,75201,Dallas,TX,US,CRST,CRST Carriers,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-10-06,1379.01,0,37.61,260.04,Wayne Distribution,Cyberdyne Stores,outbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,USXP,US Xpress,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2026-02-27,1399.08,100.78,41.62,306.31,Hooli Materials,Tyrell Depot,outbound
+75201,Dallas,TX,US,07102,Newark,NJ,US,KNXX,Knight Transportation,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2026-02-19,3202.71,0,181.26,661,Globex Industries,Tyrell Depot,intercompany
+43215,Columbus,OH,US,60601,Chicago,IL,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2025-07-15,448.54,365.25,20.08,75.4,Wayne Distribution,Tyrell Depot,outbound
+80216,Denver,CO,US,33101,Miami,FL,US,USXP,US Xpress,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2025-08-22,3725.47,163.98,137.05,706.64,Soylent Goods,Tyrell Depot,inbound
+64120,Kansas City,MO,US,60601,Chicago,IL,US,SCNN,Schneider National,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-11-17,890.61,118.54,24.59,114.53,Soylent Goods,Northwind Retail,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2026-01-21,1355.56,0,66.05,202.42,Initech Supply,Tyrell Depot,third party
+75201,Dallas,TX,US,07102,Newark,NJ,US,USXP,US Xpress,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2026-05-14,3369.62,0,156.4,509.81,Stark Components,Gekko Wholesale,inbound
+80216,Denver,CO,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2025-11-18,8564.04,483.26,431.8,1544.41,Initech Supply,Cyberdyne Stores,intercompany
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2026-03-18,1862.36,0,74.96,272.41,Wayne Distribution,Northwind Retail,intercompany
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2025-12-11,3555.71,340.66,110.2,478.1,Acme Manufacturing,Gekko Wholesale,third party
+43215,Columbus,OH,US,75201,Dallas,TX,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2026-04-27,1889.71,66.05,50.65,328.58,Wayne Distribution,Wonka Markets,outbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,SCNN,Schneider National,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2025-10-03,3188.28,106.97,104.29,551.61,Globex Industries,Wonka Markets,intercompany
+60601,Chicago,IL,US,75201,Dallas,TX,US,SCNN,Schneider National,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2025-12-09,1389.27,419.32,54.32,303.56,Initech Supply,Pied Piper Warehousing,third party
+43215,Columbus,OH,US,60601,Chicago,IL,US,USXP,US Xpress,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2026-03-06,1078.95,414.96,67.31,136.05,Globex Industries,Cyberdyne Stores,intercompany
+43215,Columbus,OH,US,60601,Chicago,IL,US,USXP,US Xpress,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2026-04-28,895.84,78.44,33.56,170.84,Soylent Goods,Vandelay Imports,third party
+80216,Denver,CO,US,85034,Phoenix,AZ,US,JBHT,J.B. Hunt Freight,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2026-04-08,1432.47,0,73.98,252.43,Acme Manufacturing,Northwind Retail,third party
+37210,Nashville,TN,US,98108,Seattle,WA,US,PAMT,PAM Transport,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2026-03-05,5221.62,0,183.52,747.32,Acme Manufacturing,Wonka Markets,outbound
+43215,Columbus,OH,US,64120,Kansas City,MO,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2026-01-10,1220.77,357.75,55.45,226.91,Acme Manufacturing,Tyrell Depot,inbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2025-10-26,1549.2,417.23,46.93,235.43,Wayne Distribution,Northwind Retail,intercompany
+43215,Columbus,OH,US,75201,Dallas,TX,US,SCNN,Schneider National,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2026-02-17,2165.97,187.7,57.96,287.84,Globex Industries,Cyberdyne Stores,outbound
+33101,Miami,FL,US,98108,Seattle,WA,US,SWFT,Swift Logistics,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2025-08-06,5651.2,0,316.11,1164.79,Initech Supply,Tyrell Depot,third party
+60601,Chicago,IL,US,75201,Dallas,TX,US,KNXX,Knight Transportation,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2026-04-18,1438.47,0,40.36,254.86,Stark Components,Vandelay Imports,outbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,JBHT,J.B. Hunt Freight,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2025-10-05,2426.92,0,83.48,332.19,Acme Manufacturing,Cyberdyne Stores,intercompany
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,JBHT,J.B. Hunt Freight,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2026-01-05,3690.1,225.05,104.87,778.51,Soylent Goods,Pied Piper Warehousing,intercompany
+75201,Dallas,TX,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-05-15,1606.73,0,69.03,240.23,Hooli Materials,Massive Dynamic,inbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,USXP,US Xpress,US-IL-Chicago-TO-Dallas-TX-US-SD,Step Deck,SD,2025-11-13,1724.5,0,54.18,215.88,Globex Industries,Wonka Markets,outbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,CRST,CRST Carriers,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2026-03-18,1358.99,0,64.83,246.24,Acme Manufacturing,Massive Dynamic,third party
+75201,Dallas,TX,US,80216,Denver,CO,US,USXP,US Xpress,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2026-01-15,1693.37,358.86,68.98,208.2,Hooli Materials,Wonka Markets,outbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,SCNN,Schneider National,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2025-07-18,1188.68,0,30.53,176.28,Stark Components,Massive Dynamic,inbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,USXP,US Xpress,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-09-10,1376.98,173.88,48.04,300.32,Wayne Distribution,Gekko Wholesale,intercompany
+33101,Miami,FL,US,98108,Seattle,WA,US,USXP,US Xpress,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2025-06-20,7007.74,444.39,356.05,1108.01,Umbrella Foods,Tyrell Depot,inbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,SWFT,Swift Logistics,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2025-08-27,1319.57,0,32.39,209.88,Wayne Distribution,Vandelay Imports,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,USXP,US Xpress,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2025-07-27,1310.75,0,74.64,242.46,Initech Supply,Massive Dynamic,inbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2025-10-18,846.34,445.14,33.81,158.21,Hooli Materials,Tyrell Depot,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,CRST,CRST Carriers,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2026-04-02,2134.08,0,72.01,290.11,Soylent Goods,Vandelay Imports,outbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2025-09-10,1602.99,0,78.9,232.02,Initech Supply,Vandelay Imports,inbound
+80216,Denver,CO,US,33101,Miami,FL,US,KNXX,Knight Transportation,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2026-05-20,4743.14,0,237.96,733.27,Stark Components,Northwind Retail,third party
+43215,Columbus,OH,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-10-15,971.82,309.79,34.83,179.75,Wayne Distribution,Wonka Markets,inbound
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,SWFT,Swift Logistics,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2026-04-06,3702.6,62.12,95.59,667.81,Initech Supply,Northwind Retail,intercompany
+37210,Nashville,TN,US,98108,Seattle,WA,US,WERN,Werner Enterprises,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2026-04-14,4731.4,154.61,212.64,661.55,Hooli Materials,Gekko Wholesale,outbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,CRST,CRST Carriers,US-IL-Chicago-TO-Dallas-TX-US-SD,Step Deck,SD,2025-07-24,1772.89,0,102.98,305.07,Globex Industries,Tyrell Depot,intercompany
+43215,Columbus,OH,US,60601,Chicago,IL,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2025-09-05,1033.09,80.89,48.73,127.13,Initech Supply,Tyrell Depot,third party
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,CRST,CRST Carriers,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-10-30,4471.46,392.74,213.53,973.68,Wayne Distribution,Cyberdyne Stores,inbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2025-10-17,1480.46,404.07,105.06,245,Initech Supply,Cyberdyne Stores,third party
+43215,Columbus,OH,US,60601,Chicago,IL,US,USXP,US Xpress,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2026-01-24,694.13,0,35.63,149.11,Stark Components,Northwind Retail,outbound
+75201,Dallas,TX,US,80216,Denver,CO,US,KNXX,Knight Transportation,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2026-04-27,1778.38,151.36,98.77,381.51,Hooli Materials,Vandelay Imports,inbound
+98108,Seattle,WA,US,80216,Denver,CO,US,JBHT,J.B. Hunt Freight,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2026-01-31,2505.22,0,101.46,545.85,Soylent Goods,Vandelay Imports,outbound
+75201,Dallas,TX,US,07102,Newark,NJ,US,USXP,US Xpress,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2025-09-28,3767.9,321.57,142.26,686.37,Soylent Goods,Northwind Retail,inbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,SCNN,Schneider National,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-01-18,5235.89,162.81,213.34,1019.44,Stark Components,Massive Dynamic,inbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2025-11-22,1300.47,418.11,53.68,256.42,Hooli Materials,Cyberdyne Stores,intercompany
+98108,Seattle,WA,US,43215,Columbus,OH,US,SCNN,Schneider National,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2025-12-23,3224.12,109.31,89.68,686.81,Wayne Distribution,Pied Piper Warehousing,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,KNXX,Knight Transportation,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2025-12-20,1446.34,81.73,62.4,217.37,Soylent Goods,Tyrell Depot,outbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,PAMT,PAM Transport,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-12-18,4706.77,0,226.74,939.35,Initech Supply,Massive Dynamic,third party
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,USXP,US Xpress,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-11-07,1655.11,0,67.21,330.65,Initech Supply,Massive Dynamic,third party
+43215,Columbus,OH,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2025-11-18,1236.88,135.12,51.65,196.22,Acme Manufacturing,Vandelay Imports,intercompany
+33101,Miami,FL,US,98108,Seattle,WA,US,SCNN,Schneider National,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2026-05-29,9554.25,433.32,482.43,1884.1,Wayne Distribution,Massive Dynamic,third party
+75201,Dallas,TX,US,80216,Denver,CO,US,WERN,Werner Enterprises,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2025-07-08,1844.22,433.27,125.54,307.35,Initech Supply,Wonka Markets,intercompany
+98108,Seattle,WA,US,80216,Denver,CO,US,KNXX,Knight Transportation,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2026-06-05,1445.85,460.92,59.97,272.27,Globex Industries,Cyberdyne Stores,outbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-06-27,1863.06,186.97,105.89,365.65,Globex Industries,Cyberdyne Stores,inbound
+98108,Seattle,WA,US,43215,Columbus,OH,US,SCNN,Schneider National,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2026-06-06,3654.5,0,179.06,454.45,Globex Industries,Tyrell Depot,intercompany
+80216,Denver,CO,US,85034,Phoenix,AZ,US,WERN,Werner Enterprises,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2026-01-14,1709.36,445.96,65.38,347.6,Hooli Materials,Pied Piper Warehousing,intercompany
+43215,Columbus,OH,US,75201,Dallas,TX,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2025-12-03,1598.77,0,43.4,337.63,Hooli Materials,Vandelay Imports,third party
+64120,Kansas City,MO,US,60601,Chicago,IL,US,SCNN,Schneider National,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2026-02-20,903.7,0,50.62,133.31,Umbrella Foods,Wonka Markets,outbound
+60601,Chicago,IL,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2025-12-27,1695.81,147.51,83.03,265.93,Hooli Materials,Wonka Markets,outbound
+98108,Seattle,WA,US,80216,Denver,CO,US,PAMT,PAM Transport,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2026-01-02,2456.47,0,98.48,401.2,Initech Supply,Wonka Markets,outbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,USXP,US Xpress,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2026-01-26,3796.87,289.55,184.4,746.31,Globex Industries,Pied Piper Warehousing,intercompany
+75201,Dallas,TX,US,07102,Newark,NJ,US,PAMT,PAM Transport,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2026-02-06,1903.08,0,109.9,314.57,Umbrella Foods,Pied Piper Warehousing,outbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2025-10-06,512.52,402.16,23.26,82.42,Globex Industries,Vandelay Imports,inbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2025-10-13,1613.37,0,57.06,310.06,Umbrella Foods,Northwind Retail,intercompany
+43215,Columbus,OH,US,60601,Chicago,IL,US,USXP,US Xpress,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2026-02-07,843.97,346.7,63.98,142.3,Umbrella Foods,Cyberdyne Stores,outbound
+80216,Denver,CO,US,85034,Phoenix,AZ,US,SWFT,Swift Logistics,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2025-11-26,1668.43,0,86.32,209.05,Hooli Materials,Vandelay Imports,intercompany
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2026-01-01,3522.96,0,172.45,450.65,Soylent Goods,Tyrell Depot,outbound
+98108,Seattle,WA,US,43215,Columbus,OH,US,CRST,CRST Carriers,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2025-11-04,3582.05,0,124.16,438.15,Initech Supply,Massive Dynamic,outbound
+64120,Kansas City,MO,US,07102,Newark,NJ,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2025-07-05,2503.16,186.71,76.08,433.88,Globex Industries,Northwind Retail,inbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,USXP,US Xpress,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2026-01-01,1330.03,0,40.16,270.73,Initech Supply,Northwind Retail,outbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2026-04-23,1352.8,76.01,78.89,243,Globex Industries,Massive Dynamic,outbound
+43215,Columbus,OH,US,64120,Kansas City,MO,US,PAMT,PAM Transport,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2025-12-24,1291.71,0,46.94,243.1,Soylent Goods,Pied Piper Warehousing,outbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,USXP,US Xpress,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2025-10-31,1231.65,0,43.43,225.23,Umbrella Foods,Gekko Wholesale,third party
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-09-02,1769.39,0,88.14,216.82,Acme Manufacturing,Cyberdyne Stores,inbound
+43215,Columbus,OH,US,64120,Kansas City,MO,US,PAMT,PAM Transport,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2025-08-21,1125.78,78.22,36.47,237.9,Umbrella Foods,Tyrell Depot,intercompany
+43215,Columbus,OH,US,75201,Dallas,TX,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2025-06-27,2000.19,484.31,81.12,328.1,Wayne Distribution,Massive Dynamic,third party
+80216,Denver,CO,US,85034,Phoenix,AZ,US,USXP,US Xpress,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2026-03-10,1449.99,432.28,69.47,231.67,Acme Manufacturing,Tyrell Depot,outbound
+60601,Chicago,IL,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2026-03-14,1874.16,110.02,117.16,372.71,Wayne Distribution,Cyberdyne Stores,outbound
+60601,Chicago,IL,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2026-04-19,2650.85,420.21,136.18,337.29,Wayne Distribution,Gekko Wholesale,intercompany
+43215,Columbus,OH,US,64120,Kansas City,MO,US,SCNN,Schneider National,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2025-10-16,1377.49,281.38,93.28,299.52,Stark Components,Cyberdyne Stores,third party
+43215,Columbus,OH,US,64120,Kansas City,MO,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2026-04-04,1092.48,236.02,33.45,142.54,Stark Components,Cyberdyne Stores,third party
+75201,Dallas,TX,US,30303,Atlanta,GA,US,JBHT,J.B. Hunt Freight,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-09-30,1844.77,251.05,74.09,343.72,Globex Industries,Cyberdyne Stores,third party
+75201,Dallas,TX,US,07102,Newark,NJ,US,WERN,Werner Enterprises,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2026-05-30,4343.64,131.89,163.75,939.73,Hooli Materials,Tyrell Depot,outbound
+75201,Dallas,TX,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-01-25,1537.75,158.67,51.02,307.27,Wayne Distribution,Wonka Markets,third party
+43215,Columbus,OH,US,60601,Chicago,IL,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2025-11-23,751.01,186.16,32.38,133.98,Acme Manufacturing,Wonka Markets,third party
+33101,Miami,FL,US,98108,Seattle,WA,US,CRST,CRST Carriers,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2026-05-29,5860.86,0,227.64,719.1,Hooli Materials,Wonka Markets,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2026-03-05,1386.76,388.37,65.9,249.46,Acme Manufacturing,Pied Piper Warehousing,third party
+80216,Denver,CO,US,33101,Miami,FL,US,SCNN,Schneider National,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2026-05-06,5634.71,54.15,279.59,780.16,Hooli Materials,Vandelay Imports,intercompany
+75201,Dallas,TX,US,07102,Newark,NJ,US,PAMT,PAM Transport,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2026-04-04,3110.12,184.93,77.57,469.02,Initech Supply,Tyrell Depot,intercompany
+80216,Denver,CO,US,85034,Phoenix,AZ,US,JBHT,J.B. Hunt Freight,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2026-02-04,1447.29,276.63,41.74,222.43,Umbrella Foods,Gekko Wholesale,third party
+43215,Columbus,OH,US,64120,Kansas City,MO,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2026-02-22,1193.2,156.18,39.64,256.54,Wayne Distribution,Northwind Retail,inbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,PAMT,PAM Transport,US-IL-Chicago-TO-Dallas-TX-US-SD,Step Deck,SD,2025-10-23,1874.43,222.46,62.76,351.06,Stark Components,Pied Piper Warehousing,inbound
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,PAMT,PAM Transport,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-01-21,4590.82,0,177.97,569.27,Stark Components,Cyberdyne Stores,intercompany
+43215,Columbus,OH,US,30303,Atlanta,GA,US,USXP,US Xpress,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2025-09-13,1215.06,299.38,81.26,238.46,Umbrella Foods,Vandelay Imports,third party
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-07-26,1893.19,0,86.31,269.01,Hooli Materials,Pied Piper Warehousing,intercompany
+37210,Nashville,TN,US,98108,Seattle,WA,US,WERN,Werner Enterprises,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2026-02-24,6791.5,212.32,331.99,1199,Umbrella Foods,Northwind Retail,intercompany
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,KNXX,Knight Transportation,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2026-02-01,2743.15,457.23,185.36,520.86,Soylent Goods,Vandelay Imports,inbound
+80216,Denver,CO,US,33101,Miami,FL,US,CRST,CRST Carriers,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2025-06-18,4310.76,0,231.43,578.9,Initech Supply,Wonka Markets,third party
+43215,Columbus,OH,US,60601,Chicago,IL,US,SCNN,Schneider National,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2025-06-30,309.05,199.84,16.33,60.39,Acme Manufacturing,Tyrell Depot,inbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,SWFT,Swift Logistics,US-IL-Chicago-TO-Dallas-TX-US-SD,Step Deck,SD,2026-03-03,1991.17,0,81.25,416.22,Initech Supply,Gekko Wholesale,third party
+75201,Dallas,TX,US,07102,Newark,NJ,US,SCNN,Schneider National,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2026-03-25,4765.47,0,199.72,705.73,Hooli Materials,Northwind Retail,inbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2026-01-23,1155.69,115.15,58.82,238.95,Umbrella Foods,Vandelay Imports,inbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,CRST,CRST Carriers,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-03-10,4851.11,0,264.65,844.29,Initech Supply,Vandelay Imports,inbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,KNXX,Knight Transportation,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2026-05-10,1402.68,480.52,85.68,245.22,Wayne Distribution,Wonka Markets,third party
+80216,Denver,CO,US,85034,Phoenix,AZ,US,SWFT,Swift Logistics,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2025-12-09,1439.88,0,55.38,304.55,Stark Components,Vandelay Imports,intercompany
+43215,Columbus,OH,US,60601,Chicago,IL,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2025-12-13,688.85,246.12,42.4,146.03,Stark Components,Cyberdyne Stores,outbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2026-01-16,1610.46,190.68,53.97,347.42,Initech Supply,Massive Dynamic,outbound
+75201,Dallas,TX,US,80216,Denver,CO,US,JBHT,J.B. Hunt Freight,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2025-07-19,1792.81,296.98,103.17,298.48,Initech Supply,Northwind Retail,inbound
+98108,Seattle,WA,US,80216,Denver,CO,US,SWFT,Swift Logistics,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2026-04-20,3555.31,208.94,131.71,651.85,Initech Supply,Pied Piper Warehousing,third party
+43215,Columbus,OH,US,30303,Atlanta,GA,US,USXP,US Xpress,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2026-04-17,1387.4,368.69,90.04,205.06,Globex Industries,Tyrell Depot,intercompany
+43215,Columbus,OH,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-10-01,988.05,310.73,58.93,153.46,Acme Manufacturing,Northwind Retail,intercompany
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,WERN,Werner Enterprises,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-05-29,4767.7,193.76,233.15,642.14,Hooli Materials,Massive Dynamic,inbound
+75201,Dallas,TX,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-03-19,1705.8,0,60.43,301.34,Wayne Distribution,Tyrell Depot,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2026-02-06,1329.68,115.16,59.91,265.87,Hooli Materials,Gekko Wholesale,intercompany
+64120,Kansas City,MO,US,60601,Chicago,IL,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2026-05-15,797.74,0,19.57,102.81,Umbrella Foods,Vandelay Imports,outbound
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,SWFT,Swift Logistics,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2026-05-08,2905.03,81.98,153.6,630.84,Initech Supply,Northwind Retail,inbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,CRST,CRST Carriers,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-09-26,1373.49,487.37,95.76,254.92,Umbrella Foods,Vandelay Imports,outbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2025-11-01,1225.18,0,32.76,205.35,Stark Components,Tyrell Depot,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,SCNN,Schneider National,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2026-01-17,1486.09,0,60.39,250.37,Acme Manufacturing,Gekko Wholesale,inbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-08-26,1617.79,0,51.63,341.13,Globex Industries,Wonka Markets,outbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,USXP,US Xpress,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2026-02-09,1656.75,0,64.8,319.78,Acme Manufacturing,Cyberdyne Stores,intercompany
+43215,Columbus,OH,US,64120,Kansas City,MO,US,CRST,CRST Carriers,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2026-01-01,1255.46,0,35.05,244.96,Globex Industries,Cyberdyne Stores,intercompany
+75201,Dallas,TX,US,07102,Newark,NJ,US,SCNN,Schneider National,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2026-02-04,4884.43,323.44,222.12,741.59,Globex Industries,Pied Piper Warehousing,outbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,SCNN,Schneider National,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-12-23,3624.93,0,111.08,503.23,Wayne Distribution,Gekko Wholesale,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,KNXX,Knight Transportation,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2025-11-18,1254.46,142.53,60.67,224.32,Globex Industries,Gekko Wholesale,inbound
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-09-17,4773.9,493.23,165.31,884.99,Soylent Goods,Wonka Markets,outbound
+60601,Chicago,IL,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2025-07-18,2484.15,0,150.17,525.4,Wayne Distribution,Gekko Wholesale,outbound
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2026-02-01,3378.98,95.31,120.59,466.1,Globex Industries,Gekko Wholesale,intercompany
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,PAMT,PAM Transport,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2026-01-29,2393.51,244.37,125.3,334.27,Stark Components,Gekko Wholesale,intercompany
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-11-30,1889.44,364.64,117.44,365.87,Hooli Materials,Tyrell Depot,intercompany
+43215,Columbus,OH,US,60601,Chicago,IL,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2025-08-31,497.48,0,21.75,62.48,Initech Supply,Cyberdyne Stores,third party
+43215,Columbus,OH,US,60601,Chicago,IL,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2025-08-14,1182.42,0,38.14,161.77,Globex Industries,Cyberdyne Stores,outbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,SCNN,Schneider National,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2025-10-05,1335.89,0,38.68,240.44,Initech Supply,Wonka Markets,outbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2025-07-23,423.31,0,17.11,67.22,Globex Industries,Massive Dynamic,intercompany
+43215,Columbus,OH,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-12-29,849.07,324.88,64.03,172.27,Initech Supply,Wonka Markets,inbound
+60601,Chicago,IL,US,33101,Miami,FL,US,PAMT,PAM Transport,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2025-11-21,2899.6,0,75.22,437.59,Globex Industries,Gekko Wholesale,outbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2026-01-17,1762.66,223.93,47.47,229.57,Wayne Distribution,Tyrell Depot,intercompany
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-09-23,2060.34,144.93,120.22,296.73,Acme Manufacturing,Northwind Retail,outbound
+75201,Dallas,TX,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-08-12,1656.59,344.41,96.91,215.32,Initech Supply,Massive Dynamic,intercompany
+60601,Chicago,IL,US,33101,Miami,FL,US,JBHT,J.B. Hunt Freight,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2025-11-22,1660.92,116.46,80.3,236.14,Soylent Goods,Cyberdyne Stores,outbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,PAMT,PAM Transport,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-11-07,4826.72,0,185.77,833.87,Stark Components,Vandelay Imports,third party
+98108,Seattle,WA,US,80216,Denver,CO,US,PAMT,PAM Transport,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2025-07-09,1679.84,357.12,64.24,272.42,Acme Manufacturing,Gekko Wholesale,inbound
+80216,Denver,CO,US,33101,Miami,FL,US,CRST,CRST Carriers,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2025-11-05,5488.28,91.52,171.48,1050.05,Wayne Distribution,Gekko Wholesale,intercompany
+43215,Columbus,OH,US,75201,Dallas,TX,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-10-15,1354.8,284.47,75.04,249.16,Globex Industries,Tyrell Depot,third party
+43215,Columbus,OH,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2026-04-15,1334.09,162.34,71.44,171.62,Stark Components,Vandelay Imports,third party
+64120,Kansas City,MO,US,43215,Columbus,OH,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2026-04-30,1573.35,0,94.69,338.66,Stark Components,Vandelay Imports,inbound
+64120,Kansas City,MO,US,60601,Chicago,IL,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-08-26,866.14,335.16,37.48,150.2,Initech Supply,Northwind Retail,inbound
+98108,Seattle,WA,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2025-09-07,3833.53,243.66,137.75,683.41,Umbrella Foods,Vandelay Imports,intercompany
+64120,Kansas City,MO,US,07102,Newark,NJ,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2026-04-09,2978.44,96.87,103.16,432.17,Wayne Distribution,Northwind Retail,inbound
+37210,Nashville,TN,US,98108,Seattle,WA,US,SWFT,Swift Logistics,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2025-11-28,5300.4,424.69,210.22,668.61,Soylent Goods,Northwind Retail,third party
+80216,Denver,CO,US,33101,Miami,FL,US,CRST,CRST Carriers,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2025-08-29,4175.91,0,155.2,774.93,Hooli Materials,Cyberdyne Stores,outbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,SCNN,Schneider National,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2026-04-24,1455.53,0,64.72,274.23,Hooli Materials,Northwind Retail,outbound
+64120,Kansas City,MO,US,60601,Chicago,IL,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-10-09,1003.52,0,42.43,191.21,Soylent Goods,Wonka Markets,third party
+43215,Columbus,OH,US,75201,Dallas,TX,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2025-07-28,2056.8,0,62.44,289.84,Globex Industries,Vandelay Imports,third party
+43215,Columbus,OH,US,60601,Chicago,IL,US,USXP,US Xpress,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2025-10-01,470.83,342.53,32.92,63.76,Wayne Distribution,Pied Piper Warehousing,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,SWFT,Swift Logistics,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2026-03-24,2503.01,166.32,140.92,501.69,Wayne Distribution,Wonka Markets,outbound
+37210,Nashville,TN,US,98108,Seattle,WA,US,USXP,US Xpress,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2025-10-15,3567.29,249.05,190.05,459.99,Acme Manufacturing,Gekko Wholesale,intercompany
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-10-12,2042.13,267.08,113.16,255.34,Hooli Materials,Cyberdyne Stores,third party
+80216,Denver,CO,US,85034,Phoenix,AZ,US,WERN,Werner Enterprises,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2026-02-09,1661.21,365.59,57.06,268.16,Acme Manufacturing,Massive Dynamic,third party
+43215,Columbus,OH,US,60601,Chicago,IL,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2026-03-01,459.44,0,12.11,55.69,Stark Components,Gekko Wholesale,inbound
+80216,Denver,CO,US,85034,Phoenix,AZ,US,KNXX,Knight Transportation,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2026-03-20,1396.35,66.85,72.69,232.7,Hooli Materials,Tyrell Depot,inbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2025-09-28,1241.51,477.79,40.68,154,Hooli Materials,Vandelay Imports,inbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2026-06-15,985.86,434.74,74.38,172.31,Stark Components,Vandelay Imports,third party
+64120,Kansas City,MO,US,60601,Chicago,IL,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2026-01-26,918.02,101.52,59.94,195.74,Acme Manufacturing,Massive Dynamic,inbound
+75201,Dallas,TX,US,80216,Denver,CO,US,JBHT,J.B. Hunt Freight,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2026-01-24,1844.5,434.57,110.02,369.48,Globex Industries,Tyrell Depot,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2025-10-05,1269.64,127.35,70.81,274.73,Initech Supply,Gekko Wholesale,third party
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,USXP,US Xpress,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2025-09-30,3525.62,362.41,198.65,437.07,Acme Manufacturing,Massive Dynamic,outbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,WERN,Werner Enterprises,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-12-19,4513.61,0,233.96,806.97,Initech Supply,Massive Dynamic,inbound
+60601,Chicago,IL,US,33101,Miami,FL,US,USXP,US Xpress,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2026-01-29,1809.35,0,73.46,353.71,Umbrella Foods,Pied Piper Warehousing,inbound
+64120,Kansas City,MO,US,60601,Chicago,IL,US,KNXX,Knight Transportation,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-08-15,931.67,149.51,51.14,134.49,Stark Components,Vandelay Imports,intercompany
+64120,Kansas City,MO,US,60601,Chicago,IL,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-08-27,815.09,0,42.49,131.1,Umbrella Foods,Cyberdyne Stores,intercompany
+98108,Seattle,WA,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2026-01-27,3436.26,0,138.89,699.08,Umbrella Foods,Pied Piper Warehousing,third party
+43215,Columbus,OH,US,60601,Chicago,IL,US,USXP,US Xpress,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2026-02-18,813.01,0,41.97,117.09,Soylent Goods,Pied Piper Warehousing,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,JBHT,J.B. Hunt Freight,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2026-04-22,1953.61,0,48.4,298.09,Umbrella Foods,Wonka Markets,intercompany
+80216,Denver,CO,US,85034,Phoenix,AZ,US,USXP,US Xpress,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2025-09-29,1442.88,116.32,58.05,188.8,Wayne Distribution,Gekko Wholesale,inbound
+64120,Kansas City,MO,US,60601,Chicago,IL,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-12-23,847.96,442.5,70.81,142.2,Acme Manufacturing,Pied Piper Warehousing,intercompany
+98108,Seattle,WA,US,43215,Columbus,OH,US,PAMT,PAM Transport,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2025-07-04,3682.15,167.72,154.01,683.75,Globex Industries,Gekko Wholesale,intercompany
+33101,Miami,FL,US,98108,Seattle,WA,US,PAMT,PAM Transport,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2025-10-16,5541.43,0,315.61,1091.19,Initech Supply,Cyberdyne Stores,outbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,SCNN,Schneider National,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2026-01-06,690.81,225.3,43.89,118.51,Stark Components,Pied Piper Warehousing,third party
+64120,Kansas City,MO,US,43215,Columbus,OH,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2026-04-25,1416.52,273.83,40.94,218.34,Stark Components,Northwind Retail,outbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2025-11-28,855.08,434.21,38.09,160.54,Wayne Distribution,Wonka Markets,outbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2026-04-03,1637.31,440.66,64.18,253.77,Umbrella Foods,Vandelay Imports,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,CRST,CRST Carriers,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2025-10-26,2211.46,236.26,118.54,387.89,Acme Manufacturing,Cyberdyne Stores,third party
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2026-02-16,3261.04,0,165.25,688.81,Umbrella Foods,Massive Dynamic,inbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,USXP,US Xpress,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-01-20,4713.8,0,184.04,784.54,Acme Manufacturing,Northwind Retail,intercompany
+75201,Dallas,TX,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-04-25,1677.15,0,40.63,261.58,Umbrella Foods,Wonka Markets,intercompany
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,JBHT,J.B. Hunt Freight,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2026-01-09,3914.29,0,202.29,735.19,Acme Manufacturing,Northwind Retail,inbound
+37210,Nashville,TN,US,98108,Seattle,WA,US,KNXX,Knight Transportation,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2026-03-12,4528.78,431.36,177.04,810,Hooli Materials,Wonka Markets,third party
+64120,Kansas City,MO,US,43215,Columbus,OH,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2026-03-30,1286.8,0,40.2,164.55,Hooli Materials,Wonka Markets,outbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2026-02-14,1928.68,0,90.63,396.86,Acme Manufacturing,Gekko Wholesale,inbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,PAMT,PAM Transport,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-03-08,4773.32,0,118.02,999.74,Soylent Goods,Cyberdyne Stores,intercompany
+75201,Dallas,TX,US,80216,Denver,CO,US,JBHT,J.B. Hunt Freight,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2026-03-15,1573.83,374.54,53.96,326.44,Acme Manufacturing,Gekko Wholesale,intercompany
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2025-08-12,3341.21,0,121.03,540.84,Soylent Goods,Gekko Wholesale,intercompany
+64120,Kansas City,MO,US,60601,Chicago,IL,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-12-03,927.36,297.28,38.71,133.13,Umbrella Foods,Wonka Markets,third party
+43215,Columbus,OH,US,75201,Dallas,TX,US,PAMT,PAM Transport,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2026-02-01,2562.03,389.59,97.41,360.34,Umbrella Foods,Gekko Wholesale,outbound
+98108,Seattle,WA,US,80216,Denver,CO,US,SWFT,Swift Logistics,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2025-09-03,2880.77,0,71.23,407,Soylent Goods,Northwind Retail,outbound
+75201,Dallas,TX,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-08-11,1521.71,277.69,60.03,313.65,Acme Manufacturing,Massive Dynamic,intercompany
+60601,Chicago,IL,US,33101,Miami,FL,US,SWFT,Swift Logistics,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2026-01-09,2023.23,285.37,117.21,347.27,Hooli Materials,Massive Dynamic,third party
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2026-04-19,1963.72,256.16,51.92,292.88,Wayne Distribution,Tyrell Depot,inbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-07-17,2254.99,0,94.01,275.18,Stark Components,Cyberdyne Stores,outbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-11-18,1569.52,406.98,78.6,222.72,Wayne Distribution,Cyberdyne Stores,intercompany
+37210,Nashville,TN,US,98108,Seattle,WA,US,WERN,Werner Enterprises,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2026-01-31,5012.61,354.69,280.37,965.46,Hooli Materials,Tyrell Depot,third party
+43215,Columbus,OH,US,75201,Dallas,TX,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2026-03-29,1291.38,491.73,98.06,208.11,Umbrella Foods,Massive Dynamic,inbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2025-07-05,1298.72,54.99,51.79,240.3,Acme Manufacturing,Massive Dynamic,inbound
+80216,Denver,CO,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2026-02-25,5406.89,83.97,307.48,820.33,Initech Supply,Wonka Markets,outbound
+75201,Dallas,TX,US,80216,Denver,CO,US,PAMT,PAM Transport,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2026-04-23,1857.01,488.9,94.92,399.25,Acme Manufacturing,Cyberdyne Stores,third party
+80216,Denver,CO,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2026-01-16,4489.25,141.38,172.23,845.38,Initech Supply,Pied Piper Warehousing,third party
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-04-10,4366.94,0,177.43,605.32,Acme Manufacturing,Northwind Retail,third party
+64120,Kansas City,MO,US,43215,Columbus,OH,US,KNXX,Knight Transportation,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2025-07-22,1584,0,82.64,323.04,Acme Manufacturing,Northwind Retail,intercompany
+43215,Columbus,OH,US,60601,Chicago,IL,US,CRST,CRST Carriers,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2026-04-26,829.85,454.7,59.36,173.95,Soylent Goods,Wonka Markets,third party
+43215,Columbus,OH,US,60601,Chicago,IL,US,CRST,CRST Carriers,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2025-08-12,950,445.4,68.65,190.29,Stark Components,Northwind Retail,inbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,SWFT,Swift Logistics,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-11-24,4288.95,143.61,204.08,627.74,Globex Industries,Cyberdyne Stores,inbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2026-06-04,2151.15,149.33,70.43,370.92,Acme Manufacturing,Gekko Wholesale,outbound
+64120,Kansas City,MO,US,07102,Newark,NJ,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2025-10-21,2619.5,0,146.45,380.96,Globex Industries,Gekko Wholesale,outbound
+43215,Columbus,OH,US,64120,Kansas City,MO,US,PAMT,PAM Transport,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2025-10-31,1322.03,0,34.53,278.57,Wayne Distribution,Gekko Wholesale,inbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2025-08-19,704.05,0,33.29,108.42,Soylent Goods,Vandelay Imports,intercompany
+60601,Chicago,IL,US,75201,Dallas,TX,US,SCNN,Schneider National,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2026-02-01,1353,0,65.33,247.24,Umbrella Foods,Cyberdyne Stores,third party
+60601,Chicago,IL,US,75201,Dallas,TX,US,KNXX,Knight Transportation,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2026-01-13,1389.02,479.2,96.51,297.19,Initech Supply,Gekko Wholesale,third party
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,SWFT,Swift Logistics,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2025-10-25,2967.46,427.66,79.41,404.86,Umbrella Foods,Vandelay Imports,outbound
+98108,Seattle,WA,US,43215,Columbus,OH,US,WERN,Werner Enterprises,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2025-09-27,3561.36,156.29,224.11,772.2,Wayne Distribution,Gekko Wholesale,inbound
+98108,Seattle,WA,US,43215,Columbus,OH,US,PAMT,PAM Transport,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2025-11-06,3660.06,0,121.07,684.65,Wayne Distribution,Wonka Markets,intercompany
+98108,Seattle,WA,US,43215,Columbus,OH,US,WERN,Werner Enterprises,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2026-06-14,3043.51,124.44,113.71,465.01,Soylent Goods,Massive Dynamic,outbound
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2025-06-27,3421.17,497.16,168.91,750.87,Initech Supply,Northwind Retail,third party
+75201,Dallas,TX,US,07102,Newark,NJ,US,SWFT,Swift Logistics,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2025-08-03,4646.12,194.11,156.68,910.12,Stark Components,Gekko Wholesale,third party
+43215,Columbus,OH,US,75201,Dallas,TX,US,USXP,US Xpress,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2026-06-11,2773.43,0,140.34,488.22,Wayne Distribution,Cyberdyne Stores,intercompany
+75201,Dallas,TX,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-06-26,1554.41,0,47.4,214.42,Soylent Goods,Gekko Wholesale,inbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-03-30,1014.45,214.89,66.53,209,Stark Components,Wonka Markets,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2025-09-30,1484.06,359.97,61.04,317.85,Wayne Distribution,Northwind Retail,third party
+43215,Columbus,OH,US,30303,Atlanta,GA,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2026-01-03,1205.2,0,72.27,241.8,Acme Manufacturing,Gekko Wholesale,intercompany
+60601,Chicago,IL,US,33101,Miami,FL,US,SWFT,Swift Logistics,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2026-02-27,1981.77,0,51.75,331.15,Soylent Goods,Vandelay Imports,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,KNXX,Knight Transportation,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2025-07-14,1867.77,0,104.16,284.55,Soylent Goods,Massive Dynamic,third party
+60601,Chicago,IL,US,75201,Dallas,TX,US,WERN,Werner Enterprises,US-IL-Chicago-TO-Dallas-TX-US-SD,Step Deck,SD,2026-06-14,1748.54,0,94.49,307.83,Acme Manufacturing,Massive Dynamic,intercompany
+43215,Columbus,OH,US,64120,Kansas City,MO,US,USXP,US Xpress,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2025-09-04,1402.26,401.87,50.32,182.75,Stark Components,Wonka Markets,intercompany
+43215,Columbus,OH,US,75201,Dallas,TX,US,SCNN,Schneider National,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2025-08-09,2205.1,295.15,76.26,324.51,Acme Manufacturing,Vandelay Imports,inbound
+37210,Nashville,TN,US,98108,Seattle,WA,US,USXP,US Xpress,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2026-04-02,6029.14,0,180.92,1028.9,Acme Manufacturing,Massive Dynamic,intercompany
+60601,Chicago,IL,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2025-07-31,2251.9,85.24,68.96,420.66,Globex Industries,Vandelay Imports,intercompany
+80216,Denver,CO,US,33101,Miami,FL,US,SWFT,Swift Logistics,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2026-04-29,7255.1,483.78,281.54,1195.85,Initech Supply,Wonka Markets,outbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,CRST,CRST Carriers,US-IL-Chicago-TO-Dallas-TX-US-SD,Step Deck,SD,2026-03-11,1634.22,476.92,57.18,293.85,Acme Manufacturing,Pied Piper Warehousing,intercompany
+64120,Kansas City,MO,US,07102,Newark,NJ,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2025-09-25,2757.64,347.12,151.39,417.03,Hooli Materials,Massive Dynamic,intercompany
+75201,Dallas,TX,US,80216,Denver,CO,US,KNXX,Knight Transportation,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2026-03-15,1778.97,385.33,105.56,226.49,Wayne Distribution,Gekko Wholesale,third party
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,SWFT,Swift Logistics,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-03-06,5491.82,128.2,219.02,807.71,Umbrella Foods,Tyrell Depot,intercompany
+43215,Columbus,OH,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-03-28,1127.38,98.94,65.72,148.7,Acme Manufacturing,Cyberdyne Stores,outbound
+98108,Seattle,WA,US,43215,Columbus,OH,US,KNXX,Knight Transportation,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2025-08-19,3856.74,293.59,189.43,531.45,Acme Manufacturing,Pied Piper Warehousing,intercompany
+43215,Columbus,OH,US,60601,Chicago,IL,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2026-03-01,640.54,335.28,49.71,77.13,Wayne Distribution,Tyrell Depot,inbound
+60601,Chicago,IL,US,33101,Miami,FL,US,PAMT,PAM Transport,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2025-08-18,2086.88,131.66,98.64,429.41,Umbrella Foods,Massive Dynamic,inbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-09-29,1849.32,380.17,111.54,293.55,Acme Manufacturing,Vandelay Imports,third party
+43215,Columbus,OH,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-04-16,913.09,471.62,47.08,124.68,Stark Components,Northwind Retail,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,SCNN,Schneider National,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2025-09-12,1086.13,184.84,59.96,131.71,Hooli Materials,Vandelay Imports,intercompany
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,PAMT,PAM Transport,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2026-05-08,3588.67,68.75,189.78,759.55,Acme Manufacturing,Tyrell Depot,intercompany
+64120,Kansas City,MO,US,07102,Newark,NJ,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2026-03-27,2422.91,0,109.79,324.54,Hooli Materials,Gekko Wholesale,outbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-09-26,1827.2,496.5,98.28,328.12,Wayne Distribution,Pied Piper Warehousing,intercompany
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2026-04-21,2061.83,308.57,56.03,376.2,Soylent Goods,Tyrell Depot,inbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2026-03-27,1625.09,231.67,60.13,239.73,Umbrella Foods,Vandelay Imports,outbound
+75201,Dallas,TX,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-02-08,1609.9,312.23,74.22,326.79,Soylent Goods,Gekko Wholesale,third party
+80216,Denver,CO,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2025-11-30,4267.44,403.63,186.94,718.16,Hooli Materials,Wonka Markets,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,SCNN,Schneider National,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2026-03-25,1539.18,0,58.94,315.86,Wayne Distribution,Vandelay Imports,third party
+80216,Denver,CO,US,33101,Miami,FL,US,SCNN,Schneider National,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2026-04-22,5390.6,455.09,284.62,657.64,Wayne Distribution,Tyrell Depot,outbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,CRST,CRST Carriers,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2025-11-20,3482.23,308.78,135.77,647.82,Acme Manufacturing,Cyberdyne Stores,third party
+64120,Kansas City,MO,US,60601,Chicago,IL,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2026-05-19,907.14,0,43.91,163.9,Umbrella Foods,Vandelay Imports,intercompany
+75201,Dallas,TX,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-02-06,1869.3,346.69,116.92,330.05,Globex Industries,Gekko Wholesale,inbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-11-11,976.16,451.99,70.97,177.45,Stark Components,Northwind Retail,intercompany
+80216,Denver,CO,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2025-12-01,5229.79,0,249.83,886.59,Acme Manufacturing,Wonka Markets,inbound
+33101,Miami,FL,US,98108,Seattle,WA,US,USXP,US Xpress,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2026-03-12,8825.51,157.95,503.32,1128.95,Wayne Distribution,Tyrell Depot,inbound
+80216,Denver,CO,US,33101,Miami,FL,US,SCNN,Schneider National,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2026-01-17,5376.26,0,236.53,783.54,Initech Supply,Tyrell Depot,intercompany
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2026-04-07,3516.83,0,148.95,488.22,Initech Supply,Cyberdyne Stores,intercompany
+43215,Columbus,OH,US,60601,Chicago,IL,US,USXP,US Xpress,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2025-10-06,309.57,105.91,9.55,47.88,Initech Supply,Pied Piper Warehousing,outbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2026-02-21,1321.02,0,65.21,267.11,Globex Industries,Vandelay Imports,third party
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-05-14,4250.75,302.66,174.62,741.28,Acme Manufacturing,Vandelay Imports,inbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2026-02-07,1964.27,402.39,57.47,325.97,Acme Manufacturing,Vandelay Imports,outbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-07-30,1477.17,0,66.28,192.04,Globex Industries,Pied Piper Warehousing,intercompany
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2026-03-20,1909.42,0,73.32,333.92,Soylent Goods,Wonka Markets,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2025-10-13,2144.62,170.1,125.37,389.25,Wayne Distribution,Northwind Retail,intercompany
+80216,Denver,CO,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2026-05-06,5074.32,0,282.87,972.6,Soylent Goods,Pied Piper Warehousing,intercompany
+80216,Denver,CO,US,85034,Phoenix,AZ,US,SCNN,Schneider National,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2025-09-13,1489.69,93.18,55.12,225.75,Globex Industries,Tyrell Depot,inbound
+80216,Denver,CO,US,85034,Phoenix,AZ,US,SCNN,Schneider National,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2026-01-27,1471.83,0,77.38,262.55,Hooli Materials,Wonka Markets,inbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2025-06-22,1611.13,456.58,54.32,322.67,Hooli Materials,Vandelay Imports,outbound
+60601,Chicago,IL,US,33101,Miami,FL,US,USXP,US Xpress,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2026-02-07,1893.22,0,85.86,362.65,Acme Manufacturing,Massive Dynamic,third party
+64120,Kansas City,MO,US,07102,Newark,NJ,US,USXP,US Xpress,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2025-07-26,2583.17,0,64.91,482,Globex Industries,Tyrell Depot,outbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2026-05-23,1583.95,139.22,92.19,268.49,Globex Industries,Gekko Wholesale,outbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,KNXX,Knight Transportation,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2025-12-13,1414.16,489.45,48.44,200.58,Wayne Distribution,Cyberdyne Stores,intercompany
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-01-02,4924.37,0,142.9,920.47,Hooli Materials,Pied Piper Warehousing,third party
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,WERN,Werner Enterprises,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2025-09-03,1978.55,322.65,74.28,431.93,Soylent Goods,Cyberdyne Stores,inbound
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,USXP,US Xpress,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2026-01-30,3497.19,0,123.13,695.32,Umbrella Foods,Massive Dynamic,intercompany
+43215,Columbus,OH,US,60601,Chicago,IL,US,PAMT,PAM Transport,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2026-02-19,718.53,131.29,32.21,116.86,Initech Supply,Massive Dynamic,intercompany
+80216,Denver,CO,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2025-11-03,2396.12,151.78,60.63,440.74,Initech Supply,Wonka Markets,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,USXP,US Xpress,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2025-09-26,1818.37,80.05,62.75,358.2,Stark Components,Pied Piper Warehousing,third party
+64120,Kansas City,MO,US,60601,Chicago,IL,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-07-15,882.59,0,42.6,107.23,Initech Supply,Cyberdyne Stores,intercompany
+60601,Chicago,IL,US,33101,Miami,FL,US,JBHT,J.B. Hunt Freight,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2026-03-07,2126.33,463.17,108.95,411.01,Globex Industries,Vandelay Imports,intercompany
+43215,Columbus,OH,US,75201,Dallas,TX,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2026-02-26,1412.04,84.63,40.91,234.17,Globex Industries,Vandelay Imports,inbound
+37210,Nashville,TN,US,98108,Seattle,WA,US,SWFT,Swift Logistics,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2025-09-13,5669.23,0,185.11,980.39,Acme Manufacturing,Vandelay Imports,intercompany
+33101,Miami,FL,US,98108,Seattle,WA,US,USXP,US Xpress,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2025-07-15,6756.1,0,342.82,1043.04,Initech Supply,Cyberdyne Stores,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2025-11-15,2025.26,204.75,105.64,266.53,Initech Supply,Massive Dynamic,inbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,WERN,Werner Enterprises,US-IL-Chicago-TO-Dallas-TX-US-SD,Step Deck,SD,2026-01-05,1752.31,0,43.35,266.62,Acme Manufacturing,Northwind Retail,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,SCNN,Schneider National,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2025-09-25,2364.81,0,130.1,361.14,Soylent Goods,Northwind Retail,intercompany
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,USXP,US Xpress,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-09-10,4341.02,250.5,214.35,592.06,Initech Supply,Tyrell Depot,outbound
+98108,Seattle,WA,US,80216,Denver,CO,US,KNXX,Knight Transportation,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2025-12-05,2054.94,478.01,65.42,451.12,Umbrella Foods,Wonka Markets,third party
+64120,Kansas City,MO,US,43215,Columbus,OH,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2025-09-07,1456.51,389.22,53.33,311.37,Stark Components,Massive Dynamic,outbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,USXP,US Xpress,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2025-11-05,1316.05,0,44.68,158.54,Stark Components,Wonka Markets,intercompany
+75201,Dallas,TX,US,80216,Denver,CO,US,PAMT,PAM Transport,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2025-12-19,1715.06,80.78,98.54,346.54,Wayne Distribution,Northwind Retail,intercompany
+37210,Nashville,TN,US,98108,Seattle,WA,US,SCNN,Schneider National,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2025-10-11,6070.37,435.27,319.65,996.32,Umbrella Foods,Northwind Retail,third party
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,PAMT,PAM Transport,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-01-19,4390.47,0,213.33,888.08,Wayne Distribution,Vandelay Imports,intercompany
+75201,Dallas,TX,US,80216,Denver,CO,US,SWFT,Swift Logistics,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2025-09-27,1925.69,0,101.6,368.38,Wayne Distribution,Wonka Markets,outbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,USXP,US Xpress,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2025-08-10,2086.84,0,98.26,321.72,Wayne Distribution,Wonka Markets,inbound
+60601,Chicago,IL,US,33101,Miami,FL,US,SWFT,Swift Logistics,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2026-05-17,1329.48,0,70.54,261.32,Initech Supply,Vandelay Imports,inbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,KNXX,Knight Transportation,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2025-09-10,1513.95,268.41,51.38,324.14,Globex Industries,Vandelay Imports,third party
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-06-07,4586.81,68.8,248.06,585.72,Globex Industries,Pied Piper Warehousing,outbound
+80216,Denver,CO,US,85034,Phoenix,AZ,US,CRST,CRST Carriers,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2026-01-23,1626.31,256.28,49.1,300.89,Acme Manufacturing,Cyberdyne Stores,intercompany
+80216,Denver,CO,US,33101,Miami,FL,US,SCNN,Schneider National,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2025-08-25,4782.16,308.73,249.91,950.03,Umbrella Foods,Northwind Retail,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2025-09-19,2423.17,178.24,101.11,518.77,Initech Supply,Pied Piper Warehousing,third party
+64120,Kansas City,MO,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2025-07-24,1190.64,274.96,82.87,222.31,Soylent Goods,Vandelay Imports,inbound
+80216,Denver,CO,US,33101,Miami,FL,US,JBHT,J.B. Hunt Freight,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2026-06-14,2712.39,217.02,88.47,389.2,Wayne Distribution,Vandelay Imports,inbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-06-30,946.15,0,38.62,125,Acme Manufacturing,Vandelay Imports,inbound
+43215,Columbus,OH,US,64120,Kansas City,MO,US,PAMT,PAM Transport,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2026-03-07,1436.53,0,56.19,234.44,Globex Industries,Tyrell Depot,intercompany
+60601,Chicago,IL,US,75201,Dallas,TX,US,WERN,Werner Enterprises,US-IL-Chicago-TO-Dallas-TX-US-SD,Step Deck,SD,2026-02-13,1878.94,447.12,92.06,353.51,Globex Industries,Cyberdyne Stores,inbound
+98108,Seattle,WA,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2025-06-24,3474.22,237.57,168.25,515.83,Stark Components,Pied Piper Warehousing,intercompany
+60601,Chicago,IL,US,33101,Miami,FL,US,PAMT,PAM Transport,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2026-05-27,1800.65,315.02,78.19,244.55,Umbrella Foods,Gekko Wholesale,third party
+64120,Kansas City,MO,US,43215,Columbus,OH,US,USXP,US Xpress,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2026-03-17,1631.34,375.66,83.35,260.06,Initech Supply,Wonka Markets,third party
+43215,Columbus,OH,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2026-01-28,1265.84,171.04,71.74,243.07,Acme Manufacturing,Wonka Markets,inbound
+80216,Denver,CO,US,33101,Miami,FL,US,SCNN,Schneider National,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2025-08-05,2316.87,0,108.94,328.9,Wayne Distribution,Massive Dynamic,inbound
+43215,Columbus,OH,US,64120,Kansas City,MO,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2026-04-16,1162.44,218.93,71.03,167.65,Initech Supply,Northwind Retail,third party
+43215,Columbus,OH,US,60601,Chicago,IL,US,USXP,US Xpress,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2026-06-17,692.34,312.43,23.63,130.24,Hooli Materials,Tyrell Depot,intercompany
+43215,Columbus,OH,US,64120,Kansas City,MO,US,USXP,US Xpress,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2025-11-20,1329.19,0,47.25,252.86,Umbrella Foods,Gekko Wholesale,third party
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,JBHT,J.B. Hunt Freight,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-02-15,4874.17,0,230.29,905.36,Umbrella Foods,Gekko Wholesale,inbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,SCNN,Schneider National,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2026-02-13,1646.65,65.89,83.88,316.44,Stark Components,Wonka Markets,outbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,JBHT,J.B. Hunt Freight,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2025-11-21,1512.18,358.68,71.29,190.2,Stark Components,Massive Dynamic,inbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2026-02-26,1320.26,202.66,66.65,267.94,Globex Industries,Northwind Retail,third party
+75201,Dallas,TX,US,80216,Denver,CO,US,WERN,Werner Enterprises,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2026-02-15,1968.79,193.46,75.88,420.42,Initech Supply,Massive Dynamic,intercompany
+75201,Dallas,TX,US,80216,Denver,CO,US,USXP,US Xpress,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2026-04-01,1722.29,198.6,59.15,276.96,Hooli Materials,Cyberdyne Stores,inbound
+60601,Chicago,IL,US,33101,Miami,FL,US,CRST,CRST Carriers,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2025-09-05,2291.21,284.75,94.1,284.64,Initech Supply,Vandelay Imports,third party
+33101,Miami,FL,US,98108,Seattle,WA,US,WERN,Werner Enterprises,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2026-06-13,7343.61,295.63,422.06,1091.13,Soylent Goods,Cyberdyne Stores,third party
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-06-13,4843.17,85.51,119.01,701.95,Wayne Distribution,Gekko Wholesale,third party
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2025-08-09,3163.33,0,175.26,563.69,Initech Supply,Tyrell Depot,third party
+43215,Columbus,OH,US,30303,Atlanta,GA,US,USXP,US Xpress,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2026-03-27,1277.48,0,74.61,232.09,Globex Industries,Vandelay Imports,outbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,WERN,Werner Enterprises,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2026-01-04,3182.57,384.24,170.49,470.95,Wayne Distribution,Tyrell Depot,outbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2025-12-16,1704.77,476.27,120.25,265.41,Umbrella Foods,Northwind Retail,outbound
+64120,Kansas City,MO,US,60601,Chicago,IL,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-09-01,873.04,0,22.63,124.7,Soylent Goods,Gekko Wholesale,outbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2026-02-19,2236.29,0,71.7,486.27,Wayne Distribution,Gekko Wholesale,outbound
+98108,Seattle,WA,US,80216,Denver,CO,US,KNXX,Knight Transportation,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2025-10-26,2379.29,498.17,74.23,411.91,Wayne Distribution,Pied Piper Warehousing,inbound
+80216,Denver,CO,US,33101,Miami,FL,US,KNXX,Knight Transportation,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2026-06-07,4030.49,438.62,232.53,518.23,Initech Supply,Wonka Markets,inbound
+98108,Seattle,WA,US,43215,Columbus,OH,US,WERN,Werner Enterprises,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2025-08-20,2997.57,273.55,150.86,473.33,Initech Supply,Pied Piper Warehousing,inbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2026-03-25,1935.33,317.16,124.23,251,Umbrella Foods,Cyberdyne Stores,intercompany
+33101,Miami,FL,US,98108,Seattle,WA,US,JBHT,J.B. Hunt Freight,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2026-02-06,9990.43,0,490.06,1258.56,Wayne Distribution,Tyrell Depot,intercompany
+43215,Columbus,OH,US,60601,Chicago,IL,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2025-10-18,1042.93,0,45.94,194.44,Initech Supply,Cyberdyne Stores,outbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,KNXX,Knight Transportation,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2025-09-19,1514.32,0,57.95,208.48,Globex Industries,Pied Piper Warehousing,inbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-03-10,1022.97,488.3,38.84,180.52,Acme Manufacturing,Tyrell Depot,intercompany
+43215,Columbus,OH,US,60601,Chicago,IL,US,SCNN,Schneider National,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2025-08-27,439.65,262.1,25.46,56.06,Stark Components,Vandelay Imports,intercompany
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,KNXX,Knight Transportation,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-07-18,3965.34,87.95,239.37,755.62,Acme Manufacturing,Wonka Markets,intercompany
+43215,Columbus,OH,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-09-15,1043.98,0,37.84,159.51,Globex Industries,Vandelay Imports,inbound
+43215,Columbus,OH,US,64120,Kansas City,MO,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2026-06-14,1311.24,0,34.99,164.96,Stark Components,Cyberdyne Stores,third party
+75201,Dallas,TX,US,80216,Denver,CO,US,SWFT,Swift Logistics,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2026-01-28,1947.35,0,54.66,265.32,Wayne Distribution,Pied Piper Warehousing,inbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-07-27,2246.19,0,71.7,316.4,Umbrella Foods,Tyrell Depot,inbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2025-10-24,1176.98,0,30.65,204.99,Globex Industries,Tyrell Depot,third party
+43215,Columbus,OH,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2025-06-24,1223.69,0,43.78,227.83,Acme Manufacturing,Wonka Markets,inbound
+37210,Nashville,TN,US,98108,Seattle,WA,US,SWFT,Swift Logistics,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2025-11-11,4084.48,0,204.87,685.04,Umbrella Foods,Massive Dynamic,inbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,SWFT,Swift Logistics,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-07-29,4816.12,106.53,241.22,814.54,Stark Components,Wonka Markets,third party
+37210,Nashville,TN,US,98108,Seattle,WA,US,WERN,Werner Enterprises,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2026-03-23,4943.5,0,213.79,1014.08,Stark Components,Gekko Wholesale,intercompany
+64120,Kansas City,MO,US,60601,Chicago,IL,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-12-13,748.88,0,43.26,148.05,Wayne Distribution,Cyberdyne Stores,outbound
+80216,Denver,CO,US,85034,Phoenix,AZ,US,PAMT,PAM Transport,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2025-07-12,1603.32,0,54.96,271.29,Acme Manufacturing,Wonka Markets,intercompany
+60601,Chicago,IL,US,75201,Dallas,TX,US,KNXX,Knight Transportation,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2026-03-13,1492.99,399.77,56.49,309.38,Umbrella Foods,Cyberdyne Stores,inbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,SCNN,Schneider National,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2026-06-17,1324.75,0,76.21,204.51,Globex Industries,Gekko Wholesale,third party
+33101,Miami,FL,US,98108,Seattle,WA,US,SCNN,Schneider National,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2025-11-01,2903.97,211.88,91.17,493.95,Soylent Goods,Vandelay Imports,third party
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2026-01-04,3403.59,0,194.25,511.64,Stark Components,Massive Dynamic,third party
+43215,Columbus,OH,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2026-05-22,1321.05,127.46,45.2,273.65,Umbrella Foods,Wonka Markets,outbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,USXP,US Xpress,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-09-14,4739.09,180.33,254.86,576.17,Stark Components,Pied Piper Warehousing,outbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2026-01-30,1839.6,0,68.59,226.92,Hooli Materials,Gekko Wholesale,outbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,KNXX,Knight Transportation,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2025-09-01,1467.04,209.85,62.28,214.36,Hooli Materials,Massive Dynamic,inbound
+60601,Chicago,IL,US,33101,Miami,FL,US,SCNN,Schneider National,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2025-10-17,1777.55,0,56.39,272.82,Globex Industries,Gekko Wholesale,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2026-04-09,1452.52,180.13,91.24,266.33,Stark Components,Gekko Wholesale,third party
+64120,Kansas City,MO,US,60601,Chicago,IL,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2026-03-20,801.09,0,28.52,117.09,Soylent Goods,Cyberdyne Stores,outbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2026-01-14,705.38,0,29.51,89.47,Umbrella Foods,Tyrell Depot,outbound
+75201,Dallas,TX,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-03-31,1684.61,0,63.65,249.73,Stark Components,Tyrell Depot,outbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2025-08-02,1891.19,234.37,62.65,279.22,Hooli Materials,Massive Dynamic,outbound
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-07-23,4406.4,336.16,177.4,534.06,Wayne Distribution,Tyrell Depot,intercompany
+60601,Chicago,IL,US,33101,Miami,FL,US,KNXX,Knight Transportation,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2026-03-10,1966.68,121.65,71.02,254.59,Globex Industries,Wonka Markets,outbound
+64120,Kansas City,MO,US,07102,Newark,NJ,US,SCNN,Schneider National,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2026-02-04,2485.2,0,94.92,360.16,Acme Manufacturing,Tyrell Depot,intercompany
+75201,Dallas,TX,US,80216,Denver,CO,US,SWFT,Swift Logistics,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2025-07-26,1521.29,425.05,54.39,188,Globex Industries,Pied Piper Warehousing,inbound
+75201,Dallas,TX,US,30303,Atlanta,GA,US,JBHT,J.B. Hunt Freight,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-03-25,1668.62,322.36,47.4,211.5,Acme Manufacturing,Pied Piper Warehousing,intercompany
+80216,Denver,CO,US,33101,Miami,FL,US,PAMT,PAM Transport,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2026-05-28,4400.05,130.12,176.12,545.07,Wayne Distribution,Cyberdyne Stores,inbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-02-21,954.98,457.63,38.48,176.47,Stark Components,Tyrell Depot,intercompany
+60601,Chicago,IL,US,33101,Miami,FL,US,JBHT,J.B. Hunt Freight,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2025-08-01,2015.99,0,102.01,244.96,Hooli Materials,Pied Piper Warehousing,outbound
+64120,Kansas City,MO,US,60601,Chicago,IL,US,SCNN,Schneider National,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2026-04-21,1004.92,0,58.55,203.84,Acme Manufacturing,Gekko Wholesale,outbound
+98108,Seattle,WA,US,43215,Columbus,OH,US,CRST,CRST Carriers,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2025-11-25,3444.65,0,138.1,601.32,Wayne Distribution,Northwind Retail,inbound
+80216,Denver,CO,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2025-07-09,4510.76,446.31,260.48,866.14,Wayne Distribution,Massive Dynamic,inbound
+80216,Denver,CO,US,33101,Miami,FL,US,KNXX,Knight Transportation,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2025-11-29,4491.81,299.24,185.24,668.77,Umbrella Foods,Pied Piper Warehousing,third party
+64120,Kansas City,MO,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2026-02-24,1217.85,455.47,37.8,196.18,Stark Components,Pied Piper Warehousing,third party
+75201,Dallas,TX,US,80216,Denver,CO,US,USXP,US Xpress,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2025-09-12,1812.9,65.3,106.11,264.2,Hooli Materials,Gekko Wholesale,outbound
+64120,Kansas City,MO,US,60601,Chicago,IL,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2026-03-28,919.93,162.64,36.9,123.4,Acme Manufacturing,Northwind Retail,inbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,USXP,US Xpress,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-12-14,4013.79,201.77,143.98,663.46,Wayne Distribution,Wonka Markets,inbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-12-01,1160.41,70.35,35.47,184.06,Acme Manufacturing,Northwind Retail,inbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2026-06-03,1322.51,0,59.23,194.2,Wayne Distribution,Vandelay Imports,outbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,USXP,US Xpress,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2025-11-06,1332.32,179.4,73.61,219.37,Acme Manufacturing,Pied Piper Warehousing,outbound
+75201,Dallas,TX,US,07102,Newark,NJ,US,PAMT,PAM Transport,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2026-01-15,4454.18,476.9,121.26,649.14,Acme Manufacturing,Massive Dynamic,third party
+64120,Kansas City,MO,US,43215,Columbus,OH,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2025-11-18,1684.37,0,58.79,312.35,Hooli Materials,Cyberdyne Stores,outbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-09-10,2122.96,92.29,54.58,463.46,Wayne Distribution,Massive Dynamic,inbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,PAMT,PAM Transport,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2025-08-14,729.01,0,33.92,158.25,Stark Components,Wonka Markets,third party
+64120,Kansas City,MO,US,60601,Chicago,IL,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-11-29,1012.97,225.41,42.23,131.19,Stark Components,Tyrell Depot,intercompany
+43215,Columbus,OH,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-06-23,986.85,455.77,62.32,186.47,Initech Supply,Pied Piper Warehousing,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,CRST,CRST Carriers,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2025-06-28,1717.8,172.61,63.75,352.17,Umbrella Foods,Vandelay Imports,outbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,CRST,CRST Carriers,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-02-15,4000.1,129.07,197.69,503.71,Acme Manufacturing,Vandelay Imports,outbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2026-01-23,2237,0,103.48,322.91,Umbrella Foods,Tyrell Depot,outbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,SCNN,Schneider National,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2026-03-13,2721.88,333,82.03,371.93,Stark Components,Cyberdyne Stores,outbound
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2026-02-15,3216.19,0,89.24,421.3,Acme Manufacturing,Vandelay Imports,inbound
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-12-17,4836.49,408.26,194.98,856.71,Initech Supply,Vandelay Imports,inbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,JBHT,J.B. Hunt Freight,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-12-08,4375.57,441.76,137.54,925.08,Initech Supply,Cyberdyne Stores,third party
+64120,Kansas City,MO,US,43215,Columbus,OH,US,KNXX,Knight Transportation,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2025-12-15,1530.31,0,40.27,244.82,Hooli Materials,Pied Piper Warehousing,inbound
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2025-09-25,3156.87,153.67,161,529.64,Hooli Materials,Tyrell Depot,intercompany
+43215,Columbus,OH,US,30303,Atlanta,GA,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-05-10,975.25,0,51.44,168.66,Umbrella Foods,Vandelay Imports,third party
+64120,Kansas City,MO,US,07102,Newark,NJ,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2026-04-07,2624.21,445.57,102.99,376.43,Hooli Materials,Massive Dynamic,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,USXP,US Xpress,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2025-08-28,1888.23,301.68,63.34,238.25,Acme Manufacturing,Tyrell Depot,outbound
+64120,Kansas City,MO,US,60601,Chicago,IL,US,SCNN,Schneider National,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-10-24,954.07,177.88,49.87,175.12,Umbrella Foods,Northwind Retail,third party
+43215,Columbus,OH,US,75201,Dallas,TX,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-06-20,1452.47,125.69,81.68,205.74,Stark Components,Cyberdyne Stores,intercompany
+43215,Columbus,OH,US,75201,Dallas,TX,US,SCNN,Schneider National,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2025-09-17,2164.17,435.36,61.63,274.79,Umbrella Foods,Pied Piper Warehousing,intercompany
+43215,Columbus,OH,US,60601,Chicago,IL,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2025-07-18,892.3,96.07,24.14,153.79,Initech Supply,Northwind Retail,inbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,WERN,Werner Enterprises,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-05-07,4958.57,466,276.44,682.36,Acme Manufacturing,Tyrell Depot,third party
+33101,Miami,FL,US,98108,Seattle,WA,US,USXP,US Xpress,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2025-09-15,3415.25,189.03,147.15,743.56,Umbrella Foods,Massive Dynamic,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,KNXX,Knight Transportation,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2026-05-15,1706.05,0,82.76,325.18,Hooli Materials,Massive Dynamic,outbound
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2025-07-18,3020.78,0,93.71,527.02,Hooli Materials,Pied Piper Warehousing,outbound
+80216,Denver,CO,US,33101,Miami,FL,US,USXP,US Xpress,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2025-09-24,4484.26,354,141.43,797.35,Initech Supply,Tyrell Depot,outbound
+75201,Dallas,TX,US,80216,Denver,CO,US,WERN,Werner Enterprises,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2025-08-31,1958.24,0,53.87,269.48,Acme Manufacturing,Pied Piper Warehousing,outbound
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,SCNN,Schneider National,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-09-15,4867.25,310.92,281.21,939.67,Wayne Distribution,Tyrell Depot,third party
+75201,Dallas,TX,US,30303,Atlanta,GA,US,USXP,US Xpress,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-02-26,1600.52,0,84.93,276.22,Globex Industries,Northwind Retail,inbound
+33101,Miami,FL,US,98108,Seattle,WA,US,CRST,CRST Carriers,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2026-04-28,4261.16,0,211.82,663.99,Stark Components,Wonka Markets,intercompany
+43215,Columbus,OH,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-10-09,941.02,433.54,41.86,196.12,Soylent Goods,Northwind Retail,inbound
+75201,Dallas,TX,US,80216,Denver,CO,US,SWFT,Swift Logistics,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2025-12-25,1899.69,300.51,115.37,373.9,Stark Components,Vandelay Imports,outbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,SCNN,Schneider National,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-10-21,4233.61,76.3,105.03,683.48,Hooli Materials,Tyrell Depot,intercompany
+60601,Chicago,IL,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2025-08-29,1692.75,0,100.17,310.81,Hooli Materials,Cyberdyne Stores,intercompany
+43215,Columbus,OH,US,64120,Kansas City,MO,US,SCNN,Schneider National,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2026-02-20,1105.55,0,59.67,232.8,Hooli Materials,Tyrell Depot,third party
+98108,Seattle,WA,US,43215,Columbus,OH,US,USXP,US Xpress,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2025-11-11,3584.61,271.31,109.46,668.26,Umbrella Foods,Northwind Retail,intercompany
+80216,Denver,CO,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2026-04-21,3332.49,495.72,114.26,638.91,Hooli Materials,Massive Dynamic,outbound
+43215,Columbus,OH,US,64120,Kansas City,MO,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2025-09-06,1438.38,0,46.28,221.34,Hooli Materials,Vandelay Imports,inbound
+75201,Dallas,TX,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-01-09,1445.03,0,33.93,184.4,Initech Supply,Gekko Wholesale,inbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-09-09,2014.78,366.55,131.03,405.73,Hooli Materials,Pied Piper Warehousing,inbound
+75201,Dallas,TX,US,07102,Newark,NJ,US,WERN,Werner Enterprises,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2025-12-05,4146.65,61.57,217.11,874.04,Hooli Materials,Northwind Retail,third party
+98108,Seattle,WA,US,80216,Denver,CO,US,CRST,CRST Carriers,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2026-02-10,3284.31,267.75,92.26,575.1,Umbrella Foods,Pied Piper Warehousing,third party
+80216,Denver,CO,US,33101,Miami,FL,US,JBHT,J.B. Hunt Freight,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2025-07-05,4774.1,454.1,283.88,665.98,Umbrella Foods,Tyrell Depot,inbound
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,USXP,US Xpress,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2025-07-22,3154.08,384.92,137.58,422.16,Acme Manufacturing,Cyberdyne Stores,intercompany
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2026-02-22,2020.08,54.34,50.75,244.21,Hooli Materials,Vandelay Imports,inbound
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,USXP,US Xpress,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2025-12-06,3119.64,0,118.37,654.28,Hooli Materials,Vandelay Imports,outbound
+60601,Chicago,IL,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2025-07-24,1862.87,0,72.03,336.9,Wayne Distribution,Gekko Wholesale,intercompany
+98108,Seattle,WA,US,80216,Denver,CO,US,SWFT,Swift Logistics,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2026-01-26,3313.38,0,134.48,693.24,Soylent Goods,Vandelay Imports,outbound
+98108,Seattle,WA,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2025-12-19,3588.42,57.63,164.02,754.55,Hooli Materials,Massive Dynamic,outbound
+75201,Dallas,TX,US,07102,Newark,NJ,US,SCNN,Schneider National,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2025-07-22,2893.56,0,79.65,470.26,Umbrella Foods,Northwind Retail,third party
+43215,Columbus,OH,US,60601,Chicago,IL,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2026-02-18,815.69,402.6,46.59,100.74,Hooli Materials,Pied Piper Warehousing,outbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,SCNN,Schneider National,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2025-07-18,1691.51,0,82.47,320.48,Initech Supply,Gekko Wholesale,intercompany
+60601,Chicago,IL,US,33101,Miami,FL,US,SWFT,Swift Logistics,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2026-05-17,2048.12,464.87,130.51,406.32,Soylent Goods,Gekko Wholesale,inbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2026-02-13,853.91,276.08,54.9,122.8,Globex Industries,Tyrell Depot,outbound
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-01-09,4521.64,83.06,115.57,887.41,Hooli Materials,Northwind Retail,intercompany
+98108,Seattle,WA,US,43215,Columbus,OH,US,KNXX,Knight Transportation,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2025-10-09,3434.9,0,193.79,595.88,Soylent Goods,Pied Piper Warehousing,third party
+43215,Columbus,OH,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-08-26,1031.42,326.63,61.06,213.92,Stark Components,Northwind Retail,third party
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,JBHT,J.B. Hunt Freight,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-03-01,4952.94,385.34,183.12,644.75,Globex Industries,Gekko Wholesale,intercompany
+60601,Chicago,IL,US,33101,Miami,FL,US,SWFT,Swift Logistics,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2025-12-02,1926.1,0,91.92,310.43,Stark Components,Northwind Retail,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2025-11-19,1332.57,252.65,37.95,279.57,Umbrella Foods,Gekko Wholesale,intercompany
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2025-11-19,3363.96,0,176.73,726.08,Wayne Distribution,Tyrell Depot,inbound
+75201,Dallas,TX,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-07-10,1608.05,0,47.48,309.16,Acme Manufacturing,Cyberdyne Stores,outbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2026-04-10,1421.23,497.89,64.04,212.79,Hooli Materials,Vandelay Imports,third party
+37210,Nashville,TN,US,98108,Seattle,WA,US,USXP,US Xpress,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2026-05-24,3831.19,0,148.39,618.34,Wayne Distribution,Pied Piper Warehousing,inbound
+60601,Chicago,IL,US,33101,Miami,FL,US,USXP,US Xpress,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2025-09-29,2185.66,0,72.73,414.33,Hooli Materials,Gekko Wholesale,inbound
+98108,Seattle,WA,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2025-11-04,3623.31,93.91,208.14,602.97,Hooli Materials,Pied Piper Warehousing,outbound
+80216,Denver,CO,US,33101,Miami,FL,US,USXP,US Xpress,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2026-03-18,2874.8,309.54,138.93,539.18,Umbrella Foods,Wonka Markets,outbound
+80216,Denver,CO,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2025-12-09,4358.85,218.47,175.36,624.59,Initech Supply,Tyrell Depot,third party
+80216,Denver,CO,US,33101,Miami,FL,US,CRST,CRST Carriers,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2025-10-19,4122.57,0,207.49,589.05,Umbrella Foods,Cyberdyne Stores,inbound
+43215,Columbus,OH,US,64120,Kansas City,MO,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2026-03-04,1319.51,144.7,76.73,225.26,Initech Supply,Vandelay Imports,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,SWFT,Swift Logistics,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2026-01-01,2305.82,477.35,106.28,458.83,Initech Supply,Cyberdyne Stores,intercompany
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,JBHT,J.B. Hunt Freight,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2026-06-14,2964.35,412.12,152.5,513.64,Globex Industries,Massive Dynamic,inbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,PAMT,PAM Transport,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-09-03,4903.46,0,221.93,931.58,Acme Manufacturing,Cyberdyne Stores,outbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2026-02-12,1287.44,291.11,49.68,166.76,Globex Industries,Pied Piper Warehousing,inbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,USXP,US Xpress,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-03-29,1006.53,444.5,42.95,170.64,Acme Manufacturing,Vandelay Imports,outbound
+60601,Chicago,IL,US,33101,Miami,FL,US,SWFT,Swift Logistics,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2025-09-22,2786.35,295.57,77.87,583.29,Wayne Distribution,Northwind Retail,intercompany
+80216,Denver,CO,US,85034,Phoenix,AZ,US,SWFT,Swift Logistics,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2025-08-19,1626.28,388.33,53.4,278.52,Stark Components,Tyrell Depot,inbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-10-15,2120.9,0,97.96,405.23,Initech Supply,Pied Piper Warehousing,third party
+60601,Chicago,IL,US,75201,Dallas,TX,US,WERN,Werner Enterprises,US-IL-Chicago-TO-Dallas-TX-US-SD,Step Deck,SD,2025-11-14,1780.87,388.86,85.66,311.98,Soylent Goods,Gekko Wholesale,third party
+64120,Kansas City,MO,US,60601,Chicago,IL,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-07-05,884,354.83,47.3,145.07,Globex Industries,Gekko Wholesale,intercompany
+43215,Columbus,OH,US,75201,Dallas,TX,US,PAMT,PAM Transport,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-07-03,1358.05,0,36.83,177.57,Acme Manufacturing,Gekko Wholesale,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,SCNN,Schneider National,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2025-06-21,2072.37,409.08,129.61,395.72,Acme Manufacturing,Northwind Retail,intercompany
+43215,Columbus,OH,US,30303,Atlanta,GA,US,USXP,US Xpress,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2025-12-16,1269.64,0,41.64,242.87,Initech Supply,Gekko Wholesale,inbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-05-10,1176.86,380.47,40.49,197.23,Acme Manufacturing,Tyrell Depot,intercompany
+43215,Columbus,OH,US,75201,Dallas,TX,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-10-26,1391.13,290.06,81.72,252.57,Wayne Distribution,Northwind Retail,inbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2025-07-21,1461.36,0,77.62,308.43,Stark Components,Pied Piper Warehousing,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2025-07-03,1479.17,144.77,62.9,255.88,Initech Supply,Vandelay Imports,outbound
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2026-05-24,2854.54,0,94.18,372.17,Umbrella Foods,Pied Piper Warehousing,intercompany
+80216,Denver,CO,US,33101,Miami,FL,US,CRST,CRST Carriers,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2026-01-13,3501.95,82.45,123.26,583.28,Globex Industries,Vandelay Imports,third party
+75201,Dallas,TX,US,30303,Atlanta,GA,US,JBHT,J.B. Hunt Freight,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-01-25,1723.25,89.07,66.66,321.65,Umbrella Foods,Cyberdyne Stores,third party
+37210,Nashville,TN,US,98108,Seattle,WA,US,SCNN,Schneider National,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2026-02-27,3618.67,341.54,219.31,574.98,Initech Supply,Northwind Retail,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,USXP,US Xpress,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2025-07-27,1666.49,160.55,72.49,203.37,Stark Components,Northwind Retail,third party
+64120,Kansas City,MO,US,60601,Chicago,IL,US,USXP,US Xpress,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-07-23,933.25,0,46.1,161.76,Hooli Materials,Northwind Retail,outbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2025-12-24,562.39,0,14.71,96.06,Umbrella Foods,Vandelay Imports,outbound
+80216,Denver,CO,US,33101,Miami,FL,US,SCNN,Schneider National,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2025-09-28,4540.33,0,227.85,844.72,Initech Supply,Gekko Wholesale,intercompany
+60601,Chicago,IL,US,75201,Dallas,TX,US,PAMT,PAM Transport,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2025-06-20,1384.02,459.6,65.57,166.86,Hooli Materials,Northwind Retail,outbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2026-01-27,1291.68,0,73.71,254.44,Stark Components,Northwind Retail,outbound
+98108,Seattle,WA,US,80216,Denver,CO,US,SWFT,Swift Logistics,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2025-09-27,1549.01,0,42.13,319.77,Soylent Goods,Wonka Markets,intercompany
+43215,Columbus,OH,US,75201,Dallas,TX,US,SCNN,Schneider National,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2025-12-05,1605.47,263.89,83.03,259.2,Hooli Materials,Massive Dynamic,outbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-02-25,885.42,392.66,36.22,118.07,Initech Supply,Vandelay Imports,inbound
+98108,Seattle,WA,US,80216,Denver,CO,US,KNXX,Knight Transportation,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2025-12-14,1112.96,204.7,74.37,207.68,Soylent Goods,Pied Piper Warehousing,outbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,CRST,CRST Carriers,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-10-30,1492.63,0,48.3,294.83,Wayne Distribution,Gekko Wholesale,third party
+60601,Chicago,IL,US,75201,Dallas,TX,US,PAMT,PAM Transport,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2026-04-01,1396.92,0,44.72,269.46,Umbrella Foods,Vandelay Imports,intercompany
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,USXP,US Xpress,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2026-03-04,1848.89,137.64,81.04,329.3,Globex Industries,Northwind Retail,intercompany
+43215,Columbus,OH,US,75201,Dallas,TX,US,PAMT,PAM Transport,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2026-04-14,1490.62,0,82.94,326.94,Umbrella Foods,Cyberdyne Stores,inbound
+60601,Chicago,IL,US,33101,Miami,FL,US,JBHT,J.B. Hunt Freight,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2026-04-12,1405.67,277.53,64.99,229.99,Umbrella Foods,Massive Dynamic,intercompany
+75201,Dallas,TX,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-10-01,1866.15,0,78.98,242.18,Umbrella Foods,Gekko Wholesale,intercompany
+43215,Columbus,OH,US,64120,Kansas City,MO,US,USXP,US Xpress,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2025-08-10,1320.52,0,39.03,282.4,Wayne Distribution,Pied Piper Warehousing,inbound
+37210,Nashville,TN,US,98108,Seattle,WA,US,JBHT,J.B. Hunt Freight,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2026-05-01,5115.83,0,196.12,776.06,Soylent Goods,Tyrell Depot,outbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2026-03-27,1549.94,394.69,90.66,245.23,Soylent Goods,Gekko Wholesale,intercompany
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,SWFT,Swift Logistics,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2025-12-01,1845.16,0,46.59,287.39,Hooli Materials,Massive Dynamic,outbound
+64120,Kansas City,MO,US,60601,Chicago,IL,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2026-03-29,947.26,72.1,25.05,181.85,Hooli Materials,Gekko Wholesale,outbound
+80216,Denver,CO,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2025-12-11,4644.97,272.86,225.28,622.22,Globex Industries,Cyberdyne Stores,intercompany
+60601,Chicago,IL,US,33101,Miami,FL,US,CRST,CRST Carriers,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2025-09-24,2438.83,0,93.4,397.7,Hooli Materials,Tyrell Depot,intercompany
+60601,Chicago,IL,US,33101,Miami,FL,US,CRST,CRST Carriers,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2025-11-21,2014.03,485.73,139.76,442.83,Hooli Materials,Vandelay Imports,intercompany
+43215,Columbus,OH,US,30303,Atlanta,GA,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-08-25,827.87,279.48,44.32,141.39,Hooli Materials,Wonka Markets,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,SCNN,Schneider National,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2025-07-09,2115.15,126.32,67.93,347.93,Initech Supply,Northwind Retail,outbound
+60601,Chicago,IL,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2025-10-06,2168.67,0,111.77,352.62,Globex Industries,Wonka Markets,intercompany
+43215,Columbus,OH,US,64120,Kansas City,MO,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2026-01-11,1266.63,266.7,37.1,168.27,Globex Industries,Northwind Retail,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,CRST,CRST Carriers,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2025-08-29,1769.24,359.09,83.1,342.42,Umbrella Foods,Northwind Retail,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,SCNN,Schneider National,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2025-07-29,2138.41,222.2,70.44,325.07,Soylent Goods,Northwind Retail,inbound
+75201,Dallas,TX,US,07102,Newark,NJ,US,WERN,Werner Enterprises,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2025-11-20,3499.76,196.36,127.44,704.42,Soylent Goods,Cyberdyne Stores,inbound
+37210,Nashville,TN,US,98108,Seattle,WA,US,SCNN,Schneider National,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2025-12-05,4946.02,0,171.13,598.74,Soylent Goods,Vandelay Imports,third party
+33101,Miami,FL,US,98108,Seattle,WA,US,SCNN,Schneider National,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2025-12-06,8232.01,0,333.8,1594,Globex Industries,Wonka Markets,intercompany
+33101,Miami,FL,US,98108,Seattle,WA,US,USXP,US Xpress,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2025-07-13,3195.99,124.66,150.36,436.38,Soylent Goods,Northwind Retail,third party
+80216,Denver,CO,US,33101,Miami,FL,US,SWFT,Swift Logistics,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2025-07-22,4649.08,0,219.02,605.72,Acme Manufacturing,Gekko Wholesale,third party
+43215,Columbus,OH,US,64120,Kansas City,MO,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2026-05-31,1320.86,435.55,59.59,278.42,Umbrella Foods,Wonka Markets,outbound
+37210,Nashville,TN,US,98108,Seattle,WA,US,JBHT,J.B. Hunt Freight,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2025-11-21,3473.4,386.33,206.52,689.01,Stark Components,Northwind Retail,inbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,CRST,CRST Carriers,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-10-10,1487.63,0,81.25,188.51,Umbrella Foods,Massive Dynamic,outbound
+33101,Miami,FL,US,98108,Seattle,WA,US,WERN,Werner Enterprises,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2025-07-17,10187.08,162.35,346.46,1990.83,Initech Supply,Gekko Wholesale,intercompany
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-10-27,1904.54,0,56.69,340.87,Wayne Distribution,Cyberdyne Stores,outbound
+64120,Kansas City,MO,US,07102,Newark,NJ,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2026-01-27,2841.14,74.83,105.83,615.16,Soylent Goods,Gekko Wholesale,intercompany
+43215,Columbus,OH,US,75201,Dallas,TX,US,PAMT,PAM Transport,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-07-22,1507.21,277.96,88.61,225.91,Initech Supply,Massive Dynamic,intercompany
+43215,Columbus,OH,US,75201,Dallas,TX,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-12-03,1455.49,74.69,72.87,263.04,Acme Manufacturing,Cyberdyne Stores,third party
+43215,Columbus,OH,US,60601,Chicago,IL,US,SCNN,Schneider National,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2025-10-16,961.76,310.91,67.01,130.53,Wayne Distribution,Cyberdyne Stores,outbound
+98108,Seattle,WA,US,43215,Columbus,OH,US,USXP,US Xpress,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2026-05-04,3503.95,0,99.06,547.81,Soylent Goods,Wonka Markets,outbound
+75201,Dallas,TX,US,80216,Denver,CO,US,SWFT,Swift Logistics,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2025-07-30,1884.4,122.29,105.38,411.3,Initech Supply,Cyberdyne Stores,intercompany
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,CRST,CRST Carriers,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2025-11-15,3233.38,348.56,140.89,561.58,Stark Components,Vandelay Imports,intercompany
+43215,Columbus,OH,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2026-03-16,1292.42,0,34.13,163.59,Initech Supply,Cyberdyne Stores,intercompany
+64120,Kansas City,MO,US,60601,Chicago,IL,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2026-06-11,779.36,262.85,50.1,124.38,Umbrella Foods,Pied Piper Warehousing,intercompany
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,PAMT,PAM Transport,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-10-22,4691.93,0,141.16,886.13,Stark Components,Wonka Markets,inbound
+43215,Columbus,OH,US,64120,Kansas City,MO,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2025-12-30,1473.13,0,36.47,278.12,Acme Manufacturing,Tyrell Depot,inbound
+75201,Dallas,TX,US,80216,Denver,CO,US,SCNN,Schneider National,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2026-04-07,2048.27,76.95,101.8,273.07,Globex Industries,Wonka Markets,intercompany
+75201,Dallas,TX,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-03-18,1741.07,202.66,58.72,275.79,Umbrella Foods,Vandelay Imports,outbound
+80216,Denver,CO,US,85034,Phoenix,AZ,US,JBHT,J.B. Hunt Freight,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2026-05-17,1683.7,419.53,82.86,321.54,Globex Industries,Vandelay Imports,outbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-07-27,1473.51,139.41,51.99,178.42,Stark Components,Massive Dynamic,outbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2026-04-23,1487.64,275.66,58.76,195.86,Soylent Goods,Gekko Wholesale,inbound
+98108,Seattle,WA,US,43215,Columbus,OH,US,WERN,Werner Enterprises,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2025-07-21,3891.68,0,209.5,716.26,Stark Components,Gekko Wholesale,outbound
+75201,Dallas,TX,US,07102,Newark,NJ,US,SWFT,Swift Logistics,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2026-06-13,2183.6,0,112.71,314.77,Stark Components,Wonka Markets,inbound
+80216,Denver,CO,US,33101,Miami,FL,US,USXP,US Xpress,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2025-11-21,4429.17,473.46,217.01,605.87,Initech Supply,Tyrell Depot,outbound
+60601,Chicago,IL,US,33101,Miami,FL,US,CRST,CRST Carriers,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2026-06-09,1939.5,439.45,59.9,403.02,Stark Components,Wonka Markets,intercompany
+80216,Denver,CO,US,85034,Phoenix,AZ,US,WERN,Werner Enterprises,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2026-05-04,1553.32,89.4,96.67,293.02,Umbrella Foods,Gekko Wholesale,outbound
+43215,Columbus,OH,US,64120,Kansas City,MO,US,PAMT,PAM Transport,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2025-07-22,1368.88,420.12,45.77,293.76,Hooli Materials,Pied Piper Warehousing,intercompany
+43215,Columbus,OH,US,60601,Chicago,IL,US,USXP,US Xpress,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2026-03-22,925.73,0,41.46,123.11,Globex Industries,Vandelay Imports,inbound
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2026-06-06,3239.35,0,118.22,682.02,Stark Components,Vandelay Imports,intercompany
+43215,Columbus,OH,US,30303,Atlanta,GA,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2025-08-29,1301.3,237.96,52.31,182.26,Wayne Distribution,Northwind Retail,inbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2026-01-11,1981.02,244.73,74.32,358.12,Initech Supply,Vandelay Imports,inbound
+43215,Columbus,OH,US,64120,Kansas City,MO,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2026-02-03,1294.04,373.76,40.61,258.07,Soylent Goods,Pied Piper Warehousing,inbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-02-03,1100.87,0,48.45,224.47,Soylent Goods,Gekko Wholesale,outbound
+60601,Chicago,IL,US,33101,Miami,FL,US,SCNN,Schneider National,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2025-11-02,1934.7,101.72,68.79,332.72,Soylent Goods,Wonka Markets,outbound
+64120,Kansas City,MO,US,07102,Newark,NJ,US,USXP,US Xpress,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2025-11-05,2540.91,429.16,115.44,417.82,Wayne Distribution,Northwind Retail,outbound
+98108,Seattle,WA,US,80216,Denver,CO,US,JBHT,J.B. Hunt Freight,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2026-02-28,2897.95,438.28,165.19,529.65,Soylent Goods,Massive Dynamic,inbound
+80216,Denver,CO,US,33101,Miami,FL,US,SCNN,Schneider National,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2026-04-12,4207.48,207.46,125.8,911.48,Hooli Materials,Gekko Wholesale,third party
+80216,Denver,CO,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2025-11-17,4670.65,0,158.25,700.92,Initech Supply,Pied Piper Warehousing,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2026-03-07,1351.05,202.47,45.13,265.18,Stark Components,Vandelay Imports,outbound
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-09-05,5182.76,0,203.15,780.78,Wayne Distribution,Vandelay Imports,third party
+60601,Chicago,IL,US,75201,Dallas,TX,US,SCNN,Schneider National,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2026-02-16,1483.3,261.62,81.6,232.57,Umbrella Foods,Vandelay Imports,outbound
+60601,Chicago,IL,US,33101,Miami,FL,US,SCNN,Schneider National,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2026-04-28,1878.55,0,63.37,404.73,Stark Components,Gekko Wholesale,outbound
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,SWFT,Swift Logistics,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2025-07-22,3197.52,170.27,84.54,552.06,Umbrella Foods,Gekko Wholesale,third party
+60601,Chicago,IL,US,75201,Dallas,TX,US,WERN,Werner Enterprises,US-IL-Chicago-TO-Dallas-TX-US-SD,Step Deck,SD,2026-01-13,1660.69,464.5,118.37,313.91,Stark Components,Pied Piper Warehousing,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,SWFT,Swift Logistics,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2025-10-20,2005.85,161.7,92.29,296.71,Soylent Goods,Tyrell Depot,outbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,PAMT,PAM Transport,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2025-09-25,713.11,479.04,51.65,155.1,Umbrella Foods,Gekko Wholesale,third party
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-10-23,2149.18,341.34,68.7,443.17,Stark Components,Northwind Retail,outbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2025-10-13,1443.12,0,73.4,212.82,Umbrella Foods,Cyberdyne Stores,third party
+75201,Dallas,TX,US,80216,Denver,CO,US,KNXX,Knight Transportation,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2025-08-13,1753.04,0,73.92,274.4,Acme Manufacturing,Northwind Retail,outbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,USXP,US Xpress,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2025-08-01,1144.9,0,27.11,145.12,Soylent Goods,Massive Dynamic,inbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2025-09-02,701.44,0,39.33,90.12,Acme Manufacturing,Massive Dynamic,third party
+43215,Columbus,OH,US,75201,Dallas,TX,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2026-03-19,1326.78,252.91,40.22,186.99,Soylent Goods,Massive Dynamic,inbound
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-11-09,4923.87,249.39,228.14,1034.48,Acme Manufacturing,Cyberdyne Stores,third party
+60601,Chicago,IL,US,75201,Dallas,TX,US,JBHT,J.B. Hunt Freight,US-IL-Chicago-TO-Dallas-TX-US-SD,Step Deck,SD,2025-06-25,1933.73,238.78,93.48,299.73,Hooli Materials,Northwind Retail,intercompany
+43215,Columbus,OH,US,75201,Dallas,TX,US,USXP,US Xpress,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2026-06-05,1634.49,0,41.71,358.64,Umbrella Foods,Tyrell Depot,outbound
+75201,Dallas,TX,US,80216,Denver,CO,US,USXP,US Xpress,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2026-05-07,1887.37,0,98.82,233.58,Hooli Materials,Vandelay Imports,inbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-11-21,1381.02,96.22,37.43,205.08,Initech Supply,Gekko Wholesale,outbound
+64120,Kansas City,MO,US,07102,Newark,NJ,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2026-01-15,2291.64,0,118.43,326.95,Globex Industries,Pied Piper Warehousing,third party
+43215,Columbus,OH,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-03-15,994.88,249.59,63.53,135.43,Acme Manufacturing,Wonka Markets,third party
+64120,Kansas City,MO,US,07102,Newark,NJ,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2026-05-02,2946.09,203.49,87.51,473.05,Stark Components,Wonka Markets,intercompany
+80216,Denver,CO,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2025-07-19,4459.78,0,166.09,630.11,Soylent Goods,Northwind Retail,intercompany
+60601,Chicago,IL,US,33101,Miami,FL,US,PAMT,PAM Transport,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2026-05-29,1902.06,414.73,57.24,386.1,Acme Manufacturing,Northwind Retail,inbound
+64120,Kansas City,MO,US,60601,Chicago,IL,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2026-02-14,890.17,316.8,67.56,144.98,Acme Manufacturing,Vandelay Imports,third party
+43215,Columbus,OH,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-03-12,1092.24,0,33.58,184.09,Stark Components,Massive Dynamic,inbound
+64120,Kansas City,MO,US,60601,Chicago,IL,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-10-03,929.91,191.34,39.42,181.87,Globex Industries,Pied Piper Warehousing,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2026-01-27,1426.12,368.64,90.21,312.64,Stark Components,Gekko Wholesale,inbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2026-05-30,2113.76,0,80.51,431.4,Hooli Materials,Pied Piper Warehousing,inbound
+33101,Miami,FL,US,98108,Seattle,WA,US,PAMT,PAM Transport,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2025-07-03,6064.34,131.59,188.03,917.07,Umbrella Foods,Vandelay Imports,third party
+75201,Dallas,TX,US,07102,Newark,NJ,US,WERN,Werner Enterprises,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2025-06-20,1984.35,426.62,128.58,242.52,Acme Manufacturing,Northwind Retail,intercompany
+75201,Dallas,TX,US,30303,Atlanta,GA,US,USXP,US Xpress,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-02-01,1784.61,332.75,85.68,267.04,Wayne Distribution,Massive Dynamic,intercompany
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-03-25,4597.97,0,142.58,725.2,Soylent Goods,Cyberdyne Stores,intercompany
+75201,Dallas,TX,US,07102,Newark,NJ,US,CRST,CRST Carriers,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2025-08-22,4294.64,0,242.88,752.49,Initech Supply,Cyberdyne Stores,third party
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,JBHT,J.B. Hunt Freight,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-12-20,4467.94,444.57,232.8,637.64,Umbrella Foods,Gekko Wholesale,outbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,CRST,CRST Carriers,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2025-08-03,1422.27,64.98,61.63,276.41,Acme Manufacturing,Cyberdyne Stores,third party
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,WERN,Werner Enterprises,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2025-09-07,2844.07,0,75.62,461.84,Wayne Distribution,Massive Dynamic,inbound
+64120,Kansas City,MO,US,07102,Newark,NJ,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2025-08-17,2676.27,0,155.32,494.06,Stark Components,Cyberdyne Stores,inbound
+37210,Nashville,TN,US,98108,Seattle,WA,US,USXP,US Xpress,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2026-01-21,4374.65,0,232.14,680.72,Initech Supply,Northwind Retail,outbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2025-12-09,386.64,0,18.87,75.61,Wayne Distribution,Massive Dynamic,outbound
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,SWFT,Swift Logistics,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2025-11-09,3203.29,0,167.48,667.39,Initech Supply,Wonka Markets,outbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-02-08,983.23,277.67,53.06,170.61,Globex Industries,Wonka Markets,third party
+37210,Nashville,TN,US,98108,Seattle,WA,US,PAMT,PAM Transport,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2026-02-18,4387.49,0,254.11,848.86,Umbrella Foods,Wonka Markets,outbound
+75201,Dallas,TX,US,07102,Newark,NJ,US,WERN,Werner Enterprises,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2025-11-21,2535.21,342.91,87.19,556.14,Hooli Materials,Cyberdyne Stores,outbound
+64120,Kansas City,MO,US,60601,Chicago,IL,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-09-05,837.22,0,39.65,140,Acme Manufacturing,Massive Dynamic,intercompany
+64120,Kansas City,MO,US,07102,Newark,NJ,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2026-03-09,2411.29,318.27,85.12,313.39,Soylent Goods,Wonka Markets,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2025-11-28,1633.54,0,82.92,255.59,Initech Supply,Massive Dynamic,third party
+43215,Columbus,OH,US,75201,Dallas,TX,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2025-06-30,2895.97,0,157.05,530.57,Initech Supply,Wonka Markets,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2025-06-18,1483.25,0,79.39,298.84,Stark Components,Massive Dynamic,third party
+43215,Columbus,OH,US,75201,Dallas,TX,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-08-16,1536.51,397.71,53.74,246.76,Globex Industries,Northwind Retail,outbound
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,USXP,US Xpress,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-05-11,4827.41,207.78,211.84,677.57,Initech Supply,Pied Piper Warehousing,third party
+64120,Kansas City,MO,US,43215,Columbus,OH,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2025-10-09,1614.39,478.3,70.65,205.58,Globex Industries,Northwind Retail,intercompany
+43215,Columbus,OH,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2025-10-15,1332.79,287.7,48.85,217.64,Hooli Materials,Wonka Markets,inbound
+80216,Denver,CO,US,85034,Phoenix,AZ,US,PAMT,PAM Transport,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2026-01-25,1458.28,156.82,43.54,229.1,Umbrella Foods,Wonka Markets,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,SCNN,Schneider National,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2025-11-21,2047.56,332.93,68.34,333.62,Stark Components,Wonka Markets,third party
+64120,Kansas City,MO,US,43215,Columbus,OH,US,USXP,US Xpress,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2026-03-18,1474.27,0,70.61,222.65,Soylent Goods,Gekko Wholesale,outbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,USXP,US Xpress,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2025-07-29,777.55,431.8,59.69,113.37,Globex Industries,Northwind Retail,inbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2025-09-26,1543.67,0,50.43,187.25,Hooli Materials,Tyrell Depot,third party
+64120,Kansas City,MO,US,43215,Columbus,OH,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2025-08-08,1718.81,0,49.96,321.43,Soylent Goods,Pied Piper Warehousing,outbound
+75201,Dallas,TX,US,80216,Denver,CO,US,PAMT,PAM Transport,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2026-04-04,1919.53,0,79.31,370.02,Initech Supply,Pied Piper Warehousing,outbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,WERN,Werner Enterprises,US-IL-Chicago-TO-Dallas-TX-US-SD,Step Deck,SD,2026-05-13,1760.7,0,91.38,216.08,Umbrella Foods,Wonka Markets,third party
+80216,Denver,CO,US,85034,Phoenix,AZ,US,JBHT,J.B. Hunt Freight,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2025-08-24,1556.4,458.66,49.53,255.34,Initech Supply,Gekko Wholesale,outbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,CRST,CRST Carriers,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2025-07-28,771.4,0,43.44,119.58,Hooli Materials,Vandelay Imports,inbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2025-09-26,1259.23,324.53,59.01,203.84,Wayne Distribution,Vandelay Imports,outbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2025-09-02,1150.87,184.57,46.53,174.21,Stark Components,Pied Piper Warehousing,outbound
+75201,Dallas,TX,US,80216,Denver,CO,US,SWFT,Swift Logistics,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2026-05-12,1827.68,69.34,102.44,400.87,Initech Supply,Wonka Markets,third party
+43215,Columbus,OH,US,30303,Atlanta,GA,US,USXP,US Xpress,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2025-10-09,1264.64,0,40.88,171.02,Stark Components,Massive Dynamic,third party
+43215,Columbus,OH,US,75201,Dallas,TX,US,USXP,US Xpress,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-12-09,1165.12,186.67,68.7,239.34,Soylent Goods,Tyrell Depot,inbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2025-08-09,1548.81,0,49.29,299.38,Initech Supply,Tyrell Depot,outbound
+43215,Columbus,OH,US,64120,Kansas City,MO,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2025-08-08,1378.67,293.21,46.29,178.96,Wayne Distribution,Gekko Wholesale,intercompany
+43215,Columbus,OH,US,60601,Chicago,IL,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2026-03-18,970.14,0,50.45,177.23,Globex Industries,Massive Dynamic,outbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,USXP,US Xpress,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2025-08-28,916.79,415.67,47.72,117.36,Globex Industries,Tyrell Depot,outbound
+75201,Dallas,TX,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-04-24,1748.47,88.26,75.86,337.01,Initech Supply,Massive Dynamic,intercompany
+80216,Denver,CO,US,33101,Miami,FL,US,CRST,CRST Carriers,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2026-04-15,5728.62,0,280.72,1149.88,Acme Manufacturing,Northwind Retail,inbound
+60601,Chicago,IL,US,33101,Miami,FL,US,SWFT,Swift Logistics,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2025-10-23,1996.16,0,85.58,243.98,Acme Manufacturing,Pied Piper Warehousing,outbound
+75201,Dallas,TX,US,30303,Atlanta,GA,US,SWFT,Swift Logistics,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-06-30,1742.05,480.93,61.66,260.19,Globex Industries,Vandelay Imports,inbound
+75201,Dallas,TX,US,07102,Newark,NJ,US,USXP,US Xpress,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2025-09-03,1780.27,392.35,123.04,342.92,Stark Components,Vandelay Imports,outbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-12-23,1494.45,0,45.6,291.63,Initech Supply,Northwind Retail,third party
+43215,Columbus,OH,US,75201,Dallas,TX,US,PAMT,PAM Transport,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-12-05,1533.51,300.69,79.91,224.47,Soylent Goods,Vandelay Imports,outbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,USXP,US Xpress,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2025-12-07,1579.89,447.35,107.92,301.48,Acme Manufacturing,Wonka Markets,inbound
+60601,Chicago,IL,US,33101,Miami,FL,US,CRST,CRST Carriers,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2026-05-12,2090.56,0,64.05,330.16,Umbrella Foods,Gekko Wholesale,third party
+43215,Columbus,OH,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-01-24,1047.13,0,58.9,167.27,Umbrella Foods,Massive Dynamic,outbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2026-02-22,1243.26,148.13,49.69,234.66,Hooli Materials,Gekko Wholesale,intercompany
+33101,Miami,FL,US,98108,Seattle,WA,US,SWFT,Swift Logistics,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2025-07-05,8125.02,114.68,212.87,1423.04,Globex Industries,Massive Dynamic,third party
+64120,Kansas City,MO,US,43215,Columbus,OH,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2026-02-11,1473.3,342.25,68.62,318.62,Stark Components,Tyrell Depot,inbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-02-21,962.73,55.59,37.59,188.3,Hooli Materials,Wonka Markets,third party
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,SWFT,Swift Logistics,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2025-11-28,2398.73,0,60.51,462.22,Umbrella Foods,Gekko Wholesale,inbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-09-03,1013.36,0,58.48,184.95,Wayne Distribution,Wonka Markets,intercompany
+43215,Columbus,OH,US,60601,Chicago,IL,US,USXP,US Xpress,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2025-07-05,861,0,44.76,112.62,Stark Components,Massive Dynamic,inbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,KNXX,Knight Transportation,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2025-08-23,3291.9,87.1,153.12,444.35,Hooli Materials,Massive Dynamic,inbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,CRST,CRST Carriers,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-09-11,1424.54,0,50.7,208.58,Globex Industries,Massive Dynamic,outbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-01-23,1146.62,117.58,50.74,188.22,Hooli Materials,Vandelay Imports,inbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2026-05-26,911.5,95.98,30.15,181.46,Umbrella Foods,Wonka Markets,inbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-12-15,1874.48,217.04,97.47,356.62,Globex Industries,Tyrell Depot,intercompany
+80216,Denver,CO,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2025-07-15,5660.82,463.17,284.04,1075.62,Wayne Distribution,Massive Dynamic,outbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,CRST,CRST Carriers,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2026-01-22,2960.16,0,71.14,526.06,Acme Manufacturing,Tyrell Depot,outbound
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2026-03-09,3005.45,87.68,166.81,526.23,Initech Supply,Gekko Wholesale,intercompany
+43215,Columbus,OH,US,75201,Dallas,TX,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2026-05-25,1347.82,0,31.97,169.45,Wayne Distribution,Gekko Wholesale,third party
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,SWFT,Swift Logistics,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2026-02-26,3194.54,0,119.64,644.26,Acme Manufacturing,Gekko Wholesale,outbound
+80216,Denver,CO,US,33101,Miami,FL,US,KNXX,Knight Transportation,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2026-06-11,4157.85,456.1,134.74,879.84,Umbrella Foods,Gekko Wholesale,third party
+33101,Miami,FL,US,98108,Seattle,WA,US,WERN,Werner Enterprises,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2025-10-29,7471.65,395.85,435.84,1604.01,Wayne Distribution,Cyberdyne Stores,third party
+75201,Dallas,TX,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-12-01,1755.76,357.41,96.69,222.96,Soylent Goods,Gekko Wholesale,outbound
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-12-22,4385.1,0,197.14,715.43,Soylent Goods,Northwind Retail,intercompany
+80216,Denver,CO,US,33101,Miami,FL,US,SCNN,Schneider National,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2025-07-24,4705.38,217.75,268.55,722.46,Acme Manufacturing,Northwind Retail,intercompany
+64120,Kansas City,MO,US,07102,Newark,NJ,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2025-10-20,2901.41,0,112.71,486.68,Initech Supply,Wonka Markets,third party
+43215,Columbus,OH,US,75201,Dallas,TX,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-07-06,1258.46,0,36.42,155.14,Initech Supply,Cyberdyne Stores,inbound
+60601,Chicago,IL,US,33101,Miami,FL,US,CRST,CRST Carriers,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2025-08-18,2047.25,202.77,92.73,328.62,Stark Components,Gekko Wholesale,outbound
+98108,Seattle,WA,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2025-12-13,3649.21,0,197.37,751.7,Umbrella Foods,Tyrell Depot,third party
+64120,Kansas City,MO,US,43215,Columbus,OH,US,SCNN,Schneider National,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2026-02-17,1564.25,451.88,87.35,255.74,Soylent Goods,Northwind Retail,outbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,WERN,Werner Enterprises,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2025-07-11,1463.63,452.02,46.11,183.26,Soylent Goods,Gekko Wholesale,intercompany
+60601,Chicago,IL,US,75201,Dallas,TX,US,PAMT,PAM Transport,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2025-10-21,1292.71,458.2,57.79,272.3,Soylent Goods,Gekko Wholesale,third party
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,PAMT,PAM Transport,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-05-19,4567.9,0,168.43,933.28,Acme Manufacturing,Tyrell Depot,inbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,SCNN,Schneider National,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-08-31,1261,0,54.69,249.97,Umbrella Foods,Pied Piper Warehousing,intercompany
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,SCNN,Schneider National,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2026-05-29,3461.47,0,169.99,557.18,Hooli Materials,Cyberdyne Stores,outbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,WERN,Werner Enterprises,US-IL-Chicago-TO-Dallas-TX-US-SD,Step Deck,SD,2026-04-21,1816.29,0,71.49,231.56,Globex Industries,Gekko Wholesale,outbound
+98108,Seattle,WA,US,80216,Denver,CO,US,KNXX,Knight Transportation,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2025-09-15,2519.54,176.98,154.83,489.53,Initech Supply,Tyrell Depot,third party
+33101,Miami,FL,US,98108,Seattle,WA,US,SWFT,Swift Logistics,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2025-08-05,5180.7,341.98,193.87,843.09,Initech Supply,Cyberdyne Stores,inbound
+64120,Kansas City,MO,US,07102,Newark,NJ,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2026-04-22,2719.72,335.03,153.18,478.63,Acme Manufacturing,Gekko Wholesale,outbound
+80216,Denver,CO,US,33101,Miami,FL,US,CRST,CRST Carriers,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2025-10-13,4045.49,108.64,177.48,874.29,Wayne Distribution,Northwind Retail,intercompany
+33101,Miami,FL,US,98108,Seattle,WA,US,SWFT,Swift Logistics,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2025-08-29,9982.25,101.41,356.02,1747.62,Umbrella Foods,Tyrell Depot,intercompany
+80216,Denver,CO,US,85034,Phoenix,AZ,US,SWFT,Swift Logistics,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2026-04-30,1602.08,0,83.67,338.24,Stark Components,Tyrell Depot,intercompany
+75201,Dallas,TX,US,80216,Denver,CO,US,PAMT,PAM Transport,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2025-12-22,1739.78,0,79.93,323.9,Globex Industries,Massive Dynamic,intercompany
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,SWFT,Swift Logistics,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2026-01-15,2586.21,0,117.37,401.13,Hooli Materials,Massive Dynamic,inbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-10-30,1593.42,0,69.12,199.2,Umbrella Foods,Wonka Markets,third party
+43215,Columbus,OH,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-04-16,1061.85,295.3,41.61,196.64,Acme Manufacturing,Cyberdyne Stores,third party
+33101,Miami,FL,US,98108,Seattle,WA,US,CRST,CRST Carriers,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2026-01-16,5574.97,0,300.8,798.76,Stark Components,Pied Piper Warehousing,outbound
+80216,Denver,CO,US,33101,Miami,FL,US,KNXX,Knight Transportation,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2026-05-23,5422.69,0,151.27,817.5,Wayne Distribution,Tyrell Depot,inbound
+75201,Dallas,TX,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-12-17,1847.89,0,109.53,389.65,Stark Components,Massive Dynamic,inbound
+64120,Kansas City,MO,US,60601,Chicago,IL,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-11-25,856.54,0,30.51,157.52,Stark Components,Tyrell Depot,inbound
+43215,Columbus,OH,US,64120,Kansas City,MO,US,USXP,US Xpress,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2026-05-22,1426.6,0,69.91,240.16,Hooli Materials,Tyrell Depot,inbound
+43215,Columbus,OH,US,64120,Kansas City,MO,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2026-04-27,1272.91,337.26,54.49,173.88,Acme Manufacturing,Pied Piper Warehousing,intercompany
+75201,Dallas,TX,US,30303,Atlanta,GA,US,USXP,US Xpress,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-05-27,1809.9,0,78,341.81,Initech Supply,Northwind Retail,intercompany
+43215,Columbus,OH,US,64120,Kansas City,MO,US,SCNN,Schneider National,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2025-10-16,1392.88,151.48,47.66,202.53,Stark Components,Wonka Markets,inbound
+60601,Chicago,IL,US,33101,Miami,FL,US,PAMT,PAM Transport,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2026-01-13,2076.11,0,72.19,263.57,Soylent Goods,Gekko Wholesale,intercompany
+64120,Kansas City,MO,US,60601,Chicago,IL,US,USXP,US Xpress,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-11-14,885.21,0,41.58,126.64,Hooli Materials,Northwind Retail,outbound
+75201,Dallas,TX,US,80216,Denver,CO,US,PAMT,PAM Transport,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2025-11-15,2055.38,0,72.24,343.66,Initech Supply,Wonka Markets,inbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2025-08-15,1400.64,0,74.05,230.76,Hooli Materials,Northwind Retail,inbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2025-09-10,1312.45,195.8,82.53,236.91,Acme Manufacturing,Wonka Markets,third party
+43215,Columbus,OH,US,75201,Dallas,TX,US,PAMT,PAM Transport,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2026-01-19,1526.34,446.49,103.97,187.87,Globex Industries,Gekko Wholesale,outbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-08-15,1039.38,0,51.23,190.7,Stark Components,Tyrell Depot,inbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,PAMT,PAM Transport,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2026-04-04,1564.43,165.31,81.77,231.74,Globex Industries,Tyrell Depot,third party
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,JBHT,J.B. Hunt Freight,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2025-11-29,4500.32,0,195.05,902.77,Wayne Distribution,Vandelay Imports,third party
+43215,Columbus,OH,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-12-17,1200.4,400.73,91.25,244.49,Hooli Materials,Northwind Retail,intercompany
+43215,Columbus,OH,US,60601,Chicago,IL,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2026-02-03,737.48,0,31.48,112.84,Soylent Goods,Tyrell Depot,outbound
+80216,Denver,CO,US,33101,Miami,FL,US,USXP,US Xpress,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2025-12-23,4083.04,241.27,136.5,874.11,Initech Supply,Vandelay Imports,outbound
+80216,Denver,CO,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2026-01-18,4501.02,85.65,127.01,681.69,Stark Components,Cyberdyne Stores,outbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,SCNN,Schneider National,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2025-10-19,2928.16,75.88,80.54,542.78,Hooli Materials,Cyberdyne Stores,intercompany
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2026-03-22,2063.44,63.5,60.47,380.9,Stark Components,Northwind Retail,intercompany
+60601,Chicago,IL,US,33101,Miami,FL,US,USXP,US Xpress,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2026-01-18,1872.4,443.13,119.93,233.77,Wayne Distribution,Gekko Wholesale,third party
+43215,Columbus,OH,US,75201,Dallas,TX,US,USXP,US Xpress,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2025-12-27,1951.38,0,104.82,363.07,Umbrella Foods,Northwind Retail,outbound
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,USXP,US Xpress,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-02-20,4592.74,226.77,274.97,875.89,Initech Supply,Vandelay Imports,third party
+33101,Miami,FL,US,98108,Seattle,WA,US,SWFT,Swift Logistics,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2025-10-27,4312.6,65.92,253.81,818.65,Soylent Goods,Massive Dynamic,intercompany
+60601,Chicago,IL,US,33101,Miami,FL,US,SWFT,Swift Logistics,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2026-05-07,2415.3,402.98,121.72,406.6,Initech Supply,Pied Piper Warehousing,intercompany
+80216,Denver,CO,US,33101,Miami,FL,US,SCNN,Schneider National,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2025-06-30,6049.2,437.93,180.86,890.26,Acme Manufacturing,Cyberdyne Stores,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2026-03-09,1100.87,70.68,29.9,241.64,Wayne Distribution,Wonka Markets,inbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2025-11-17,1447.66,282.42,70.65,203.36,Globex Industries,Massive Dynamic,outbound
+60601,Chicago,IL,US,33101,Miami,FL,US,CRST,CRST Carriers,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2025-12-20,2167.64,345.84,58.81,308.93,Soylent Goods,Northwind Retail,intercompany
+43215,Columbus,OH,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2025-12-12,1305.73,97.41,74.19,285.61,Wayne Distribution,Cyberdyne Stores,third party
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2025-10-17,3228.53,324.43,184.29,525.94,Soylent Goods,Massive Dynamic,outbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2026-01-25,839.44,0,39.93,109.65,Soylent Goods,Wonka Markets,outbound
+64120,Kansas City,MO,US,07102,Newark,NJ,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2026-03-01,2912.58,0,113.67,497.7,Umbrella Foods,Wonka Markets,inbound
+98108,Seattle,WA,US,43215,Columbus,OH,US,CRST,CRST Carriers,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2026-05-26,3432.83,51.05,175.64,711.62,Globex Industries,Vandelay Imports,outbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,USXP,US Xpress,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-07-19,972.39,0,24.95,127.22,Stark Components,Gekko Wholesale,outbound
+98108,Seattle,WA,US,80216,Denver,CO,US,CRST,CRST Carriers,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2026-01-31,2450.02,415.46,77.86,377.87,Umbrella Foods,Cyberdyne Stores,third party
+75201,Dallas,TX,US,07102,Newark,NJ,US,WERN,Werner Enterprises,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2026-04-17,5374.23,101.56,290.45,682.72,Umbrella Foods,Wonka Markets,inbound
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,PAMT,PAM Transport,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-02-26,4916.38,0,120.04,591.2,Initech Supply,Cyberdyne Stores,intercompany
+33101,Miami,FL,US,98108,Seattle,WA,US,WERN,Werner Enterprises,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2025-10-28,5212.85,97.05,305.29,959.85,Stark Components,Massive Dynamic,third party
+75201,Dallas,TX,US,30303,Atlanta,GA,US,JBHT,J.B. Hunt Freight,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-06-11,1692.85,65.88,56.77,243.49,Hooli Materials,Cyberdyne Stores,inbound
+64120,Kansas City,MO,US,60601,Chicago,IL,US,SCNN,Schneider National,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-10-31,783.12,317.62,24.66,124.7,Stark Components,Vandelay Imports,inbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Chicago-IL-US-SD,Step Deck,SD,2026-02-06,874.61,192.84,58.73,140.82,Initech Supply,Massive Dynamic,inbound
+80216,Denver,CO,US,85034,Phoenix,AZ,US,USXP,US Xpress,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2026-03-08,1548.6,185.47,90.77,282.27,Globex Industries,Tyrell Depot,intercompany
+64120,Kansas City,MO,US,60601,Chicago,IL,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2026-05-12,983.94,349.56,53.18,198.14,Initech Supply,Pied Piper Warehousing,third party
+43215,Columbus,OH,US,75201,Dallas,TX,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2026-05-21,1442.56,356.16,42.31,230.2,Initech Supply,Vandelay Imports,inbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-05-07,847.32,344.96,49.27,155.72,Stark Components,Wonka Markets,intercompany
+43215,Columbus,OH,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-04-02,1034.82,0,51.28,170.62,Acme Manufacturing,Pied Piper Warehousing,third party
+80216,Denver,CO,US,33101,Miami,FL,US,USXP,US Xpress,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2026-06-17,3941.47,0,212.83,599,Hooli Materials,Tyrell Depot,intercompany
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2026-02-08,3230.34,101.43,81.71,481.92,Hooli Materials,Wonka Markets,third party
+64120,Kansas City,MO,US,07102,Newark,NJ,US,CRST,CRST Carriers,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2025-08-03,2945.97,96.73,81.66,538.25,Stark Components,Gekko Wholesale,third party
+64120,Kansas City,MO,US,43215,Columbus,OH,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Columbus-OH-US-HS,Hotshot,HS,2025-09-01,1195.42,494.19,90.29,225.2,Globex Industries,Massive Dynamic,outbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,JBHT,J.B. Hunt Freight,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-09-18,4283.57,276.07,224.73,713.22,Acme Manufacturing,Wonka Markets,outbound
+60601,Chicago,IL,US,33101,Miami,FL,US,KNXX,Knight Transportation,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2026-01-11,1948.34,498.22,77.19,285.02,Globex Industries,Wonka Markets,inbound
+75201,Dallas,TX,US,30303,Atlanta,GA,US,SWFT,Swift Logistics,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-03-18,1425.54,490.28,102.84,266.31,Stark Components,Gekko Wholesale,inbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,SCNN,Schneider National,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2025-10-08,3428.56,377.31,161.94,593.84,Soylent Goods,Cyberdyne Stores,third party
+43215,Columbus,OH,US,75201,Dallas,TX,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2026-03-24,1327.95,0,53.58,249.77,Acme Manufacturing,Wonka Markets,intercompany
+80216,Denver,CO,US,85034,Phoenix,AZ,US,JBHT,J.B. Hunt Freight,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2025-09-28,1331.64,0,65.45,202.66,Initech Supply,Tyrell Depot,intercompany
+98108,Seattle,WA,US,43215,Columbus,OH,US,SWFT,Swift Logistics,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2026-05-18,3697.75,132.39,120.39,484.85,Wayne Distribution,Northwind Retail,third party
+75201,Dallas,TX,US,07102,Newark,NJ,US,WERN,Werner Enterprises,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2025-12-30,4222.66,292.58,122.75,615.32,Stark Components,Northwind Retail,outbound
+75201,Dallas,TX,US,80216,Denver,CO,US,SWFT,Swift Logistics,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2026-05-01,2015.79,186.63,106.23,384.3,Wayne Distribution,Wonka Markets,intercompany
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,KNXX,Knight Transportation,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-12-10,4481.61,0,163.2,585.29,Soylent Goods,Tyrell Depot,outbound
+60601,Chicago,IL,US,33101,Miami,FL,US,USXP,US Xpress,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2026-01-07,2278.63,387.93,81.32,451.69,Soylent Goods,Northwind Retail,inbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,USXP,US Xpress,US-OH-Columbus-TO-Dallas-TX-US-HS,Hotshot,HS,2025-08-19,1234.34,440.38,49.99,250.23,Umbrella Foods,Pied Piper Warehousing,third party
+43215,Columbus,OH,US,75201,Dallas,TX,US,PAMT,PAM Transport,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2025-11-07,2365.65,0,79.51,387.97,Soylent Goods,Wonka Markets,third party
+64120,Kansas City,MO,US,07102,Newark,NJ,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2026-06-03,2416.18,261.69,143.26,338.77,Soylent Goods,Tyrell Depot,third party
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-08-19,4853.3,321.01,245.91,1028.05,Umbrella Foods,Wonka Markets,intercompany
+43215,Columbus,OH,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-06-18,952.14,435.2,39.87,140.72,Initech Supply,Wonka Markets,intercompany
+43215,Columbus,OH,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-03-16,1056.45,0,29.83,208.39,Hooli Materials,Tyrell Depot,intercompany
+60601,Chicago,IL,US,75201,Dallas,TX,US,SCNN,Schneider National,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2025-07-25,1344.72,208.01,59.14,196.77,Soylent Goods,Wonka Markets,intercompany
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,SCNN,Schneider National,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2025-10-17,3014.47,190.5,180.66,636.58,Globex Industries,Wonka Markets,outbound
+98108,Seattle,WA,US,80216,Denver,CO,US,CRST,CRST Carriers,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2025-07-05,2010.37,473.43,116.17,272.86,Stark Components,Tyrell Depot,intercompany
+43215,Columbus,OH,US,30303,Atlanta,GA,US,CRST,CRST Carriers,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2025-09-09,1309.22,0,74.94,230.67,Initech Supply,Massive Dynamic,inbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2025-10-14,1326.36,0,45.94,173.48,Globex Industries,Massive Dynamic,inbound
+60601,Chicago,IL,US,33101,Miami,FL,US,JBHT,J.B. Hunt Freight,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2025-06-29,1803.81,395.94,62.59,366.43,Umbrella Foods,Massive Dynamic,third party
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,CRST,CRST Carriers,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-01-10,5058.9,0,250.54,674.52,Stark Components,Gekko Wholesale,third party
+33101,Miami,FL,US,98108,Seattle,WA,US,PAMT,PAM Transport,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2026-04-26,10290.72,182.56,609.49,1993.85,Initech Supply,Vandelay Imports,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2025-10-24,1479.29,371.84,93.65,235.41,Soylent Goods,Pied Piper Warehousing,outbound
+80216,Denver,CO,US,33101,Miami,FL,US,JBHT,J.B. Hunt Freight,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2026-04-23,7805.72,379.68,263.59,1461.05,Initech Supply,Tyrell Depot,outbound
+98108,Seattle,WA,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2026-04-28,3461.36,0,171.58,505.9,Umbrella Foods,Pied Piper Warehousing,third party
+43215,Columbus,OH,US,75201,Dallas,TX,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2026-03-18,1237.99,354.78,60.84,170.23,Stark Components,Pied Piper Warehousing,outbound
+64120,Kansas City,MO,US,60601,Chicago,IL,US,USXP,US Xpress,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2026-06-07,854.52,0,26.97,116.24,Stark Components,Massive Dynamic,intercompany
+75201,Dallas,TX,US,30303,Atlanta,GA,US,JBHT,J.B. Hunt Freight,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-08-30,1634.41,290.25,91.75,215.77,Hooli Materials,Tyrell Depot,intercompany
+43215,Columbus,OH,US,30303,Atlanta,GA,US,SWFT,Swift Logistics,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-07-08,849.01,237.16,43.73,151.69,Acme Manufacturing,Wonka Markets,outbound
+80216,Denver,CO,US,33101,Miami,FL,US,SWFT,Swift Logistics,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2025-12-30,4486.96,0,121.03,729.55,Soylent Goods,Gekko Wholesale,outbound
+98108,Seattle,WA,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2025-10-11,3436.03,131.56,116.47,623.6,Stark Components,Northwind Retail,inbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,JBHT,J.B. Hunt Freight,US-IL-Chicago-TO-Dallas-TX-US-SD,Step Deck,SD,2026-04-26,1821.95,0,45.62,317.86,Acme Manufacturing,Wonka Markets,intercompany
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,CRST,CRST Carriers,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2025-10-21,2067.36,0,86.56,291.66,Initech Supply,Vandelay Imports,outbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,JBHT,J.B. Hunt Freight,US-OH-Columbus-TO-Atlanta-GA-US-FB,Flatbed,FB,2026-05-10,1368.7,0,75.24,227.91,Hooli Materials,Cyberdyne Stores,outbound
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,JBHT,J.B. Hunt Freight,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2025-07-13,2984.88,80.86,165.66,360.43,Initech Supply,Northwind Retail,inbound
+64120,Kansas City,MO,US,07102,Newark,NJ,US,KNXX,Knight Transportation,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2025-12-16,3006.36,310.8,135.92,405.49,Hooli Materials,Cyberdyne Stores,outbound
+80216,Denver,CO,US,33101,Miami,FL,US,SCNN,Schneider National,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2025-09-19,4587.87,87.36,122.2,871.9,Hooli Materials,Tyrell Depot,inbound
+75201,Dallas,TX,US,80216,Denver,CO,US,KNXX,Knight Transportation,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2025-11-04,1677.43,329.58,87.49,301.94,Wayne Distribution,Northwind Retail,outbound
+43215,Columbus,OH,US,75201,Dallas,TX,US,PAMT,PAM Transport,US-OH-Columbus-TO-Dallas-TX-US-VN,Dry Van,VN,2025-09-05,2682.83,0,142.7,386.51,Soylent Goods,Vandelay Imports,outbound
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,USXP,US Xpress,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-09-25,4645.01,432.14,174.19,800.07,Hooli Materials,Pied Piper Warehousing,inbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,JBHT,J.B. Hunt Freight,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2026-01-11,1564.21,387.75,80.41,199.29,Wayne Distribution,Vandelay Imports,outbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,KNXX,Knight Transportation,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2025-12-19,1429.87,263.76,55.91,236.63,Acme Manufacturing,Vandelay Imports,inbound
+60601,Chicago,IL,US,33101,Miami,FL,US,SCNN,Schneider National,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2026-02-08,2028.81,77.96,103.94,444.61,Stark Components,Cyberdyne Stores,inbound
+64120,Kansas City,MO,US,07102,Newark,NJ,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2026-03-19,2519.5,0,118.51,472.42,Hooli Materials,Pied Piper Warehousing,intercompany
+90021,Los Angeles,CA,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-CA-Los Angeles-TO-Atlanta-GA-US-HS,Hotshot,HS,2025-11-12,3449.36,240.95,93.64,535.25,Wayne Distribution,Vandelay Imports,third party
+75201,Dallas,TX,US,80216,Denver,CO,US,SCNN,Schneider National,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2026-02-18,1962.39,83.93,112.79,335.32,Wayne Distribution,Massive Dynamic,inbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2025-10-27,1557.44,318.27,71.64,220.93,Globex Industries,Pied Piper Warehousing,third party
+75201,Dallas,TX,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-01-20,1555.64,406.19,101.28,200.81,Wayne Distribution,Tyrell Depot,intercompany
+75201,Dallas,TX,US,30303,Atlanta,GA,US,JBHT,J.B. Hunt Freight,US-TX-Dallas-TO-Atlanta-GA-US-VN,Dry Van,VN,2026-04-24,1636.37,379.59,76.6,319.73,Stark Components,Vandelay Imports,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,CRST,CRST Carriers,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2025-07-18,2176.27,0,77.52,435.5,Hooli Materials,Gekko Wholesale,outbound
+43215,Columbus,OH,US,30303,Atlanta,GA,US,KNXX,Knight Transportation,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-06-22,1081.07,0,61.89,167.79,Globex Industries,Pied Piper Warehousing,intercompany
+80216,Denver,CO,US,85034,Phoenix,AZ,US,JBHT,J.B. Hunt Freight,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2025-10-23,1583.24,0,84.28,242.65,Wayne Distribution,Gekko Wholesale,inbound
+64120,Kansas City,MO,US,07102,Newark,NJ,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Newark-NJ-US-SD,Step Deck,SD,2026-04-25,3186.91,188.19,159.52,638.9,Globex Industries,Gekko Wholesale,third party
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,CRST,CRST Carriers,US-TN-Nashville-TO-Los Angeles-CA-US-HS,Hotshot,HS,2026-04-08,2491.79,0,98.8,531.56,Acme Manufacturing,Pied Piper Warehousing,outbound
+33101,Miami,FL,US,98108,Seattle,WA,US,CRST,CRST Carriers,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2025-07-19,8735.79,0,349.02,1445.96,Soylent Goods,Pied Piper Warehousing,intercompany
+75201,Dallas,TX,US,80216,Denver,CO,US,JBHT,J.B. Hunt Freight,US-TX-Dallas-TO-Denver-CO-US-FB,Flatbed,FB,2026-02-10,1862.96,0,103.55,355.44,Globex Industries,Wonka Markets,inbound
+33101,Miami,FL,US,98108,Seattle,WA,US,SWFT,Swift Logistics,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2025-09-16,4090.55,390.68,181.06,839.35,Soylent Goods,Wonka Markets,outbound
+80216,Denver,CO,US,33101,Miami,FL,US,USXP,US Xpress,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2026-05-22,3993.29,0,223.57,786.62,Stark Components,Wonka Markets,outbound
+98108,Seattle,WA,US,80216,Denver,CO,US,WERN,Werner Enterprises,US-WA-Seattle-TO-Denver-CO-US-FB,Flatbed,FB,2025-06-26,3375.88,0,194.69,682.65,Acme Manufacturing,Northwind Retail,intercompany
+80216,Denver,CO,US,33101,Miami,FL,US,KNXX,Knight Transportation,US-CO-Denver-TO-Miami-FL-US-RF,Reefer,RF,2025-10-16,4685.07,0,224.83,985.97,Acme Manufacturing,Northwind Retail,inbound
+60601,Chicago,IL,US,75201,Dallas,TX,US,KNXX,Knight Transportation,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2025-06-27,1396.26,0,73.43,193.37,Hooli Materials,Pied Piper Warehousing,outbound
+80216,Denver,CO,US,85034,Phoenix,AZ,US,USXP,US Xpress,US-CO-Denver-TO-Phoenix-AZ-US-FB,Flatbed,FB,2025-08-30,1419.81,140.17,86.1,210.24,Globex Industries,Gekko Wholesale,third party
+80216,Denver,CO,US,33101,Miami,FL,US,WERN,Werner Enterprises,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2025-11-11,4416.29,0,122.19,740.13,Acme Manufacturing,Wonka Markets,intercompany
+37210,Nashville,TN,US,98108,Seattle,WA,US,SCNN,Schneider National,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2026-04-02,4836.17,80.89,162.94,648.12,Hooli Materials,Massive Dynamic,intercompany
+98108,Seattle,WA,US,43215,Columbus,OH,US,KNXX,Knight Transportation,US-WA-Seattle-TO-Columbus-OH-US-HS,Hotshot,HS,2025-10-21,3233.75,473.56,191.07,549.95,Wayne Distribution,Massive Dynamic,inbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,USXP,US Xpress,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2026-04-27,433.55,0,14.86,66.13,Umbrella Foods,Wonka Markets,third party
+60601,Chicago,IL,US,75201,Dallas,TX,US,PAMT,PAM Transport,US-IL-Chicago-TO-Dallas-TX-US-HS,Hotshot,HS,2025-10-14,1520.15,0,85.36,201.26,Umbrella Foods,Gekko Wholesale,outbound
+64120,Kansas City,MO,US,60601,Chicago,IL,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2025-12-09,863.69,220.34,38.15,147.65,Stark Components,Cyberdyne Stores,outbound
+64120,Kansas City,MO,US,60601,Chicago,IL,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2026-01-25,1011.43,0,56.59,217.48,Wayne Distribution,Gekko Wholesale,inbound
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,WERN,Werner Enterprises,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2026-02-19,1822.94,317.66,85.07,255.62,Hooli Materials,Vandelay Imports,intercompany
+64120,Kansas City,MO,US,43215,Columbus,OH,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2026-01-21,1573.75,0,77.03,224.23,Initech Supply,Vandelay Imports,intercompany
+60601,Chicago,IL,US,33101,Miami,FL,US,SWFT,Swift Logistics,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2026-05-17,1426.54,51.04,77.3,203.44,Globex Industries,Wonka Markets,outbound
+75201,Dallas,TX,US,07102,Newark,NJ,US,JBHT,J.B. Hunt Freight,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2025-09-28,3650.13,299.86,161.49,633.02,Hooli Materials,Cyberdyne Stores,intercompany
+37210,Nashville,TN,US,98108,Seattle,WA,US,JBHT,J.B. Hunt Freight,US-TN-Nashville-TO-Seattle-WA-US-VN,Dry Van,VN,2026-02-11,3245.62,0,94.14,590.38,Wayne Distribution,Vandelay Imports,intercompany
+37210,Nashville,TN,US,90021,Los Angeles,CA,US,SCNN,Schneider National,US-TN-Nashville-TO-Los Angeles-CA-US-SD,Step Deck,SD,2026-02-07,4435.34,0,207.79,562.18,Wayne Distribution,Wonka Markets,intercompany
+43215,Columbus,OH,US,60601,Chicago,IL,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2026-02-26,1119.13,0,56,239.07,Globex Industries,Northwind Retail,third party
+64120,Kansas City,MO,US,30303,Atlanta,GA,US,PAMT,PAM Transport,US-MO-Kansas City-TO-Atlanta-GA-US-SD,Step Deck,SD,2025-07-04,1900.15,331.17,75.96,405.11,Umbrella Foods,Northwind Retail,outbound
+43215,Columbus,OH,US,60601,Chicago,IL,US,SCNN,Schneider National,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2025-10-17,728.51,0,30.86,143.65,Initech Supply,Cyberdyne Stores,intercompany
+33101,Miami,FL,US,98108,Seattle,WA,US,WERN,Werner Enterprises,US-FL-Miami-TO-Seattle-WA-US-VN,Dry Van,VN,2026-03-11,6939.05,0,350.31,1335.99,Acme Manufacturing,Cyberdyne Stores,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,SCNN,Schneider National,US-IL-Chicago-TO-Miami-FL-US-VN,Dry Van,VN,2026-05-15,2128.42,428.59,144.56,437.45,Globex Industries,Pied Piper Warehousing,intercompany
+75201,Dallas,TX,US,07102,Newark,NJ,US,WERN,Werner Enterprises,US-TX-Dallas-TO-Newark-NJ-US-RF,Reefer,RF,2026-03-26,3388.65,0,122.08,477.48,Acme Manufacturing,Wonka Markets,third party
+43215,Columbus,OH,US,64120,Kansas City,MO,US,USXP,US Xpress,US-OH-Columbus-TO-Kansas City-MO-US-VN,Dry Van,VN,2025-06-25,1447.97,97.59,70.18,309.41,Wayne Distribution,Northwind Retail,intercompany
+64120,Kansas City,MO,US,60601,Chicago,IL,US,USXP,US Xpress,US-MO-Kansas City-TO-Chicago-IL-US-VN,Dry Van,VN,2026-04-23,826.07,0,19.86,111.83,Wayne Distribution,Cyberdyne Stores,inbound
+80216,Denver,CO,US,33101,Miami,FL,US,KNXX,Knight Transportation,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2026-06-06,4298.44,131.89,111.73,905.69,Wayne Distribution,Vandelay Imports,intercompany
+43215,Columbus,OH,US,30303,Atlanta,GA,US,USXP,US Xpress,US-OH-Columbus-TO-Atlanta-GA-US-VN,Dry Van,VN,2025-07-02,1079.87,221.11,37.6,175.99,Umbrella Foods,Cyberdyne Stores,third party
+43215,Columbus,OH,US,90021,Los Angeles,CA,US,SCNN,Schneider National,US-OH-Columbus-TO-Los Angeles-CA-US-SD,Step Deck,SD,2025-09-22,4706.69,59.79,207.76,585.94,Acme Manufacturing,Pied Piper Warehousing,inbound
+64120,Kansas City,MO,US,43215,Columbus,OH,US,SWFT,Swift Logistics,US-MO-Kansas City-TO-Columbus-OH-US-VN,Dry Van,VN,2026-03-14,1574.43,109.02,92.13,230.23,Soylent Goods,Massive Dynamic,intercompany
+80216,Denver,CO,US,33101,Miami,FL,US,JBHT,J.B. Hunt Freight,US-CO-Denver-TO-Miami-FL-US-VN,Dry Van,VN,2026-05-01,4078.32,485.32,173.02,537.38,Stark Components,Pied Piper Warehousing,third party
+60601,Chicago,IL,US,33101,Miami,FL,US,SWFT,Swift Logistics,US-IL-Chicago-TO-Miami-FL-US-HS,Hotshot,HS,2026-01-30,1979.86,0,100.26,320.99,Umbrella Foods,Tyrell Depot,intercompany
+43215,Columbus,OH,US,60601,Chicago,IL,US,WERN,Werner Enterprises,US-OH-Columbus-TO-Chicago-IL-US-FB,Flatbed,FB,2025-07-12,732.94,404.29,45.89,103.14,Globex Industries,Vandelay Imports,intercompany
