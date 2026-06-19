@@ -6,7 +6,7 @@ import CircularProgress from '@mui/material/CircularProgress';
 import Alert from '@mui/material/Alert';
 import AlertTitle from '@mui/material/AlertTitle';
 import { loadShipments } from './data/loadShipments.js';
-import { groupByLane, COST_BASES } from './lib/stats.js';
+import { groupByLane, COST_BASES, makeValueOf, currency, rpm } from './lib/stats.js';
 import SummaryBar from './components/SummaryBar.jsx';
 import Filters from './components/Filters.jsx';
 import LaneList from './components/LaneList.jsx';
@@ -23,6 +23,7 @@ export default function App() {
   const [sort, setSort] = useState('opportunity');
   const [onlyOpportunities, setOnlyOpportunities] = useState(false);
   const [costBasis, setCostBasis] = useState('linehaul');
+  const [unit, setUnit] = useState('rpm'); // 'rpm' ($/mile) | 'absolute' ($)
   const [selectedLane, setSelectedLane] = useState(null);
 
   useEffect(() => {
@@ -37,9 +38,14 @@ export default function App() {
       });
   }, []);
 
-  const valueOf = COST_BASES[costBasis].valueOf;
+  const valueOf = useMemo(() => makeValueOf(costBasis, unit), [costBasis, unit]);
+  const amountOf = COST_BASES[costBasis].amountOf;
   const basisLabel = COST_BASES[costBasis].label;
-  const lanes = useMemo(() => groupByLane(shipments, valueOf), [shipments, valueOf]);
+  const fmt = unit === 'rpm' ? rpm : currency;
+  const lanes = useMemo(
+    () => groupByLane(shipments, valueOf, amountOf),
+    [shipments, valueOf, amountOf]
+  );
 
   const equipmentOptions = useMemo(
     () => [...new Set(lanes.map((l) => l.equipmentTypeDesc))].sort(),
@@ -130,14 +136,16 @@ export default function App() {
             onOnlyOpportunities={setOnlyOpportunities}
             costBasis={costBasis}
             onCostBasis={setCostBasis}
+            unit={unit}
+            onUnit={setUnit}
           />
           <Typography variant="caption" sx={{ px: 2, pt: 1, color: 'text.secondary' }}>
             {filteredLanes.length} lane{filteredLanes.length === 1 ? '' : 's'}
           </Typography>
-          <LaneList lanes={filteredLanes} selectedLane={selectedLane} onSelect={setSelectedLane} />
+          <LaneList lanes={filteredLanes} selectedLane={selectedLane} onSelect={setSelectedLane} fmt={fmt} />
         </Paper>
         <Box sx={{ overflowY: 'auto', bgcolor: 'background.default' }}>
-          <PriceHistogram lane={selected} valueOf={valueOf} basisLabel={basisLabel} />
+          <PriceHistogram lane={selected} valueOf={valueOf} basisLabel={basisLabel} fmt={fmt} unit={unit} />
         </Box>
       </Box>
     </Box>

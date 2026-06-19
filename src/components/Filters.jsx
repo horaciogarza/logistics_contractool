@@ -4,6 +4,8 @@ import MenuItem from '@mui/material/MenuItem';
 import InputAdornment from '@mui/material/InputAdornment';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Switch from '@mui/material/Switch';
+import ToggleButton from '@mui/material/ToggleButton';
+import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
 import SearchIcon from '@mui/icons-material/Search';
 
 const COST_BASIS_OPTIONS = [
@@ -35,6 +37,8 @@ export default function Filters({
   onOnlyOpportunities,
   costBasis,
   onCostBasis,
+  unit,
+  onUnit,
 }) {
   return (
     <Box sx={{ p: 2, display: 'flex', flexDirection: 'column', gap: 1.5, borderBottom: 1, borderColor: 'divider' }}>
@@ -90,14 +94,24 @@ export default function Filters({
         label="Opportunities only"
       />
 
+      <ToggleButtonGroup
+        size="small"
+        exclusive
+        fullWidth
+        value={unit}
+        onChange={(_, v) => v && onUnit(v)}
+      >
+        <ToggleButton value="rpm" sx={{ textTransform: 'none' }}>RPM ($/mi)</ToggleButton>
+        <ToggleButton value="absolute" sx={{ textTransform: 'none' }}>Absolute ($)</ToggleButton>
+      </ToggleButtonGroup>
       <TextField
         select
         size="small"
         fullWidth
-        label="Rate basis ($/mile)"
+        label={`Rate basis (${unit === 'rpm' ? '$/mile' : '$'})`}
         value={costBasis}
         onChange={(e) => onCostBasis(e.target.value)}
-        helperText="All metrics shown as $/mile. Only Freight & Accessorials are negotiable; Fuel & Tax are fixed pass-throughs."
+        helperText={`Metrics shown ${unit === 'rpm' ? 'as $/mile' : 'in absolute $ per load'}. Only Freight & Accessorials are negotiable; Fuel & Tax are fixed pass-throughs.`}
       >
         {COST_BASIS_OPTIONS.map((o) => (
           <MenuItem key={o.value} value={o.value}>{o.label}</MenuItem>

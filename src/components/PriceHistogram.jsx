@@ -60,8 +60,10 @@ function StatChip({ label, value, color, tip }) {
   );
 }
 
-export default function PriceHistogram({ lane, valueOf, basisLabel = 'Total cost' }) {
+export default function PriceHistogram({ lane, valueOf, basisLabel = 'Freight', fmt = rpm, unit = 'rpm' }) {
   const theme = useTheme();
+  const unitSuffix = unit === 'rpm' ? ' $/mi' : '';
+  const unitWord = unit === 'rpm' ? 'rate per mile' : 'cost per load';
 
   if (!lane) {
     return (
@@ -93,11 +95,11 @@ export default function PriceHistogram({ lane, valueOf, basisLabel = 'Total cost
         <Box sx={{ display: 'flex', alignItems: 'flex-end', gap: 3, flexWrap: 'wrap' }}>
           <Box>
             <Typography variant="overline" sx={{ color: 'text.secondary', lineHeight: 1.2, display: 'block' }}>
-              Rate per mile · {basisLabel}
+              {unit === 'rpm' ? 'Rate per mile' : 'Cost per load'} · {basisLabel}
             </Typography>
             <Box sx={{ display: 'flex', alignItems: 'baseline', gap: 1 }}>
               <Typography variant="h3" sx={{ fontWeight: 700, color: 'primary.main', lineHeight: 1 }}>
-                {rpm(lane.avg)}
+                {fmt(lane.avg)}
               </Typography>
               <Typography variant="body2" sx={{ color: 'text.secondary' }}>avg</Typography>
             </Box>
@@ -108,7 +110,7 @@ export default function PriceHistogram({ lane, valueOf, basisLabel = 'Total cost
                 Range
               </Typography>
               <Typography variant="subtitle1" sx={{ fontWeight: 600 }}>
-                {rpm(lane.min)} – {rpm(lane.max)}
+                {fmt(lane.min)} – {fmt(lane.max)}
               </Typography>
             </Box>
             <Box>
@@ -116,7 +118,7 @@ export default function PriceHistogram({ lane, valueOf, basisLabel = 'Total cost
                 Contract target
               </Typography>
               <Typography variant="subtitle1" sx={{ fontWeight: 600, color: 'success.main' }}>
-                {rpm(lane.contractLow)} – {rpm(lane.contractHigh)}
+                {fmt(lane.contractLow)} – {fmt(lane.contractHigh)}
               </Typography>
             </Box>
             <Box>
@@ -143,32 +145,32 @@ export default function PriceHistogram({ lane, valueOf, basisLabel = 'Total cost
           }
         />
         <StatChip
-          label="Min $/mi"
-          value={rpm(lane.min)}
+          label={`Min${unitSuffix}`}
+          value={fmt(lane.min)}
           tip={
             <Explain
-              what={`Lowest ${basisLabel.toLowerCase()} rate per mile on this lane (the metric ÷ the lane's ${lane.miles.toLocaleString()} miles).`}
-              example={`The cheapest of the ${lane.count} loads ran at ${rpm(lane.min)}.`}
+              what={`Lowest ${basisLabel.toLowerCase()} ${unitWord} on this lane.`}
+              example={`The cheapest of the ${lane.count} loads was ${fmt(lane.min)}.`}
             />
           }
         />
         <StatChip
-          label="Avg $/mi"
-          value={rpm(lane.avg)}
+          label={`Avg${unitSuffix}`}
+          value={fmt(lane.avg)}
           tip={
             <Explain
-              what={`Average (mean) ${basisLabel.toLowerCase()} per mile — what you typically pay on the spot market today, normalized by distance so lanes are comparable.`}
-              example={`Averaging the ${lane.count} loads' ${basisLabel.toLowerCase()} $/mi = ${rpm(lane.avg)} (≈ ${currency(lane.avg * lane.miles)} per load over ${lane.miles.toLocaleString()} mi).`}
+              what={`Average (mean) ${basisLabel.toLowerCase()} ${unitWord} — what you typically pay on the spot market today.`}
+              example={`Mean of the ${lane.count} loads' ${basisLabel.toLowerCase()} = ${fmt(lane.avg)}.`}
             />
           }
         />
         <StatChip
-          label="Max $/mi"
-          value={rpm(lane.max)}
+          label={`Max${unitSuffix}`}
+          value={fmt(lane.max)}
           tip={
             <Explain
-              what={`Highest ${basisLabel.toLowerCase()} rate per mile on this lane — the worst spot rate you got hit with.`}
-              example={`The most expensive of the ${lane.count} loads ran at ${rpm(lane.max)}.`}
+              what={`Highest ${basisLabel.toLowerCase()} ${unitWord} on this lane — the worst spot rate you got hit with.`}
+              example={`The most expensive of the ${lane.count} loads was ${fmt(lane.max)}.`}
             />
           }
         />
@@ -179,18 +181,18 @@ export default function PriceHistogram({ lane, valueOf, basisLabel = 'Total cost
           tip={
             <Explain
               what="Coefficient of variation = standard deviation ÷ average. How spread out rates are relative to the average — higher means more inconsistent, harder-to-budget pricing (and a bigger reason to contract). It's the same whether measured in $ or $/mi."
-              example={`std dev ${rpm(lane.stdDev)} ÷ avg ${rpm(lane.avg)} = ${(lane.cv * 100).toFixed(0)}%.`}
+              example={`std dev ${fmt(lane.stdDev)} ÷ avg ${fmt(lane.avg)} = ${(lane.cv * 100).toFixed(0)}%.`}
             />
           }
         />
         <StatChip
-          label="Contract $/mi"
-          value={`${rpm(lane.contractLow)} – ${rpm(lane.contractHigh)}`}
+          label={`Contract${unitSuffix}`}
+          value={`${fmt(lane.contractLow)} – ${fmt(lane.contractHigh)}`}
           color="success.main"
           tip={
             <Explain
-              what="Rate-per-mile band you could realistically lock in a contract: from the 25th percentile (a quarter of loads were this cheap or cheaper) up to the median (half were)."
-              example={`A quarter of loads ran ≤ ${rpm(lane.contractLow)} and half ≤ ${rpm(lane.contractHigh)}, so aim to contract in that band.`}
+              what={`${unit === 'rpm' ? 'Rate-per-mile' : 'Per-load cost'} band you could realistically lock in a contract: from the 25th percentile (a quarter of loads were this cheap or cheaper) up to the median (half were).`}
+              example={`A quarter of loads were ≤ ${fmt(lane.contractLow)} and half ≤ ${fmt(lane.contractHigh)}, so aim to contract in that band.`}
             />
           }
         />
@@ -203,7 +205,7 @@ export default function PriceHistogram({ lane, valueOf, basisLabel = 'Total cost
           contractLow={lane.contractLow}
           contractHigh={lane.contractHigh}
           avg={lane.avg}
-          format={rpm}
+          format={fmt}
         />
       </Paper>
 
@@ -218,7 +220,7 @@ export default function PriceHistogram({ lane, valueOf, basisLabel = 'Total cost
             title={
               <Explain
                 what="Carrier(s) best suited to own this lane exclusively, ranked by a blend of price (45%), volume already run (35%), and pricing consistency (20%). Giving them the lane as dedicated capacity rewards the strongest performers and cuts the volatility from spreading loads across everyone."
-                example={`Up to 3 carriers that price at or below the ${rpm(lane.avg)} lane average and have proven they can run the volume.`}
+                example={`Up to 3 carriers that price at or below the ${fmt(lane.avg)} lane average and have proven they can run the volume.`}
               />
             }
           >
@@ -238,12 +240,12 @@ export default function PriceHistogram({ lane, valueOf, basisLabel = 'Total cost
                   {c.carrierName}
                 </Typography>
                 <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-                  {c.count} loads ({(c.share * 100).toFixed(0)}% of lane) · avg {rpm(c.avg)} ·{' '}
+                  {c.count} loads ({(c.share * 100).toFixed(0)}% of lane) · avg {fmt(c.avg)} ·{' '}
                   {(c.cv * 100).toFixed(0)}% volatility
                 </Typography>
               </Box>
               <Chip
-                label={c.avg <= lane.avg ? `${rpm(lane.avg - c.avg)} under avg` : 'top ranked'}
+                label={c.avg <= lane.avg ? `${fmt(lane.avg - c.avg)} under avg` : 'top ranked'}
                 size="small"
                 variant="outlined"
                 color={c.avg <= lane.avg ? 'success' : 'default'}
@@ -257,8 +259,8 @@ export default function PriceHistogram({ lane, valueOf, basisLabel = 'Total cost
         <Alert severity="warning">
           <AlertTitle>Negotiation opportunity</AlertTitle>
           {basisLabel} on this lane varies by {(lane.cv * 100).toFixed(0)}% across {lane.count} shipments.
-          Target a contract between {rpm(lane.contractLow)} and {rpm(lane.contractHigh)} (vs{' '}
-          {rpm(lane.avg)} avg spot) — locking the band could save ~{currency(lane.contractSaving)}.
+          Target a contract between {fmt(lane.contractLow)} and {fmt(lane.contractHigh)} (vs{' '}
+          {fmt(lane.avg)} avg spot) — locking the band could save ~{currency(lane.contractSaving)}.
         </Alert>
       )}
 
@@ -268,22 +270,20 @@ export default function PriceHistogram({ lane, valueOf, basisLabel = 'Total cost
             How the savings estimate works
           </Typography>
           <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-            Right now these {lane.count} shipments average {rpm(lane.avg)} on the spot market over the
-            lane's {lane.miles.toLocaleString()} miles (≈ {currency(lane.avg * lane.miles)} per load). A
-            quarter of the loads have already moved at {rpm(lane.contractLow)} or less, and half at{' '}
-            {rpm(lane.contractHigh)} or less, so a contract anywhere in that band is realistic rather than
-            wishful. Booking every load at the top of the band ({rpm(lane.contractHigh)}) would cut about
-            {' '}{rpm(lane.avg - lane.contractHigh)} per mile — roughly{' '}
-            {currency((lane.avg - lane.contractHigh) * lane.miles)} per load — which adds up to the
-            ~{currency(lane.contractSaving)} estimate across the lane. Negotiating toward the low end
-            ({rpm(lane.contractLow)}) would save more.
+            Right now these {lane.count} shipments average {fmt(lane.avg)} on the spot market
+            ({lane.miles.toLocaleString()} mi). A quarter of the loads have already moved at{' '}
+            {fmt(lane.contractLow)} or less, and half at {fmt(lane.contractHigh)} or less, so a contract
+            anywhere in that band is realistic rather than wishful. Booking every load at the top of the
+            band ({fmt(lane.contractHigh)}) instead of today's average adds up to about
+            {' '}{currency(lane.contractSaving)} saved across the lane; negotiating toward the low end
+            ({fmt(lane.contractLow)}) would save more.
           </Typography>
         </Paper>
       )}
 
       <Paper variant="outlined" sx={{ p: 2 }}>
         <Typography variant="subtitle2" sx={{ mb: 1, color: 'text.secondary' }}>
-          {basisLabel} $/mile distribution by carrier
+          {basisLabel} {unit === 'rpm' ? '$/mile' : '$'} distribution by carrier
         </Typography>
         <Box sx={{ height: 340 }}>
           <ResponsiveContainer width="100%" height="100%">

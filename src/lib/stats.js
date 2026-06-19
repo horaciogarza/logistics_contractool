@@ -5,16 +5,22 @@
 export const MIN_VOLUME = 10;
 export const CV_THRESHOLD = 0.15; // coefficient of variation (stdDev / avg)
 
-// Cost bases the dashboard can analyze. Every metric is normalized to $/mile (RPM)
-// so lanes are comparable. Only freight (linehaul) and accessorials are negotiable;
-// fuel and tax are pass-throughs, so "Negotiable" excludes them. Freight is the default.
-const perMile = (amount, s) => (s.miles > 0 ? amount / s.miles : 0);
+// Cost bases the dashboard can analyze, each exposing the per-load dollar amount.
+// Only freight (linehaul) and accessorials are negotiable; fuel and tax are
+// pass-throughs, so "Negotiable" excludes them. Freight is the default.
 export const COST_BASES = {
-  linehaul: { label: 'Freight', valueOf: (s) => perMile(s.lineHaul, s) },
-  accessorials: { label: 'Accessorials', valueOf: (s) => perMile(s.accessorials, s) },
-  negotiable: { label: 'Freight + Acc.', valueOf: (s) => perMile(s.lineHaul + s.accessorials, s) },
-  total: { label: 'Total cost', valueOf: (s) => perMile(s.totalCost, s) },
+  linehaul: { label: 'Freight', amountOf: (s) => s.lineHaul },
+  accessorials: { label: 'Accessorials', amountOf: (s) => s.accessorials },
+  negotiable: { label: 'Freight + Acc.', amountOf: (s) => s.lineHaul + s.accessorials },
+  total: { label: 'Total cost', amountOf: (s) => s.totalCost },
 };
+
+// Build a value accessor for a basis: RPM ($/mile) or absolute per-load dollars.
+export function makeValueOf(basisKey, unit) {
+  const amountOf = (COST_BASES[basisKey] ?? COST_BASES.linehaul).amountOf;
+  if (unit === 'absolute') return amountOf;
+  return (s) => (s.miles > 0 ? amountOf(s) / s.miles : 0); // $/mile
+}
 
 export const currency = (n) =>
   n == null || Number.isNaN(n)
@@ -98,8 +104,13 @@ function rankCarriers(items, laneAvg, valueOf) {
 }
 
 // Group shipments by their `lane` string and compute per-lane stats.
-// `valueOf` selects which cost component to analyze (see COST_BASES).
-export function groupByLane(shipments, valueOf = COST_BASES.linehaul.valueOf) {
+// `valueOf` is the displayed metric ($/mile or absolute $); `amountOf` is always
+// the per-load dollar amount, used so savings stay in real dollars either way.
+export function groupByLane(
+  shipments,
+  valueOf = makeValueOf('linehaul', 'rpm'),
+  amountOf = COST_BASES.linehaul.amountOf
+) {
   const map = new Map();
   for (const s of shipments) {
     if (!map.has(s.lane)) map.set(s.lane, []);
@@ -130,11 +141,13 @@ export function groupByLane(shipments, valueOf = COST_BASES.linehaul.valueOf) {
     const contractLow = p25;
     const contractHigh = med;
     const contractTarget = p25;
-    // Savings are real dollars: a $/mile delta becomes $ when multiplied by miles
-    // and by the number of loads. (avg, contractHigh, min are all $/mile.)
-    const contractSaving = Math.max(0, (avg - contractHigh) * miles * items.length);
+    // Savings are always real dollars, computed from per-load amounts (independent
+    // of whether the display unit is $/mile or absolute $).
+    const amtSorted = items.map((s) => amountOf(s)).sort((a, b) => a - b);
+    const amtAvg = mean(amtSorted);
+    const contractSaving = Math.max(0, (amtAvg - percentile(amtSorted, 0.5)) * items.length);
     // Potential saving if every shipment were booked at (near) the best observed rate.
-    const potentialSaving = (avg - min) * miles * items.length;
+    const potentialSaving = (amtAvg - amtSorted[0]) * items.length;
     const isOpportunity = items.length >= MIN_VOLUME && cv >= CV_THRESHOLD;
     // Score blends volatility and volume so high-impact lanes rank first.
     const opportunityScore = isOpportunity ? cv * Math.log10(items.length + 1) : 0;
@@ -177,7 +190,7 @@ export function groupByLane(shipments, valueOf = COST_BASES.linehaul.valueOf) {
 // Build equal-width total-cost bins, with each bin broken down by carrier so the
 // histogram can render carrier segments as a stacked bar.
 // Returns { bins, carriers } where each bin has a count keyed by every carrier name.
-export function histogramByCarrier(shipments, valueOf = COST_BASES.linehaul.valueOf, binCount = 12) {
+export function histogramByCarrier(shipments, valueOf = makeValueOf('linehaul', 'rpm'), binCount = 12) {
   const carriers = [...new Set(shipments.map((s) => s.carrierName))].sort();
   if (!shipments.length) return { bins: [], carriers };
 

@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 import Chip from '@mui/material/Chip';
 import { currency, rpm } from '../lib/stats.js';
 
-export default function LaneCard({ lane, selected, onClick }) {
+export default function LaneCard({ lane, selected, onClick, fmt = rpm }) {
   return (
     <Card
       onClick={onClick}
@@ -38,20 +38,20 @@ export default function LaneCard({ lane, selected, onClick }) {
           </Typography>
         </Box>
 
-        {/* Headline metric: rate per mile (selected basis) */}
+        {/* Headline metric: selected basis in the selected unit */}
         <Box sx={{ mt: 1, display: 'flex', alignItems: 'baseline', gap: 1, flexWrap: 'wrap' }}>
           <Typography variant="h6" sx={{ fontWeight: 700, color: 'primary.main', lineHeight: 1 }}>
-            {rpm(lane.avg)}
+            {fmt(lane.avg)}
           </Typography>
           <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-            avg · {lane.miles.toLocaleString()} mi · {rpm(lane.min)}–{rpm(lane.max)}
+            avg · {lane.miles.toLocaleString()} mi · {fmt(lane.min)}–{fmt(lane.max)}
           </Typography>
         </Box>
 
         <Typography variant="caption" sx={{ mt: 1, display: 'block', color: 'text.secondary' }}>
           Contract ~{' '}
           <Box component="span" sx={{ color: 'success.main', fontWeight: 600 }}>
-            {rpm(lane.contractLow)} – {rpm(lane.contractHigh)}
+            {fmt(lane.contractLow)} – {fmt(lane.contractHigh)}
           </Box>
         </Typography>
 

@@ -2,7 +2,7 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import LaneCard from './LaneCard.jsx';
 
-export default function LaneList({ lanes, selectedLane, onSelect }) {
+export default function LaneList({ lanes, selectedLane, onSelect, fmt }) {
   if (!lanes.length) {
     return (
       <Typography sx={{ p: 3, textAlign: 'center', color: 'text.disabled' }} variant="body2">
@@ -18,6 +18,7 @@ export default function LaneList({ lanes, selectedLane, onSelect }) {
           lane={lane}
           selected={selectedLane === lane.lane}
           onClick={() => onSelect(lane.lane)}
+          fmt={fmt}
         />
       ))}
     </Box>
