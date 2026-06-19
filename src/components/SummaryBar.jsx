@@ -1,9 +1,28 @@
+import { useState } from 'react';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import IconButton from '@mui/material/IconButton';
+import Menu from '@mui/material/Menu';
+import MenuItem from '@mui/material/MenuItem';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
+import ListSubheader from '@mui/material/ListSubheader';
+import Tooltip from '@mui/material/Tooltip';
 import LocalShippingIcon from '@mui/icons-material/LocalShipping';
+import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
+import LightModeOutlinedIcon from '@mui/icons-material/LightModeOutlined';
+import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
+import SettingsBrightnessOutlinedIcon from '@mui/icons-material/SettingsBrightnessOutlined';
+import CheckIcon from '@mui/icons-material/Check';
 import { currency } from '../lib/stats.js';
+
+const THEME_OPTIONS = [
+  { value: 'light', label: 'Light', icon: <LightModeOutlinedIcon fontSize="small" /> },
+  { value: 'dark', label: 'Dark', icon: <DarkModeOutlinedIcon fontSize="small" /> },
+  { value: 'system', label: 'System', icon: <SettingsBrightnessOutlinedIcon fontSize="small" /> },
+];
 
 function Stat({ label, value, color }) {
   return (
@@ -18,7 +37,9 @@ function Stat({ label, value, color }) {
   );
 }
 
-export default function SummaryBar({ shipmentCount, laneCount, opportunityCount, totalSaving }) {
+export default function SummaryBar({ shipmentCount, laneCount, opportunityCount, totalSaving, themeMode, onThemeMode }) {
+  const [anchorEl, setAnchorEl] = useState(null);
+
   return (
     <AppBar position="static">
       <Toolbar sx={{ gap: 2, flexWrap: 'wrap', py: 1 }}>
@@ -49,6 +70,35 @@ export default function SummaryBar({ shipmentCount, laneCount, opportunityCount,
           <Stat label="Opportunities" value={opportunityCount.toLocaleString()} color="warning.main" />
           <Stat label="Est. savings" value={currency(totalSaving)} color="success.main" />
         </Box>
+
+        <Tooltip title="Settings" arrow>
+          <IconButton onClick={(e) => setAnchorEl(e.currentTarget)} sx={{ ml: 1 }} aria-label="settings">
+            <SettingsOutlinedIcon />
+          </IconButton>
+        </Tooltip>
+        <Menu
+          anchorEl={anchorEl}
+          open={Boolean(anchorEl)}
+          onClose={() => setAnchorEl(null)}
+          anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
+          transformOrigin={{ vertical: 'top', horizontal: 'right' }}
+        >
+          <ListSubheader sx={{ bgcolor: 'transparent', lineHeight: '32px' }}>Appearance</ListSubheader>
+          {THEME_OPTIONS.map((opt) => (
+            <MenuItem
+              key={opt.value}
+              selected={themeMode === opt.value}
+              onClick={() => {
+                onThemeMode(opt.value);
+                setAnchorEl(null);
+              }}
+            >
+              <ListItemIcon>{opt.icon}</ListItemIcon>
+              <ListItemText>{opt.label}</ListItemText>
+              {themeMode === opt.value && <CheckIcon fontSize="small" sx={{ ml: 2, color: 'primary.main' }} />}
+            </MenuItem>
+          ))}
+        </Menu>
       </Toolbar>
     </AppBar>
   );
