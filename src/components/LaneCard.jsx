@@ -79,7 +79,7 @@ export default function LaneCard({ lane, selected, onClick, fmt = rpm }) {
           </Typography>
           {lane.isOpportunity && (
             <Typography variant="caption" sx={{ color: 'success.main', fontWeight: 600 }}>
-              Save ~{currency(lane.potentialSaving)}
+              Save ~{currency(lane.contractSaving)}
             </Typography>
           )}
         </Box>

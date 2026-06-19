@@ -259,8 +259,8 @@ export default function PriceHistogram({ lane, valueOf, basisLabel = 'Freight', 
         <Alert severity="warning">
           <AlertTitle>Negotiation opportunity</AlertTitle>
           {basisLabel} on this lane varies by {(lane.cv * 100).toFixed(0)}% across {lane.count} shipments.
-          Target a contract between {fmt(lane.contractLow)} and {fmt(lane.contractHigh)} (vs{' '}
-          {fmt(lane.avg)} avg spot) — locking the band could save ~{currency(lane.contractSaving)}.
+          Target a contract near {fmt(lane.contractLow)} (the band runs {fmt(lane.contractLow)}–{fmt(lane.contractHigh)};
+          {' '}avg spot is {fmt(lane.avg)}) — hitting the target could save ~{currency(lane.contractSaving)}.
         </Alert>
       )}
 
@@ -272,11 +272,10 @@ export default function PriceHistogram({ lane, valueOf, basisLabel = 'Freight', 
           <Typography variant="body2" sx={{ color: 'text.secondary' }}>
             Right now these {lane.count} shipments average {fmt(lane.avg)} on the spot market
             ({lane.miles.toLocaleString()} mi). A quarter of the loads have already moved at{' '}
-            {fmt(lane.contractLow)} or less, and half at {fmt(lane.contractHigh)} or less, so a contract
-            anywhere in that band is realistic rather than wishful. Booking every load at the top of the
-            band ({fmt(lane.contractHigh)}) instead of today's average adds up to about
-            {' '}{currency(lane.contractSaving)} saved across the lane; negotiating toward the low end
-            ({fmt(lane.contractLow)}) would save more.
+            {fmt(lane.contractLow)} or less, and half at {fmt(lane.contractHigh)} or less — so the
+            {' '}{fmt(lane.contractLow)} target isn't wishful, it's a rate you're already getting on
+            real loads. Moving the whole lane from today's {fmt(lane.avg)} average down to that
+            {' '}{fmt(lane.contractLow)} target is about {currency(lane.contractSaving)} across the lane.
           </Typography>
         </Paper>
       )}

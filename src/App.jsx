@@ -86,7 +86,7 @@ export default function App() {
   const opportunityCount = lanes.filter((l) => l.isOpportunity).length;
   const totalSaving = lanes
     .filter((l) => l.isOpportunity)
-    .reduce((sum, l) => sum + l.potentialSaving, 0);
+    .reduce((sum, l) => sum + l.contractSaving, 0);
 
   if (status === 'loading') {
     return (

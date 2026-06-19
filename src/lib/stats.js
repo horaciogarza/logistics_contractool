@@ -142,12 +142,12 @@ export function groupByLane(
     const contractHigh = med;
     const contractTarget = p25;
     // Savings are always real dollars, computed from per-load amounts (independent
-    // of whether the display unit is $/mile or absolute $).
+    // of whether the display unit is $/mile or absolute $). The realistic, single
+    // source of truth: move the average down to the P25 contract target (a quarter
+    // of loads already run there), so it's always a sensible non-negative figure.
     const amtSorted = items.map((s) => amountOf(s)).sort((a, b) => a - b);
     const amtAvg = mean(amtSorted);
-    const contractSaving = Math.max(0, (amtAvg - percentile(amtSorted, 0.5)) * items.length);
-    // Potential saving if every shipment were booked at (near) the best observed rate.
-    const potentialSaving = (amtAvg - amtSorted[0]) * items.length;
+    const contractSaving = Math.max(0, (amtAvg - percentile(amtSorted, 0.25)) * items.length);
     const isOpportunity = items.length >= MIN_VOLUME && cv >= CV_THRESHOLD;
     // Score blends volatility and volume so high-impact lanes rank first.
     const opportunityScore = isOpportunity ? cv * Math.log10(items.length + 1) : 0;
@@ -179,7 +179,6 @@ export function groupByLane(
       originState: items[0].originState,
       destCity: items[0].destCity,
       destState: items[0].destState,
-      potentialSaving,
       isOpportunity,
       opportunityScore,
     });
