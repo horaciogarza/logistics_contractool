@@ -56,7 +56,7 @@ function buildTheme(m3, mode) {
     shape: { borderRadius: 12 },
 
     typography: {
-      fontFamily: 'Roboto, "Helvetica Neue", Arial, sans-serif',
+      fontFamily: 'Aptos, Roboto, "Helvetica Neue", Arial, sans-serif',
       h4: { fontWeight: 400, letterSpacing: 0 },
       h5: { fontWeight: 400, letterSpacing: 0 },
       h6: { fontWeight: 500, letterSpacing: 0.15 },
