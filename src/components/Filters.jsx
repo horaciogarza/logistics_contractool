@@ -6,6 +6,13 @@ import FormControlLabel from '@mui/material/FormControlLabel';
 import Switch from '@mui/material/Switch';
 import SearchIcon from '@mui/icons-material/Search';
 
+const COST_BASIS_OPTIONS = [
+  { value: 'linehaul', label: 'Freight (negotiable)' },
+  { value: 'accessorials', label: 'Accessorials (negotiable)' },
+  { value: 'negotiable', label: 'Freight + Accessorials (negotiable)' },
+  { value: 'total', label: 'Total cost' },
+];
+
 export const SORTS = [
   { value: 'opportunity', label: 'Opportunity score' },
   { value: 'count', label: 'Shipment count' },
@@ -26,6 +33,8 @@ export default function Filters({
   onSort,
   onlyOpportunities,
   onOnlyOpportunities,
+  costBasis,
+  onCostBasis,
 }) {
   return (
     <Box sx={{ p: 2, display: 'flex', flexDirection: 'column', gap: 1.5, borderBottom: 1, borderColor: 'divider' }}>
@@ -80,6 +89,20 @@ export default function Filters({
         control={<Switch checked={onlyOpportunities} onChange={(e) => onOnlyOpportunities(e.target.checked)} />}
         label="Opportunities only"
       />
+
+      <TextField
+        select
+        size="small"
+        fullWidth
+        label="Rate basis ($/mile)"
+        value={costBasis}
+        onChange={(e) => onCostBasis(e.target.value)}
+        helperText="All metrics shown as $/mile. Only Freight & Accessorials are negotiable; Fuel & Tax are fixed pass-throughs."
+      >
+        {COST_BASIS_OPTIONS.map((o) => (
+          <MenuItem key={o.value} value={o.value}>{o.label}</MenuItem>
+        ))}
+      </TextField>
     </Box>
   );
 }

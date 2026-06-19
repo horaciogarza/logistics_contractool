@@ -6,7 +6,7 @@ import CircularProgress from '@mui/material/CircularProgress';
 import Alert from '@mui/material/Alert';
 import AlertTitle from '@mui/material/AlertTitle';
 import { loadShipments } from './data/loadShipments.js';
-import { groupByLane } from './lib/stats.js';
+import { groupByLane, COST_BASES } from './lib/stats.js';
 import SummaryBar from './components/SummaryBar.jsx';
 import Filters from './components/Filters.jsx';
 import LaneList from './components/LaneList.jsx';
@@ -22,6 +22,7 @@ export default function App() {
   const [direction, setDirection] = useState('');
   const [sort, setSort] = useState('opportunity');
   const [onlyOpportunities, setOnlyOpportunities] = useState(false);
+  const [costBasis, setCostBasis] = useState('linehaul');
   const [selectedLane, setSelectedLane] = useState(null);
 
   useEffect(() => {
@@ -36,7 +37,9 @@ export default function App() {
       });
   }, []);
 
-  const lanes = useMemo(() => groupByLane(shipments), [shipments]);
+  const valueOf = COST_BASES[costBasis].valueOf;
+  const basisLabel = COST_BASES[costBasis].label;
+  const lanes = useMemo(() => groupByLane(shipments, valueOf), [shipments, valueOf]);
 
   const equipmentOptions = useMemo(
     () => [...new Set(lanes.map((l) => l.equipmentTypeDesc))].sort(),
@@ -125,6 +128,8 @@ export default function App() {
             onSort={setSort}
             onlyOpportunities={onlyOpportunities}
             onOnlyOpportunities={setOnlyOpportunities}
+            costBasis={costBasis}
+            onCostBasis={setCostBasis}
           />
           <Typography variant="caption" sx={{ px: 2, pt: 1, color: 'text.secondary' }}>
             {filteredLanes.length} lane{filteredLanes.length === 1 ? '' : 's'}
@@ -132,7 +137,7 @@ export default function App() {
           <LaneList lanes={filteredLanes} selectedLane={selectedLane} onSelect={setSelectedLane} />
         </Paper>
         <Box sx={{ overflowY: 'auto', bgcolor: 'background.default' }}>
-          <PriceHistogram lane={selected} />
+          <PriceHistogram lane={selected} valueOf={valueOf} basisLabel={basisLabel} />
         </Box>
       </Box>
     </Box>
