@@ -4,7 +4,8 @@ import { currency } from '../lib/stats.js';
 
 // Horizontal track from min -> max, with the contractable band (P25 -> median)
 // highlighted and a marker for the current average (spot) rate.
-export default function ContractRangeBar({ min, max, contractLow, contractHigh, avg }) {
+export default function ContractRangeBar({ min, max, contractLow, contractHigh, avg, format = currency }) {
+  const fmt = format;
   const span = max - min;
   const pct = (v) => (span > 0 ? ((v - min) / span) * 100 : 0);
   const bandLeft = pct(contractLow);
@@ -18,7 +19,7 @@ export default function ContractRangeBar({ min, max, contractLow, contractHigh, 
           Recommended contract range
         </Typography>
         <Typography variant="caption" sx={{ fontWeight: 600, color: 'success.main' }}>
-          {currency(contractLow)} – {currency(contractHigh)}
+          {fmt(contractLow)} – {fmt(contractHigh)}
         </Typography>
       </Box>
 
@@ -39,7 +40,7 @@ export default function ContractRangeBar({ min, max, contractLow, contractHigh, 
         />
         {/* Average (spot) marker */}
         <Box
-          title={`Current avg (spot) ${currency(avg)}`}
+          title={`Current avg (spot) ${fmt(avg)}`}
           sx={{
             position: 'absolute',
             top: -3,
@@ -53,13 +54,13 @@ export default function ContractRangeBar({ min, max, contractLow, contractHigh, 
 
       <Box sx={{ display: 'flex', justifyContent: 'space-between', mt: 0.5 }}>
         <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-          min {currency(min)}
+          min {fmt(min)}
         </Typography>
         <Typography variant="caption" sx={{ color: 'warning.main' }}>
-          avg (spot) {currency(avg)}
+          avg (spot) {fmt(avg)}
         </Typography>
         <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-          max {currency(max)}
+          max {fmt(max)}
         </Typography>
       </Box>
     </Box>

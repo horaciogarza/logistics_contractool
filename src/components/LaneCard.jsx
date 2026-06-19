@@ -3,20 +3,7 @@ import CardContent from '@mui/material/CardContent';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Chip from '@mui/material/Chip';
-import { currency } from '../lib/stats.js';
-
-function Metric({ label, value }) {
-  return (
-    <Box>
-      <Typography variant="caption" sx={{ color: 'text.secondary', display: 'block', lineHeight: 1 }}>
-        {label}
-      </Typography>
-      <Typography variant="body2" sx={{ fontWeight: 600 }}>
-        {value}
-      </Typography>
-    </Box>
-  );
-}
+import { currency, rpm } from '../lib/stats.js';
 
 export default function LaneCard({ lane, selected, onClick }) {
   return (
@@ -51,18 +38,31 @@ export default function LaneCard({ lane, selected, onClick }) {
           </Typography>
         </Box>
 
-        <Box sx={{ mt: 1.5, display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 1 }}>
-          <Metric label="Min" value={currency(lane.min)} />
-          <Metric label="Avg" value={currency(lane.avg)} />
-          <Metric label="Max" value={currency(lane.max)} />
+        {/* Headline metric: rate per mile (selected basis) */}
+        <Box sx={{ mt: 1, display: 'flex', alignItems: 'baseline', gap: 1, flexWrap: 'wrap' }}>
+          <Typography variant="h6" sx={{ fontWeight: 700, color: 'primary.main', lineHeight: 1 }}>
+            {rpm(lane.avg)}
+          </Typography>
+          <Typography variant="caption" sx={{ color: 'text.secondary' }}>
+            avg · {lane.miles.toLocaleString()} mi · {rpm(lane.min)}–{rpm(lane.max)}
+          </Typography>
         </Box>
 
         <Typography variant="caption" sx={{ mt: 1, display: 'block', color: 'text.secondary' }}>
           Contract ~{' '}
           <Box component="span" sx={{ color: 'success.main', fontWeight: 600 }}>
-            {currency(lane.contractLow)} – {currency(lane.contractHigh)}
+            {rpm(lane.contractLow)} – {rpm(lane.contractHigh)}
           </Box>
         </Typography>
+
+        {lane.recommendedIncumbents.length > 0 && (
+          <Typography variant="caption" sx={{ mt: 0.25, display: 'block', color: 'text.secondary' }} noWrap>
+            Dedicate to:{' '}
+            <Box component="span" sx={{ color: 'primary.main', fontWeight: 600 }}>
+              {lane.recommendedIncumbents.map((c) => c.carrierName).join(', ')}
+            </Box>
+          </Typography>
+        )}
 
         <Box sx={{ mt: 0.5, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <Typography
