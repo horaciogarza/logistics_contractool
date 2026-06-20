@@ -15,8 +15,10 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import { useTheme } from '@mui/material/styles';
-import { histogramByCarrier, currency, rpm } from '../lib/stats.js';
+import { histogramByCarrier, monthlySeries, iqrBounds, currency, rpm } from '../lib/stats.js';
 import ContractRangeBar from './ContractRangeBar.jsx';
+import RateTrendChart from './RateTrendChart.jsx';
+import LaneMap from './LaneMap.jsx';
 
 // Distinct colors for carrier segments in the stacked histogram.
 const CARRIER_COLORS = [
@@ -60,7 +62,7 @@ function StatChip({ label, value, color, tip }) {
   );
 }
 
-export default function PriceHistogram({ lane, valueOf, basisLabel = 'Freight', fmt = rpm, unit = 'rpm' }) {
+export default function PriceHistogram({ lane, valueOf, basisLabel = 'Freight', fmt = rpm, unit = 'rpm', fairModel = null }) {
   const theme = useTheme();
   const unitSuffix = unit === 'rpm' ? ' $/mi' : '';
   const unitWord = unit === 'rpm' ? 'rate per mile' : 'cost per load';
@@ -76,6 +78,13 @@ export default function PriceHistogram({ lane, valueOf, basisLabel = 'Freight', 
   const { bins, carriers } = histogramByCarrier(lane.shipments, valueOf);
   const colorFor = (carrier) => CARRIER_COLORS[carriers.indexOf(carrier) % CARRIER_COLORS.length];
 
+  const trend = monthlySeries(lane.shipments, valueOf);
+  const marketTrendValue =
+    lane.marketRpm == null ? null : unit === 'rpm' ? lane.marketRpm : lane.marketRpm * lane.miles;
+
+  // Outlier fences (on the displayed metric) for the raw table.
+  const { lo: outLo, hi: outHi } = iqrBounds(lane.shipments.map((s) => valueOf(s)));
+
   return (
     <Box sx={{ p: 3, display: 'flex', flexDirection: 'column', gap: 3 }}>
       <Box>
@@ -89,6 +98,8 @@ export default function PriceHistogram({ lane, valueOf, basisLabel = 'Freight', 
           {lane.lane}
         </Typography>
       </Box>
+
+      <LaneMap lane={lane} />
 
       {/* Headline metric: rate per mile for the selected basis (M3 tonal highlight) */}
       <Paper elevation={0} sx={{ p: 2.5, borderRadius: 3, bgcolor: 'primary.container', color: 'primary.onContainer' }}>
@@ -165,6 +176,17 @@ export default function PriceHistogram({ lane, valueOf, basisLabel = 'Freight', 
               />
             </Box>
             <Typography variant="body2" sx={{ color: 'text.secondary', mt: 1 }}>{verdict}</Typography>
+            {lane.fairRpm != null && (
+              <Typography variant="body2" sx={{ color: 'text.secondary', mt: 1, pt: 1, borderTop: 1, borderColor: 'divider' }}>
+                Modeled fair rate (equipment + distance):{' '}
+                <Box component="span" sx={{ fontWeight: 700, color: 'text.primary' }}>{rpm(lane.fairRpm)}</Box>
+                {' — your freight avg is '}
+                <Box component="span" sx={{ fontWeight: 600, color: lane.fairDeltaPct > 0.02 ? 'warning.main' : lane.fairDeltaPct < -0.02 ? 'success.main' : 'text.secondary' }}>
+                  {lane.fairDeltaPct >= 0 ? '+' : ''}{(lane.fairDeltaPct * 100).toFixed(0)}%
+                </Box>
+                {' vs the model.'}
+              </Typography>
+            )}
           </Paper>
         );
       })()}
@@ -316,6 +338,13 @@ export default function PriceHistogram({ lane, valueOf, basisLabel = 'Freight', 
         </Paper>
       )}
 
+      <RateTrendChart
+        series={trend}
+        fmt={fmt}
+        marketValue={marketTrendValue}
+        title={`Rate trend over time — monthly avg ${basisLabel.toLowerCase()} (${unit === 'rpm' ? '$/mile' : '$ per load'})`}
+      />
+
       <Paper variant="outlined" sx={{ p: 2 }}>
         <Typography variant="subtitle2" sx={{ mb: 1, color: 'text.secondary' }}>
           {basisLabel} {unit === 'rpm' ? '$/mile' : '$'} distribution by carrier
@@ -381,13 +410,20 @@ export default function PriceHistogram({ lane, valueOf, basisLabel = 'Freight', 
                 <TableCell>Direction</TableCell>
                 <TableCell>Shipper</TableCell>
                 <TableCell>Consignee</TableCell>
+                <TableCell>Flags</TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
               {[...lane.shipments]
                 .sort((a, b) => (a.shipmentDate < b.shipmentDate ? 1 : -1))
-                .map((s, i) => (
-                  <TableRow key={i} hover>
+                .map((s, i) => {
+                  const v = valueOf(s);
+                  const isOutlier = v < outLo || v > outHi;
+                  const fairLoad = fairModel ? fairModel.predict(s.equipmentTypeCode, s.miles) : null;
+                  const loadRpm = s.miles > 0 ? s.lineHaul / s.miles : 0;
+                  const isOverpay = fairLoad ? loadRpm > fairLoad * 1.12 : false;
+                  return (
+                  <TableRow key={i} hover sx={isOutlier ? { bgcolor: 'warning.container' } : undefined}>
                     <TableCell sx={{ whiteSpace: 'nowrap' }}>{s.shipmentDate}</TableCell>
                     <TableCell sx={{ whiteSpace: 'nowrap' }}>
                       <Box component="span" sx={{ color: colorFor(s.carrierName), fontWeight: 600 }}>●</Box>{' '}
@@ -408,13 +444,23 @@ export default function PriceHistogram({ lane, valueOf, basisLabel = 'Freight', 
                     <TableCell sx={{ whiteSpace: 'nowrap' }}>{s.direction}</TableCell>
                     <TableCell sx={{ whiteSpace: 'nowrap' }}>{s.shipper}</TableCell>
                     <TableCell sx={{ whiteSpace: 'nowrap' }}>{s.consignee}</TableCell>
+                    <TableCell sx={{ whiteSpace: 'nowrap' }}>
+                      {isOverpay && (
+                        <Chip label="over model" size="small" sx={{ height: 18, fontSize: 10, mr: 0.5, bgcolor: 'warning.container', color: 'warning.onContainer' }} />
+                      )}
+                      {isOutlier && (
+                        <Chip label="outlier" size="small" variant="outlined" sx={{ height: 18, fontSize: 10 }} />
+                      )}
+                    </TableCell>
                   </TableRow>
-                ))}
+                  );
+                })}
             </TableBody>
           </Table>
         </TableContainer>
         <Typography variant="caption" sx={{ color: 'text.disabled', mt: 0.5, display: 'block' }}>
           Freight &amp; Accessorials (bold) are negotiable; Fuel &amp; Tax (greyed) are fixed pass-throughs.
+          {' '}"over model" = paid &gt;12% above the modeled fair rate; "outlier" (shaded row) = beyond 1.5×IQR.
         </Typography>
       </Box>
     </Box>

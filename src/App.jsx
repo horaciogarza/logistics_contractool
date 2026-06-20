@@ -5,15 +5,18 @@ import Typography from '@mui/material/Typography';
 import CircularProgress from '@mui/material/CircularProgress';
 import Alert from '@mui/material/Alert';
 import AlertTitle from '@mui/material/AlertTitle';
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { loadShipments, loadMarketRates } from './data/loadShipments.js';
-import { groupByLane, COST_BASES, makeValueOf, currency, rpm } from './lib/stats.js';
+import { groupByLane, fitFairRateModel, COST_BASES, makeValueOf, currency, rpm } from './lib/stats.js';
 import { getTheme } from './theme.js';
 import SummaryBar from './components/SummaryBar.jsx';
 import Filters from './components/Filters.jsx';
 import LaneList from './components/LaneList.jsx';
 import PriceHistogram from './components/PriceHistogram.jsx';
+import PortfolioView from './components/PortfolioView.jsx';
 
 export default function App() {
   const [shipments, setShipments] = useState([]);
@@ -34,6 +37,10 @@ export default function App() {
   });
   const [selectedLane, setSelectedLane] = useState(null);
   const [marketByLane, setMarketByLane] = useState(() => new Map());
+  const [view, setView] = useState(() => {
+    const v = new URLSearchParams(window.location.search).get('view');
+    return v === 'portfolio' ? 'portfolio' : 'lanes';
+  }); // 'lanes' | 'portfolio'
 
   const theme = useMemo(() => getTheme(themeMode), [themeMode]);
   const changeThemeMode = (m) => {
@@ -67,9 +74,10 @@ export default function App() {
   const amountOf = COST_BASES[costBasis].amountOf;
   const basisLabel = COST_BASES[costBasis].label;
   const fmt = unit === 'rpm' ? rpm : currency;
+  const fairModel = useMemo(() => fitFairRateModel(shipments), [shipments]);
   const lanes = useMemo(
-    () => groupByLane(shipments, valueOf, amountOf, marketByLane),
-    [shipments, valueOf, amountOf, marketByLane]
+    () => groupByLane(shipments, valueOf, amountOf, marketByLane, fairModel),
+    [shipments, valueOf, amountOf, marketByLane, fairModel]
   );
 
   const equipmentOptions = useMemo(
@@ -141,39 +149,51 @@ export default function App() {
           themeMode={themeMode}
           onThemeMode={changeThemeMode}
         />
-        <Box sx={{ flex: 1, minHeight: 0, display: 'grid', gridTemplateColumns: { xs: '1fr', lg: '380px 1fr' } }}>
-          <Paper
-            square
-            elevation={0}
-            sx={{ borderRight: 1, borderColor: 'divider', display: 'flex', flexDirection: 'column', minHeight: 0 }}
-          >
-            <Filters
-              search={search}
-              onSearch={setSearch}
-              equipment={equipment}
-              onEquipment={setEquipment}
-              equipmentOptions={equipmentOptions}
-              direction={direction}
-              onDirection={setDirection}
-              directionOptions={directionOptions}
-              sort={sort}
-              onSort={setSort}
-              onlyOpportunities={onlyOpportunities}
-              onOnlyOpportunities={setOnlyOpportunities}
-              costBasis={costBasis}
-              onCostBasis={setCostBasis}
-              unit={unit}
-              onUnit={setUnit}
-            />
-            <Typography variant="caption" sx={{ px: 2, pt: 1, color: 'text.secondary' }}>
-              {filteredLanes.length} lane{filteredLanes.length === 1 ? '' : 's'}
-            </Typography>
-            <LaneList lanes={filteredLanes} selectedLane={selectedLane} onSelect={setSelectedLane} fmt={fmt} />
-          </Paper>
-          <Box sx={{ overflowY: 'auto', bgcolor: 'background.default' }}>
-            <PriceHistogram lane={selected} valueOf={valueOf} basisLabel={basisLabel} fmt={fmt} unit={unit} />
-          </Box>
+        <Box sx={{ borderBottom: 1, borderColor: 'divider', bgcolor: 'background.paper', px: 1 }}>
+          <Tabs value={view} onChange={(_, v) => setView(v)}>
+            <Tab value="lanes" label="Lanes" />
+            <Tab value="portfolio" label="Portfolio" />
+          </Tabs>
         </Box>
+        {view === 'portfolio' ? (
+          <Box sx={{ flex: 1, minHeight: 0, bgcolor: 'background.default' }}>
+            <PortfolioView shipments={shipments} marketByLane={marketByLane} />
+          </Box>
+        ) : (
+          <Box sx={{ flex: 1, minHeight: 0, display: 'grid', gridTemplateColumns: { xs: '1fr', lg: '380px 1fr' } }}>
+            <Paper
+              square
+              elevation={0}
+              sx={{ borderRight: 1, borderColor: 'divider', display: 'flex', flexDirection: 'column', minHeight: 0 }}
+            >
+              <Filters
+                search={search}
+                onSearch={setSearch}
+                equipment={equipment}
+                onEquipment={setEquipment}
+                equipmentOptions={equipmentOptions}
+                direction={direction}
+                onDirection={setDirection}
+                directionOptions={directionOptions}
+                sort={sort}
+                onSort={setSort}
+                onlyOpportunities={onlyOpportunities}
+                onOnlyOpportunities={setOnlyOpportunities}
+                costBasis={costBasis}
+                onCostBasis={setCostBasis}
+                unit={unit}
+                onUnit={setUnit}
+              />
+              <Typography variant="caption" sx={{ px: 2, pt: 1, color: 'text.secondary' }}>
+                {filteredLanes.length} lane{filteredLanes.length === 1 ? '' : 's'}
+              </Typography>
+              <LaneList lanes={filteredLanes} selectedLane={selectedLane} onSelect={setSelectedLane} fmt={fmt} />
+            </Paper>
+            <Box sx={{ overflowY: 'auto', bgcolor: 'background.default' }}>
+              <PriceHistogram lane={selected} valueOf={valueOf} basisLabel={basisLabel} fmt={fmt} unit={unit} fairModel={fairModel} />
+            </Box>
+          </Box>
+        )}
       </Box>
     );
   }

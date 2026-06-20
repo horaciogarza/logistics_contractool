@@ -110,7 +110,8 @@ export function groupByLane(
   shipments,
   valueOf = makeValueOf('linehaul', 'rpm'),
   amountOf = COST_BASES.linehaul.amountOf,
-  marketByLane = new Map()
+  marketByLane = new Map(),
+  fairModel = null
 ) {
   const map = new Map();
   for (const s of shipments) {
@@ -140,6 +141,10 @@ export function groupByLane(
     const market = marketByLane.get(lane);
     const marketRpm = market ? market.marketRpm : null;
     const marketDeltaPct = marketRpm ? (freightRpmAvg - marketRpm) / marketRpm : null;
+
+    // Modeled "fair" freight rate per mile for this equipment + distance.
+    const fairRpm = fairModel ? fairModel.predict(items[0].equipmentTypeCode, miles) : null;
+    const fairDeltaPct = fairRpm ? (freightRpmAvg - fairRpm) / fairRpm : null;
 
     const carriers = [...new Set(items.map((s) => s.carrierName))];
     const directions = [...new Set(items.map((s) => s.direction))];
@@ -180,6 +185,8 @@ export function groupByLane(
       freightRpmAvg,
       marketRpm,
       marketDeltaPct,
+      fairRpm,
+      fairDeltaPct,
       carriers,
       carrierStats,
       recommendedIncumbents,
@@ -190,6 +197,10 @@ export function groupByLane(
       originState: items[0].originState,
       destCity: items[0].destCity,
       destState: items[0].destState,
+      originLat: items[0].originLat,
+      originLng: items[0].originLng,
+      destLat: items[0].destLat,
+      destLng: items[0].destLng,
       isOpportunity,
       opportunityScore,
     });
@@ -230,4 +241,127 @@ export function histogramByCarrier(shipments, valueOf = makeValueOf('linehaul', 
     bins[idx][s.carrierName] += 1;
   }
   return { bins, carriers };
+}
+
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+// Monthly average of the chosen metric for one lane's shipments (rate trend).
+export function monthlySeries(shipments, valueOf) {
+  const m = new Map();
+  for (const s of shipments) {
+    const key = (s.shipmentDate || '').slice(0, 7); // YYYY-MM
+    if (!key) continue;
+    if (!m.has(key)) m.set(key, []);
+    m.get(key).push(valueOf(s));
+  }
+  return [...m.entries()]
+    .sort((a, b) => (a[0] < b[0] ? -1 : 1))
+    .map(([key, vals]) => {
+      const [y, mo] = key.split('-');
+      return {
+        month: key,
+        label: `${MONTHS[Number(mo) - 1]} '${y.slice(2)}`,
+        avg: vals.reduce((x, y2) => x + y2, 0) / vals.length,
+        count: vals.length,
+      };
+    });
+}
+
+// Simple linear regression y = a + b*x over [[x, y], ...].
+function linreg(pts) {
+  const n = pts.length;
+  if (!n) return { a: 0, b: 0 };
+  let sx = 0, sy = 0, sxx = 0, sxy = 0;
+  for (const [x, y] of pts) { sx += x; sy += y; sxx += x * x; sxy += x * y; }
+  const d = n * sxx - sx * sx;
+  if (d === 0) return { a: sy / n, b: 0 };
+  const b = (n * sxy - sx * sy) / d;
+  return { a: (sy - b * sx) / n, b };
+}
+
+// Fair-rate model: predicts an expected freight $/mile from equipment + distance.
+// Per-equipment linear regression of RPM on miles (RPM falls as distance rises),
+// with a global fallback for unseen equipment.
+export function fitFairRateModel(shipments) {
+  const groups = {};
+  const all = [];
+  for (const s of shipments) {
+    if (!s.miles) continue;
+    const pt = [s.miles, s.lineHaul / s.miles];
+    (groups[s.equipmentTypeCode] ??= []).push(pt);
+    all.push(pt);
+  }
+  const byEquip = {};
+  for (const [eq, pts] of Object.entries(groups)) byEquip[eq] = linreg(pts);
+  const global = linreg(all);
+  return {
+    byEquip,
+    global,
+    predict(eq, miles) {
+      const m = byEquip[eq] || global;
+      return Math.max(0, m.a + m.b * miles);
+    },
+  };
+}
+
+// Tukey IQR fences for outlier detection on a numeric series.
+export function iqrBounds(values) {
+  if (values.length < 4) return { lo: -Infinity, hi: Infinity };
+  const s = [...values].sort((a, b) => a - b);
+  const q1 = percentile(s, 0.25);
+  const q3 = percentile(s, 0.75);
+  const iqr = q3 - q1;
+  return { lo: q1 - 1.5 * iqr, hi: q3 + 1.5 * iqr };
+}
+
+// Network-wide spend by lane (Pareto) and a carrier scorecard.
+export function portfolioStats(shipments, marketByLane = new Map()) {
+  const laneMap = new Map();
+  const carrierMap = new Map();
+  let totalSpend = 0;
+
+  for (const s of shipments) {
+    totalSpend += s.totalCost;
+
+    if (!laneMap.has(s.lane)) {
+      laneMap.set(s.lane, {
+        lane: s.lane, originCity: s.originCity, originState: s.originState,
+        destCity: s.destCity, destState: s.destState, equipmentTypeCode: s.equipmentTypeCode,
+        spend: 0, loads: 0,
+      });
+    }
+    const lo = laneMap.get(s.lane);
+    lo.spend += s.totalCost;
+    lo.loads += 1;
+
+    if (!carrierMap.has(s.carrierName)) {
+      carrierMap.set(s.carrierName, { carrier: s.carrierName, spend: 0, loads: 0, lhSum: 0, mileSum: 0, lanes: new Set(), rpmSum: 0, mktSum: 0 });
+    }
+    const c = carrierMap.get(s.carrierName);
+    c.spend += s.totalCost;
+    c.loads += 1;
+    c.lhSum += s.lineHaul;
+    c.mileSum += s.miles;
+    c.lanes.add(s.lane);
+    const mk = marketByLane.get(s.lane);
+    if (mk && s.miles > 0) { c.rpmSum += s.lineHaul / s.miles; c.mktSum += mk.marketRpm; }
+  }
+
+  const laneSpend = [...laneMap.values()].sort((a, b) => b.spend - a.spend);
+  let cum = 0;
+  for (const l of laneSpend) { cum += l.spend; l.spendShare = l.spend / totalSpend; l.cumPct = cum / totalSpend; }
+
+  const carrierScores = [...carrierMap.values()]
+    .map((c) => ({
+      carrier: c.carrier,
+      loads: c.loads,
+      spend: c.spend,
+      spendShare: c.spend / totalSpend,
+      freightRpm: c.mileSum > 0 ? c.lhSum / c.mileSum : 0,
+      marketDeltaPct: c.mktSum > 0 ? (c.rpmSum - c.mktSum) / c.mktSum : null,
+      lanes: c.lanes.size,
+    }))
+    .sort((a, b) => b.spend - a.spend);
+
+  return { totalSpend, laneSpend, carrierScores };
 }
