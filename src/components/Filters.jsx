@@ -2,12 +2,11 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import MenuItem from '@mui/material/MenuItem';
 import InputAdornment from '@mui/material/InputAdornment';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Switch from '@mui/material/Switch';
 import Chip from '@mui/material/Chip';
 import Typography from '@mui/material/Typography';
 import SearchIcon from '@mui/icons-material/Search';
 import CheckIcon from '@mui/icons-material/Check';
+import FilterListIcon from '@mui/icons-material/FilterList';
 import StraightenIcon from '@mui/icons-material/Straighten';
 import PaymentsOutlinedIcon from '@mui/icons-material/PaymentsOutlined';
 
@@ -97,9 +96,26 @@ export default function Filters({
           <MenuItem key={s.value} value={s.value}>{s.label}</MenuItem>
         ))}
       </TextField>
-      <FormControlLabel
-        control={<Switch checked={onlyOpportunities} onChange={(e) => onOnlyOpportunities(e.target.checked)} />}
+      <Chip
         label="Opportunities only"
+        clickable
+        onClick={() => onOnlyOpportunities(!onlyOpportunities)}
+        icon={onlyOpportunities ? <CheckIcon fontSize="small" /> : <FilterListIcon fontSize="small" />}
+        variant={onlyOpportunities ? 'filled' : 'outlined'}
+        sx={{
+          alignSelf: 'flex-start',
+          borderRadius: 2,
+          height: 36,
+          fontWeight: 500,
+          ...(onlyOpportunities
+            ? {
+                bgcolor: 'secondary.container',
+                color: 'secondary.onContainer',
+                '& .MuiChip-icon': { color: 'secondary.onContainer' },
+                '&:hover': { bgcolor: 'secondary.container' },
+              }
+            : { '& .MuiChip-icon': { color: 'text.secondary' } }),
+        }}
       />
 
       <Box>
